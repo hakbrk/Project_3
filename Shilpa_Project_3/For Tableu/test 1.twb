@@ -1,0 +1,517 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20194.19.1010.1202                               -->
+<workbook original-version='18.1' source-build='2019.4.0 (20194.19.1010.1202)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <SheetIdentifierTracking ignorable='true' predowngraded='true' />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Model_Data (Model_Data_Rev1)' inline='true' name='federated.0ofjn141ej8ufl1e0q7qx0pd9k8u' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Model_Data_Rev1' name='excel-direct.1ymr9l705djhhw1bcqjlz0wxalao'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/OneDrive/Homework/Project_3/Data/Model_Data_Rev1.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1ymr9l705djhhw1bcqjlz0wxalao' name='Model_Data' table='[Model_Data$]' type='table'>
+          <columns gridOrigin='A1:J539:no:A1:J539:0' header='yes' outcome='2'>
+            <column datatype='date' name='Date' ordinal='0' />
+            <column datatype='integer' name='Active_Rig_Count' ordinal='1' />
+            <column datatype='real' name='Offshore_Rig_Supply' ordinal='2' />
+            <column datatype='real' name='Offshore_Rig_Active' ordinal='3' />
+            <column datatype='real' name='Offshore_Utilization_Rate' ordinal='4' />
+            <column datatype='real' name='Land_Rig_Active_Count' ordinal='5' />
+            <column datatype='real' name='Crude_Price_2010_USD' ordinal='6' />
+            <column datatype='real' name='Adjusted_Nat_Gas_Price_2010' ordinal='7' />
+            <column datatype='real' name='World_Oil_Cunsump' ordinal='8' />
+            <column datatype='real' name='World_Oil_Production' ordinal='9' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[Model_Data]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Active_Rig_Count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Active_Rig_Count]</local-name>
+            <parent-name>[Model_Data]</parent-name>
+            <remote-alias>Active_Rig_Count</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Offshore_Rig_Supply</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Offshore_Rig_Supply]</local-name>
+            <parent-name>[Model_Data]</parent-name>
+            <remote-alias>Offshore_Rig_Supply</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Offshore_Rig_Active</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Offshore_Rig_Active]</local-name>
+            <parent-name>[Model_Data]</parent-name>
+            <remote-alias>Offshore_Rig_Active</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Offshore_Utilization_Rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Offshore_Utilization_Rate]</local-name>
+            <parent-name>[Model_Data]</parent-name>
+            <remote-alias>Offshore_Utilization_Rate</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Land_Rig_Active_Count</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Land_Rig_Active_Count]</local-name>
+            <parent-name>[Model_Data]</parent-name>
+            <remote-alias>Land_Rig_Active_Count</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crude_Price_2010_USD</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Crude_Price_2010_USD]</local-name>
+            <parent-name>[Model_Data]</parent-name>
+            <remote-alias>Crude_Price_2010_USD</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Adjusted_Nat_Gas_Price_2010</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Adjusted_Nat_Gas_Price_2010]</local-name>
+            <parent-name>[Model_Data]</parent-name>
+            <remote-alias>Adjusted_Nat_Gas_Price_2010</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>World_Oil_Cunsump</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[World_Oil_Cunsump]</local-name>
+            <parent-name>[Model_Data]</parent-name>
+            <remote-alias>World_Oil_Cunsump</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>World_Oil_Production</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[World_Oil_Production]</local-name>
+            <parent-name>[Model_Data]</parent-name>
+            <remote-alias>World_Oil_Production</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Model_Data]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:J539:no:A1:J539:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Active Rig Count' datatype='integer' name='[Active_Rig_Count]' role='measure' type='quantitative' />
+      <column caption='Adjusted Nat Gas Price 2010' datatype='real' name='[Adjusted_Nat_Gas_Price_2010]' role='measure' type='quantitative' />
+      <column caption='Consumption Mb/d' datatype='real' name='[Calculation_1037516821504569344]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[World_Oil_Cunsump]/1000' />
+      </column>
+      <column caption='Crude Price 2010 USD' datatype='real' name='[Crude_Price_2010_USD]' role='measure' type='quantitative' />
+      <column caption='Land Rig Active Count' datatype='real' name='[Land_Rig_Active_Count]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Offshore Rig Active' datatype='real' name='[Offshore_Rig_Active]' role='measure' type='quantitative' />
+      <column caption='Offshore Rig Supply' datatype='real' name='[Offshore_Rig_Supply]' role='measure' type='quantitative' />
+      <column caption='Offshore Utilization Rate' datatype='real' name='[Offshore_Utilization_Rate]' role='measure' type='quantitative' />
+      <column caption='World Oil Cunsump' datatype='real' name='[World_Oil_Cunsump]' role='measure' type='quantitative' />
+      <column caption='World Oil Production' datatype='real' name='[World_Oil_Production]' role='measure' type='quantitative' />
+      <column-instance column='[Active_Rig_Count]' derivation='Avg' name='[avg:Active_Rig_Count:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Land_Rig_Active_Count]' derivation='Avg' name='[avg:Land_Rig_Active_Count:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Offshore_Rig_Active]' derivation='Avg' name='[avg:Offshore_Rig_Active:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Offshore_Utilization_Rate]' derivation='Avg' name='[avg:Offshore_Utilization_Rate:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Active_Rig_Count]' derivation='Sum' name='[sum:Active_Rig_Count:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1037516821504569344]' derivation='Sum' name='[sum:Calculation_1037516821504569344:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Land_Rig_Active_Count]' derivation='Sum' name='[sum:Land_Rig_Active_Count:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Offshore_Rig_Active]' derivation='Sum' name='[sum:Offshore_Rig_Active:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Offshore_Utilization_Rate]' derivation='Sum' name='[sum:Offshore_Utilization_Rate:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[World_Oil_Cunsump]' derivation='Sum' name='[sum:World_Oil_Cunsump:qk]' pivot='key' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.349614' measure-ordering='alphabetic' measure-percentage='0.650386' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Active_Rig_Count:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[sum:Active_Rig_Count:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[sum:Calculation_1037516821504569344:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Land_Rig_Active_Count:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[sum:Land_Rig_Active_Count:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Offshore_Rig_Active:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[sum:Offshore_Rig_Active:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Offshore_Utilization_Rate:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[sum:Offshore_Utilization_Rate:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[sum:World_Oil_Cunsump:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='Date' />
+        <field-sort-custom-order field='Active_Rig_Count' />
+        <field-sort-custom-order field='Offshore_Rig_Supply' />
+        <field-sort-custom-order field='Offshore_Rig_Active' />
+        <field-sort-custom-order field='Offshore_Utilization_Rate' />
+        <field-sort-custom-order field='Land_Rig_Active_Count' />
+        <field-sort-custom-order field='Crude_Price_2010_USD' />
+        <field-sort-custom-order field='Adjusted_Nat_Gas_Price_2010' />
+        <field-sort-custom-order field='World_Oil_Cunsump' />
+        <field-sort-custom-order field='Calculation_1037516821504569344' />
+        <field-sort-custom-order field='World_Oil_Production' />
+      </field-sort-info>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Model_Data (Model_Data_Rev1)' name='federated.0ofjn141ej8ufl1e0q7qx0pd9k8u' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ofjn141ej8ufl1e0q7qx0pd9k8u'>
+            <column caption='Consumption Mb/d' datatype='real' name='[Calculation_1037516821504569344]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[World_Oil_Cunsump]/1000' />
+            </column>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column caption='Offshore Utilization Rate' datatype='real' name='[Offshore_Utilization_Rate]' role='measure' type='quantitative' />
+            <column caption='World Oil Cunsump' datatype='real' name='[World_Oil_Cunsump]' role='measure' type='quantitative' />
+            <column-instance column='[Offshore_Utilization_Rate]' derivation='Avg' name='[avg:Offshore_Utilization_Rate:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1037516821504569344]' derivation='Sum' name='[sum:Calculation_1037516821504569344:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Year' name='[yr:Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]'>
+            <groupfilter from='1985' function='range' level='[yr:Date:ok]' to='2018' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[sum:Calculation_1037516821504569344:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Offshore_Utilization_Rate:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[sum:Calculation_1037516821504569344:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Offshore_Utilization_Rate:qk] + [federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[sum:Calculation_1037516821504569344:qk])</rows>
+        <cols>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]</cols>
+      </table>
+      <simple-id uuid='{7F639D49-0E2D-4447-82D3-98FFB51CEFDB}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]' type='filter' />
+            <card pane-specification-id='4' param='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]</field>
+            <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{3ADA2581-689A-4D80-ADC0-A0B8F0B952D6}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      YFHtqa0AAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
