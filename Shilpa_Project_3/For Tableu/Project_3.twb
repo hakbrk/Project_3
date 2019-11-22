@@ -392,10 +392,10 @@
         </groupfilter>
       </group>
       <extract count='-1' enabled='true' units='records'>
-        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='D:/OneDrive/Documents/My Tableau Repository/Datasources/Model_Data (Model_Data_Rev1).hyper' default-settings='yes' schema='Extract' sslmode='' update-time='11/22/2019 08:22:02 PM' username='tableau_internal_user'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='D:/OneDrive/Documents/My Tableau Repository/Datasources/Model_Data (Model_Data_Rev1).hyper' default-settings='yes' schema='Extract' sslmode='' update-time='11/22/2019 08:34:49 PM' username='tableau_internal_user'>
           <relation name='Extract' table='[Extract].[Extract]' type='table' />
           <refresh>
-            <refresh-event add-from-file-path='Model_Data (Model_Data_Rev1)' increment-value='%null%' refresh-type='create' rows-inserted='538' timestamp-start='2019-11-22 20:22:02.996' />
+            <refresh-event add-from-file-path='Model_Data (Model_Data_Rev1)' increment-value='%null%' refresh-type='create' rows-inserted='538' timestamp-start='2019-11-22 20:34:49.801' />
           </refresh>
           <metadata-records>
             <metadata-record class='column'>
@@ -531,7 +531,7 @@
           </metadata-records>
         </connection>
       </extract>
-      <layout dim-ordering='alphabetic' dim-percentage='0.202216' group-percentage='0.16482' measure-ordering='alphabetic' measure-percentage='0.632964' show-structure='true' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.200831' group-percentage='0.166205' measure-ordering='alphabetic' measure-percentage='0.632964' show-structure='true' />
       <style>
         <style-rule element='mark'>
           <encoding attr='color' field='[:Measure Names]' palette='tableau20_10_0' type='palette'>
@@ -1822,8 +1822,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='42' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='41' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='44' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='43' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='112' h='15000' id='8' name='Oil Price vs. Consumption' param='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:qk]' show-domain='false' show-null-ctrls='false' type='filter' w='19700' x='79400' y='1125'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -1964,8 +1964,8 @@
           </layout-options>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='37' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='36' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='39' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='38' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
                 <zone h='6250' id='9' type='title' w='98200' x='900' y='1125'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2095,8 +2095,8 @@
           </layout-options>
           <size maxheight='1550' minheight='1550' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='41' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='40' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='43' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='42' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
                 <zone forceUpdate='true' h='15750' id='13' type='text' w='98200' x='900' y='1125'>
                   <formatted-text>
                     <run fontalignment='1' fontcolor='#000000' fontname='Tableau Semibold' fontsize='22'>Offshore Drilling Markets</run>
@@ -2272,8 +2272,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='38' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='37' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='40' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='39' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='101' h='13625' id='8' name='Land vs Offshore' param='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:qk]' show-domain='false' show-null-ctrls='false' type='filter' w='19100' x='80000' y='1125'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2420,8 +2420,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='51' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='50' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='53' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='52' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='86' h='11750' id='30' name='Offhsore Rig Utilization' param='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:qk]' show-domain='false' show-null-ctrls='false' type='filter' values='relevant' w='16000' x='79000' y='1125'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2615,8 +2615,8 @@
           </layout-options>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='37' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='36' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='39' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='38' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
                 <zone forceUpdate='true' h='15750' id='13' type='text' w='98200' x='900' y='1125'>
                   <formatted-text>
                     <run fontalignment='1' fontcolor='#000000' fontname='Tableau Semibold' fontsize='22'>Oil and Gas Drilling Sector</run>
@@ -2731,8 +2731,8 @@
           </layout-options>
           <size maxheight='1000' minheight='1000' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='39' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='38' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='41' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='40' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
                 <zone forceUpdate='true' h='15750' id='13' type='text' w='98200' x='900' y='1125'>
                   <formatted-text>
                     <run fontalignment='1' fontcolor='#000000' fontname='Tableau Semibold' fontsize='22'>Oil and Gas Drilling Sector</run>
@@ -2888,8 +2888,8 @@
           </layout-options>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='36' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='35' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='38' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='37' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
                 <zone forceUpdate='true' h='15750' id='13' type='text' w='98200' x='900' y='1125'>
                   <formatted-text>
                     <run fontalignment='1' fontcolor='#000000' fontname='Tableau Semibold,serif' fontsize='22'>Oil and Gas Drilling Sector Dilemma</run>
@@ -3047,8 +3047,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='43' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='42' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='45' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='44' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='110' h='14750' id='14' name='Oil Price vs. Production' param='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:qk]' show-domain='false' show-null-ctrls='false' type='filter' w='16000' x='80800' y='3625'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
