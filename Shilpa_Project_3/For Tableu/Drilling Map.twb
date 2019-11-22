@@ -16,329 +16,6 @@
     <preference name='ui.shelf.height' value='26' />
   </preferences>
   <datasources>
-    <datasource caption='Transposed_Yearly_Average' inline='true' name='federated.00ua3ks0apphvg18uohsq1r3601o' version='18.1'>
-      <connection class='federated'>
-        <named-connections>
-          <named-connection caption='Transposed_Yearly_Average' name='textscan.0h4d6fw0gmecpe1dxt9y31ipcwct'>
-            <connection class='textscan' directory='D:/OneDrive/Homework/Project_3/Shilpa_Project_3/For Tableu' filename='Transposed_Yearly_Average.csv' password='' server='' />
-          </named-connection>
-        </named-connections>
-        <relation connection='textscan.0h4d6fw0gmecpe1dxt9y31ipcwct' name='Transposed_Yearly_Average.csv' table='[Transposed_Yearly_Average#csv]' type='table'>
-          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
-            <column datatype='date' date-parse-format='yyyy' name='Year' ordinal='0' />
-            <column datatype='string' name='Country' ordinal='1' />
-            <column datatype='real' name='Latitude' ordinal='2' />
-            <column datatype='real' name='Longitude' ordinal='3' />
-            <column datatype='string' name='F5' ordinal='4' />
-            <column datatype='integer' name='Rigs' ordinal='5' />
-          </columns>
-        </relation>
-        <refresh increment-key='' incremental-updates='false' />
-        <metadata-records>
-          <metadata-record class='capability'>
-            <remote-name />
-            <remote-type>0</remote-type>
-            <parent-name>[Transposed_Yearly_Average.csv]</parent-name>
-            <remote-alias />
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
-              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
-              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
-              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
-              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
-              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Year</remote-name>
-            <remote-type>7</remote-type>
-            <local-name>[Year]</local-name>
-            <parent-name>[Transposed_Yearly_Average.csv]</parent-name>
-            <remote-alias>Year</remote-alias>
-            <ordinal>0</ordinal>
-            <local-type>date</local-type>
-            <aggregation>Year</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Country</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Country]</local-name>
-            <parent-name>[Transposed_Yearly_Average.csv]</parent-name>
-            <remote-alias>Country</remote-alias>
-            <ordinal>1</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Latitude</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[Latitude]</local-name>
-            <parent-name>[Transposed_Yearly_Average.csv]</parent-name>
-            <remote-alias>Latitude</remote-alias>
-            <ordinal>2</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Longitude</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[Longitude]</local-name>
-            <parent-name>[Transposed_Yearly_Average.csv]</parent-name>
-            <remote-alias>Longitude</remote-alias>
-            <ordinal>3</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>F5</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[F5]</local-name>
-            <parent-name>[Transposed_Yearly_Average.csv]</parent-name>
-            <remote-alias>F5</remote-alias>
-            <ordinal>4</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <approx-count>1</approx-count>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Rigs</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[Rigs]</local-name>
-            <parent-name>[Transposed_Yearly_Average.csv]</parent-name>
-            <remote-alias>Rigs</remote-alias>
-            <ordinal>5</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-          </metadata-record>
-        </metadata-records>
-      </connection>
-      <aliases enabled='yes' />
-      <column aggregation='None' datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
-      <column datatype='string' hidden='true' name='[F5]' role='dimension' type='nominal' />
-      <column aggregation='Avg' datatype='real' name='[Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
-      <column aggregation='Avg' datatype='real' name='[Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
-      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
-        <calculation class='tableau' formula='1' />
-      </column>
-      <layout dim-ordering='alphabetic' dim-percentage='0.414127' measure-ordering='alphabetic' measure-percentage='0.585873' show-structure='true' />
-      <semantic-values>
-        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
-      </semantic-values>
-    </datasource>
-    <datasource caption='Transposed_Yearly_Average (2)' inline='true' name='federated.00ua3ks0apphvg18uohsq1r3601o (copy)' version='18.1'>
-      <connection class='federated'>
-        <named-connections>
-          <named-connection caption='Transposed_Yearly_Average' name='textscan.0h4d6fw0gmecpe1dxt9y31ipcwct (copy)'>
-            <connection class='textscan' directory='D:/OneDrive/Homework/Project_3/Shilpa_Project_3/For Tableu' filename='Transposed_Yearly_Average.csv' password='' server='' />
-          </named-connection>
-        </named-connections>
-        <relation connection='textscan.0h4d6fw0gmecpe1dxt9y31ipcwct (copy)' name='Transposed_Yearly_Average.csv' table='[Transposed_Yearly_Average#csv]' type='table'>
-          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
-            <column datatype='integer' name='Year' ordinal='0' />
-            <column datatype='string' name='Country' ordinal='1' />
-            <column datatype='real' name='Latitude' ordinal='2' />
-            <column datatype='real' name='Longitude' ordinal='3' />
-            <column datatype='string' name='F5' ordinal='4' />
-            <column datatype='integer' name='Rigs' ordinal='5' />
-          </columns>
-        </relation>
-        <metadata-records>
-          <metadata-record class='capability'>
-            <remote-name />
-            <remote-type>0</remote-type>
-            <parent-name>[Transposed_Yearly_Average.csv]</parent-name>
-            <remote-alias />
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
-              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
-              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
-              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
-              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
-              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Year</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[Year]</local-name>
-            <parent-name>[Transposed_Yearly_Average.csv]</parent-name>
-            <remote-alias>Year</remote-alias>
-            <ordinal>0</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Country</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Country]</local-name>
-            <parent-name>[Transposed_Yearly_Average.csv]</parent-name>
-            <remote-alias>Country</remote-alias>
-            <ordinal>1</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Latitude</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[Latitude]</local-name>
-            <parent-name>[Transposed_Yearly_Average.csv]</parent-name>
-            <remote-alias>Latitude</remote-alias>
-            <ordinal>2</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Longitude</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[Longitude]</local-name>
-            <parent-name>[Transposed_Yearly_Average.csv]</parent-name>
-            <remote-alias>Longitude</remote-alias>
-            <ordinal>3</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>F5</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[F5]</local-name>
-            <parent-name>[Transposed_Yearly_Average.csv]</parent-name>
-            <remote-alias>F5</remote-alias>
-            <ordinal>4</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <approx-count>1</approx-count>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Rigs</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[Rigs]</local-name>
-            <parent-name>[Transposed_Yearly_Average.csv]</parent-name>
-            <remote-alias>Rigs</remote-alias>
-            <ordinal>5</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-          </metadata-record>
-        </metadata-records>
-      </connection>
-      <aliases enabled='yes' />
-      <column aggregation='None' caption='Country' datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
-      <column datatype='string' hidden='true' name='[F5]' role='dimension' type='nominal' />
-      <column aggregation='Avg' datatype='real' name='[Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
-      <column aggregation='Avg' datatype='real' name='[Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
-      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
-        <calculation class='tableau' formula='1' />
-      </column>
-      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
-      <extract count='-1' enabled='true' units='records'>
-        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='D:/OneDrive/Homework/Project_3/Shilpa_Project_3/For Tableu/Transposed_Yearly_Average copy 1.hyper' default-settings='yes' schema='Extract' sslmode='' update-time='11/22/2019 09:25:50 PM' username='tableau_internal_user'>
-          <relation name='Extract' table='[Extract].[Extract]' type='table' />
-          <refresh>
-            <refresh-event add-from-file-path='Transposed_Yearly_Average (2)' increment-value='%null%' refresh-type='create' rows-inserted='4977' timestamp-start='2019-11-22 21:25:50.169' />
-          </refresh>
-          <metadata-records>
-            <metadata-record class='column'>
-              <remote-name>Year</remote-name>
-              <remote-type>20</remote-type>
-              <local-name>[Year]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Year</remote-alias>
-              <ordinal>0</ordinal>
-              <family>Transposed_Yearly_Average.csv</family>
-              <local-type>integer</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>39</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Country</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[Country]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Country</remote-alias>
-              <ordinal>1</ordinal>
-              <family>Transposed_Yearly_Average.csv</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>131</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='LEN_RUS' />
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Latitude</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[Latitude]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Latitude</remote-alias>
-              <ordinal>2</ordinal>
-              <family>Transposed_Yearly_Average.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>124</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Longitude</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[Longitude]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Longitude</remote-alias>
-              <ordinal>3</ordinal>
-              <family>Transposed_Yearly_Average.csv</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>124</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Rigs</remote-name>
-              <remote-type>20</remote-type>
-              <local-name>[Rigs]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Rigs</remote-alias>
-              <ordinal>4</ordinal>
-              <family>Transposed_Yearly_Average.csv</family>
-              <local-type>integer</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>467</approx-count>
-              <contains-null>true</contains-null>
-            </metadata-record>
-          </metadata-records>
-        </connection>
-      </extract>
-      <layout dim-ordering='alphabetic' dim-percentage='0.428375' measure-ordering='alphabetic' measure-percentage='0.571625' show-structure='true' />
-      <semantic-values>
-        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
-      </semantic-values>
-    </datasource>
     <datasource caption='Model_Data (Model_Data_Rev1)' inline='true' name='federated.0ofjn141ej8ufl1e0q7qx0pd9k8u' version='18.1'>
       <connection class='federated'>
         <named-connections>
@@ -590,10 +267,10 @@
         </groupfilter>
       </group>
       <extract count='-1' enabled='true' units='records'>
-        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='D:/OneDrive/Documents/My Tableau Repository/Datasources/Model_Data (Model_Data_Rev1).hyper' default-settings='yes' schema='Extract' sslmode='' update-time='11/22/2019 09:25:50 PM' username='tableau_internal_user'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='D:/OneDrive/Documents/My Tableau Repository/Datasources/Model_Data (Model_Data_Rev1).hyper' default-settings='yes' schema='Extract' sslmode='' update-time='11/22/2019 08:34:49 PM' username='tableau_internal_user'>
           <relation name='Extract' table='[Extract].[Extract]' type='table' />
           <refresh>
-            <refresh-event add-from-file-path='Model_Data (Model_Data_Rev1)' increment-value='%null%' refresh-type='create' rows-inserted='538' timestamp-start='2019-11-22 21:25:50.817' />
+            <refresh-event add-from-file-path='Model_Data (Model_Data_Rev1)' increment-value='%null%' refresh-type='create' rows-inserted='538' timestamp-start='2019-11-22 20:34:49.801' />
           </refresh>
           <metadata-records>
             <metadata-record class='column'>
@@ -821,206 +498,210 @@
         <field-sort-custom-order field='Calculation_89227625149636608' />
       </field-sort-info>
     </datasource>
+    <datasource caption='Transposed_Yearly_Average (2)' inline='true' name='federated.00ua3ks0apphvg18uohsq1r3601o (copy)' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Transposed_Yearly_Average' name='textscan.0h4d6fw0gmecpe1dxt9y31ipcwct (copy)'>
+            <connection class='textscan' directory='C:/Users/jhjha/AppData/Local/Temp/TableauTemp/TEMP_18msw3a0klwp7r16h4twz0ios3yy.twb Files/Users/shilpa/Desktop/Desktop/RICE_DATA/Project_3/Shilpa_Project_3/For Tableu' filename='Transposed_Yearly_Average.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0h4d6fw0gmecpe1dxt9y31ipcwct (copy)' name='Transposed_Yearly_Average.csv' table='[Transposed_Yearly_Average#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='Year' ordinal='0' />
+            <column datatype='string' name='Country' ordinal='1' />
+            <column datatype='real' name='Latitude' ordinal='2' />
+            <column datatype='real' name='Longitude' ordinal='3' />
+            <column datatype='string' name='F5' ordinal='4' />
+            <column datatype='integer' name='Rigs' ordinal='5' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Transposed_Yearly_Average.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Transposed_Yearly_Average.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[Transposed_Yearly_Average.csv]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Latitude]</local-name>
+            <parent-name>[Transposed_Yearly_Average.csv]</parent-name>
+            <remote-alias>Latitude</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Longitude]</local-name>
+            <parent-name>[Transposed_Yearly_Average.csv]</parent-name>
+            <remote-alias>Longitude</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F5</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F5]</local-name>
+            <parent-name>[Transposed_Yearly_Average.csv]</parent-name>
+            <remote-alias>F5</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rigs</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Rigs]</local-name>
+            <parent-name>[Transposed_Yearly_Average.csv]</parent-name>
+            <remote-alias>Rigs</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='None' caption='Country' datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+      <column datatype='string' hidden='true' name='[F5]' role='dimension' type='nominal' />
+      <column aggregation='Avg' datatype='real' name='[Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <extract count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='D:/OneDrive/Homework/Project_3/Shilpa_Project_3/For Tableu/Transposed_Yearly_Average copy 1.hyper' default-settings='yes' schema='Extract' sslmode='' update-time='11/22/2019 08:27:31 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='Transposed_Yearly_Average' increment-value='%null%' refresh-type='create' rows-inserted='4977' timestamp-start='2019-11-22 20:27:31.618' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Year</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Transposed_Yearly_Average.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>39</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Country</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Country]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Country</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Transposed_Yearly_Average.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>131</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Latitude</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Latitude]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Latitude</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Transposed_Yearly_Average.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>124</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Longitude</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Longitude]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Longitude</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Transposed_Yearly_Average.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>124</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Rigs</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Rigs]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Rigs</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Transposed_Yearly_Average.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>467</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' dim-percentage='0.484808' measure-ordering='alphabetic' measure-percentage='0.515192' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
   </datasources>
   <mapsources>
     <mapsource name='Tableau' />
   </mapsources>
   <worksheets>
-    <worksheet name='Land vs Offshore'>
-      <layout-options>
-        <title>
-          <formatted-text>
-            <run fontalignment='1'>Land and Offshore Rig Counts</run>
-          </formatted-text>
-        </title>
-      </layout-options>
-      <table>
-        <view>
-          <datasources>
-            <datasource caption='Model_Data (Model_Data_Rev1)' name='federated.0ofjn141ej8ufl1e0q7qx0pd9k8u' />
-          </datasources>
-          <datasource-dependencies datasource='federated.0ofjn141ej8ufl1e0q7qx0pd9k8u'>
-            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
-            <column caption='Land Rig Active Count' datatype='real' name='[Land_Rig_Active_Count]' role='measure' type='quantitative' />
-            <column caption='Offshore Rig Active' datatype='real' name='[Offshore_Rig_Active]' role='measure' type='quantitative' />
-            <column-instance column='[Land_Rig_Active_Count]' derivation='Avg' name='[avg:Land_Rig_Active_Count:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Offshore_Rig_Active]' derivation='Avg' name='[avg:Offshore_Rig_Active:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Date]' derivation='Year' name='[yr:Date:ok]' pivot='key' type='ordinal' />
-            <column-instance column='[Date]' derivation='Year' name='[yr:Date:qk]' pivot='key' type='quantitative' />
-          </datasource-dependencies>
-          <filter class='categorical' column='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]'>
-            <groupfilter function='union' user:op='manual'>
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Offshore_Rig_Active:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Land_Rig_Active_Count:qk]&quot;' />
-            </groupfilter>
-          </filter>
-          <manual-sort column='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]' direction='ASC'>
-            <dictionary>
-              <bucket>&quot;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Offshore_Rig_Active:qk]&quot;</bucket>
-              <bucket>&quot;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Land_Rig_Active_Count:qk]&quot;</bucket>
-            </dictionary>
-          </manual-sort>
-          <filter class='quantitative' column='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Land_Rig_Active_Count:qk]' included-values='non-null' />
-          <filter class='quantitative' column='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Offshore_Rig_Active:qk]' included-values='non-null' />
-          <filter class='categorical' column='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]'>
-            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
-              <groupfilter function='level-members' level='[yr:Date:ok]' />
-              <groupfilter function='union'>
-                <groupfilter function='member' level='[yr:Date:ok]' member='1975' />
-                <groupfilter function='member' level='[yr:Date:ok]' member='1976' />
-                <groupfilter function='member' level='[yr:Date:ok]' member='1977' />
-                <groupfilter function='member' level='[yr:Date:ok]' member='1978' />
-                <groupfilter function='member' level='[yr:Date:ok]' member='1979' />
-                <groupfilter function='member' level='[yr:Date:ok]' member='1981' />
-                <groupfilter function='member' level='[yr:Date:ok]' member='1982' />
-                <groupfilter function='member' level='[yr:Date:ok]' member='1983' />
-                <groupfilter function='member' level='[yr:Date:ok]' member='1984' />
-                <groupfilter function='member' level='[yr:Date:ok]' member='2019' />
-              </groupfilter>
-            </groupfilter>
-          </filter>
-          <filter class='quantitative' column='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:qk]' included-values='all' />
-          <slices>
-            <column>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:qk]</column>
-            <column>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]</column>
-            <column>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]</column>
-            <column>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Land_Rig_Active_Count:qk]</column>
-            <column>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Offshore_Rig_Active:qk]</column>
-          </slices>
-          <aggregation value='true' />
-        </view>
-        <style>
-          <style-rule element='axis'>
-            <format attr='title' class='0' field='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[Multiple Values]' scope='rows' value='Rig Count' />
-            <encoding attr='space' class='0' domain-expand='false' field='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[Multiple Values]' field-type='quantitative' scope='rows' type='space' />
-          </style-rule>
-          <style-rule element='pane'>
-            <format attr='background-color' value='#dfedeb' />
-          </style-rule>
-          <style-rule element='table'>
-            <format attr='background-color' value='#e6ecf0' />
-          </style-rule>
-          <style-rule element='worksheet'>
-            <format attr='display-field-labels' scope='cols' value='false' />
-          </style-rule>
-          <style-rule element='caption'>
-            <format attr='background-color' value='#ffffff' />
-          </style-rule>
-          <style-rule element='title'>
-            <format attr='background-color' value='#ddebf0' />
-          </style-rule>
-          <style-rule element='legend-title-text'>
-            <format attr='color' field='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]' value='Legend'>
-              <formatted-text>
-                <run fontalignment='1'>Legend</run>
-              </formatted-text>
-            </format>
-          </style-rule>
-          <style-rule element='annotation'>
-            <format attr='stroke-size' id='annotation_4' value='2' />
-            <format attr='stroke-color' id='annotation_4' value='#000000' />
-            <format attr='stroke-size' id='annotation_6' value='2' />
-            <format attr='stroke-color' id='annotation_6' value='#000000' />
-          </style-rule>
-          <style-rule element='quick-filter'>
-            <format attr='title' field='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:qk]' value='Year'>
-              <formatted-text>
-                <run fontalignment='1'>Year</run>
-              </formatted-text>
-            </format>
-          </style-rule>
-        </style>
-        <panes>
-          <pane id='10' selection-relaxation-option='selection-relaxation-allow'>
-            <view>
-              <breakdown value='off' />
-            </view>
-            <mark class='Area' />
-            <encodings>
-              <color column='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]' />
-            </encodings>
-            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
-          </pane>
-        </panes>
-        <rows>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[Multiple Values]</rows>
-        <cols>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]</cols>
-        <annotations>
-          <annotation class='point' id='4' mark-position='1' pullback='12' text-width='260'>
-            <formatted-text>
-              <run fontcolor='#787878' fontsize='9'>Year: </run>
-              <run bold='true' fontsize='9'>&lt;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]&gt;</run>
-              <run>Æ&#10;</run>
-              <run fontcolor='#787878' fontsize='9'>Avg. Land Rig Active Count: </run>
-              <run bold='true' fontsize='9'>&lt;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Land_Rig_Active_Count:qk]&gt;</run>
-            </formatted-text>
-            <point>
-              <visual-coordinate class='mark'>
-                <tuple-reference>
-                  <tuple-descriptor>
-                    <pane-descriptor>
-                      <x-fields>
-                        <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]</field>
-                      </x-fields>
-                      <y-fields>
-                        <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[Multiple Values]</field>
-                      </y-fields>
-                    </pane-descriptor>
-                    <columns>
-                      <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]</field>
-                      <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]</field>
-                      <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[Multiple Values]</field>
-                    </columns>
-                  </tuple-descriptor>
-                  <tuple>
-                    <value>1985</value>
-                    <value>&quot;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Land_Rig_Active_Count:qk]&quot;</value>
-                    <value>3024.6799999999998</value>
-                  </tuple>
-                </tuple-reference>
-              </visual-coordinate>
-            </point>
-            <body x='170' y='108' />
-          </annotation>
-          <annotation class='point' id='6' mark-position='1' pullback='12' text-width='232'>
-            <formatted-text>
-              <run fontcolor='#787878' fontsize='9'>Year: </run>
-              <run bold='true' fontsize='9'>&lt;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]&gt;</run>
-              <run>Æ&#10;</run>
-              <run fontcolor='#787878' fontsize='9'>Avg. Offshore Rig Active: </run>
-              <run bold='true' fontsize='9'>&lt;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Offshore_Rig_Active:qk]&gt;</run>
-            </formatted-text>
-            <point>
-              <visual-coordinate class='mark'>
-                <tuple-reference>
-                  <tuple-descriptor>
-                    <pane-descriptor>
-                      <x-fields>
-                        <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]</field>
-                      </x-fields>
-                      <y-fields>
-                        <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[Multiple Values]</field>
-                      </y-fields>
-                    </pane-descriptor>
-                    <columns>
-                      <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]</field>
-                      <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]</field>
-                      <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[Multiple Values]</field>
-                    </columns>
-                  </tuple-descriptor>
-                  <tuple>
-                    <value>2014</value>
-                    <value>&quot;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Offshore_Rig_Active:qk]&quot;</value>
-                    <value>725.74333333333334</value>
-                  </tuple>
-                </tuple-reference>
-              </visual-coordinate>
-            </point>
-            <body x='-152' y='-70' />
-          </annotation>
-        </annotations>
-      </table>
-      <simple-id uuid='{65319DCA-BEF5-44B9-A9BF-FAAB28C81762}' />
-    </worksheet>
     <worksheet name='Land_offshore'>
       <layout-options>
         <title>
@@ -1059,7 +740,7 @@
         <style>
           <style-rule element='mark'>
             <encoding attr='size' field='[federated.00ua3ks0apphvg18uohsq1r3601o (copy)].[sum:Rigs:qk]' field-type='quantitative' max-size='1' min='1' min-size='0.01' type='quantsize' />
-            <encoding attr='color' center='1600' field='[federated.00ua3ks0apphvg18uohsq1r3601o (copy)].[sum:Rigs:qk]' max='2253' palette='orange_blue_diverging_10_0' reverse='true' symmetric='false' type='interpolated' />
+            <encoding attr='color' center='1600.0' field='[federated.00ua3ks0apphvg18uohsq1r3601o (copy)].[sum:Rigs:qk]' max='2253' palette='orange_blue_diverging_10_0' reverse='true' symmetric='false' type='interpolated' />
             <encoding attr='size' field='[federated.00ua3ks0apphvg18uohsq1r3601o (copy)].[avg:Rigs:qk]' field-type='quantitative' max-size='1' min='1.0' min-size='0.0050766' type='rangesize' />
             <encoding attr='color' center='1126.5' field='[federated.00ua3ks0apphvg18uohsq1r3601o (copy)].[avg:Rigs:qk]' palette='orange_blue_diverging_10_0' reverse='true' symmetric='false' type='interpolated' />
           </style-rule>
@@ -1287,998 +968,8 @@
       </table>
       <simple-id uuid='{09296638-4271-4F85-821B-59552C82C988}' />
     </worksheet>
-    <worksheet name='Oil Price vs. Consumption'>
-      <layout-options>
-        <title>
-          <formatted-text>
-            <run fontalignment='1'>Crude Oil Consumption vs. Crude Oil Price*</run>
-          </formatted-text>
-        </title>
-      </layout-options>
-      <table>
-        <view>
-          <datasources>
-            <datasource caption='Model_Data (Model_Data_Rev1)' name='federated.0ofjn141ej8ufl1e0q7qx0pd9k8u' />
-          </datasources>
-          <datasource-dependencies datasource='federated.0ofjn141ej8ufl1e0q7qx0pd9k8u'>
-            <column caption='Consumption Mb/d' datatype='real' name='[Calculation_1037516821504569344]' role='measure' type='quantitative'>
-              <calculation class='tableau' formula='[World_Oil_Cunsump]/1000' />
-            </column>
-            <column caption='Crude Price 2010 USD' datatype='real' name='[Crude_Price_2010_USD]' role='measure' type='quantitative' />
-            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
-            <column caption='World Oil Cunsump' datatype='real' name='[World_Oil_Cunsump]' role='measure' type='quantitative' />
-            <column-instance column='[Calculation_1037516821504569344]' derivation='Avg' name='[avg:Calculation_1037516821504569344:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Crude_Price_2010_USD]' derivation='Avg' name='[avg:Crude_Price_2010_USD:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Crude_Price_2010_USD]' derivation='Sum' name='[sum:Crude_Price_2010_USD:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Date]' derivation='Year' name='[yr:Date:ok]' pivot='key' type='ordinal' />
-            <column-instance column='[Date]' derivation='Year' name='[yr:Date:qk]' pivot='key' type='quantitative' />
-          </datasource-dependencies>
-          <filter class='categorical' column='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]'>
-            <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[sum:Crude_Price_2010_USD:qk]&quot;' user:op='manual' />
-          </filter>
-          <filter class='quantitative' column='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:qk]' included-values='in-range'>
-            <min>1975</min>
-            <max>2018</max>
-          </filter>
-          <slices>
-            <column>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:qk]</column>
-            <column>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]</column>
-          </slices>
-          <aggregation value='true' />
-        </view>
-        <style>
-          <style-rule element='axis'>
-            <encoding attr='space' class='0' domain-expand='false' field='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Calculation_1037516821504569344:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
-            <format attr='title' class='0' field='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Calculation_1037516821504569344:qk]' scope='rows' value='Avg. Consumption' />
-            <format attr='auto-subtitle' class='0' field='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Calculation_1037516821504569344:qk]' scope='rows' value='false' />
-            <format attr='subtitle' class='0' field='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Calculation_1037516821504569344:qk]' scope='rows' value='Million Barrels per Day' />
-            <format attr='title' class='0' field='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]' scope='rows' value='Avg. Crude Price USD' />
-            <encoding attr='space' class='0' domain-expand='false' field='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]' field-type='quantitative' scope='rows' type='space' />
-          </style-rule>
-          <style-rule element='pane'>
-            <format attr='background-color' value='#dfedeb' />
-          </style-rule>
-          <style-rule element='table'>
-            <format attr='background-color' value='#e6ecf0' />
-          </style-rule>
-          <style-rule element='worksheet'>
-            <format attr='display-field-labels' scope='cols' value='false' />
-          </style-rule>
-          <style-rule element='caption'>
-            <format attr='background-color' value='#ffffff' />
-          </style-rule>
-          <style-rule element='title'>
-            <format attr='background-color' value='#ddebf0' />
-          </style-rule>
-          <style-rule element='legend-title-text'>
-            <format attr='color' field='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]' value='Legend' />
-          </style-rule>
-          <style-rule element='annotation'>
-            <format attr='stroke-size' id='annotation_2' value='2' />
-            <format attr='stroke-color' id='annotation_2' value='#000000' />
-            <format attr='stroke-color' id='annotation_0' value='#000000' />
-            <format attr='stroke-size' id='annotation_0' value='2' />
-            <format attr='stroke-size' id='annotation_3' value='2' />
-            <format attr='stroke-color' id='annotation_3' value='#000000' />
-          </style-rule>
-          <style-rule element='quick-filter'>
-            <format attr='title' field='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:qk]' value='Year' />
-          </style-rule>
-        </style>
-        <panes>
-          <pane id='5' selection-relaxation-option='selection-relaxation-allow'>
-            <view>
-              <breakdown value='auto' />
-            </view>
-            <mark class='Area' />
-            <encodings>
-              <color column='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]' />
-            </encodings>
-          </pane>
-          <pane id='6' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Calculation_1037516821504569344:qk]'>
-            <view>
-              <breakdown value='auto' />
-            </view>
-            <mark class='Area' />
-            <encodings>
-              <color column='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]' />
-            </encodings>
-          </pane>
-          <pane id='7' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]'>
-            <view>
-              <breakdown value='auto' />
-            </view>
-            <mark class='Line' />
-            <mark-sizing mark-sizing-setting='marks-scaling-off' />
-            <encodings>
-              <color column='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]' />
-            </encodings>
-            <style>
-              <style-rule element='mark'>
-                <format attr='size' value='1.4832596778869629' />
-              </style-rule>
-            </style>
-          </pane>
-        </panes>
-        <rows>([federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk] + [federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Calculation_1037516821504569344:qk])</rows>
-        <cols>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]</cols>
-        <annotations>
-          <annotation class='point' id='0' mark-position='1' pullback='12' text-width='232'>
-            <formatted-text>
-              <run bold='true' fontalignment='1' fontsize='8'>1980&apos;s Oil Glut</run>
-              <run fontalignment='1'>Æ&#10;</run>
-              <run fontalignment='1' fontcolor='#787878' fontsize='8'>Year: </run>
-              <run bold='true' fontalignment='1' fontsize='8'>&lt;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]&gt;</run>
-              <run fontalignment='1'>Æ&#10;</run>
-              <run fontalignment='1' fontcolor='#787878' fontsize='8'>Avg. Crude Price USD: </run>
-              <run bold='true' fontalignment='1' fontsize='8'>&lt;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]&gt;</run>
-              <run fontalignment='1'>Æ&#10;</run>
-            </formatted-text>
-            <point>
-              <visual-coordinate class='mark'>
-                <tuple-reference>
-                  <tuple-descriptor>
-                    <pane-descriptor>
-                      <x-fields>
-                        <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]</field>
-                      </x-fields>
-                      <y-fields>
-                        <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]</field>
-                      </y-fields>
-                    </pane-descriptor>
-                    <columns>
-                      <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]</field>
-                      <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]</field>
-                      <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]</field>
-                    </columns>
-                  </tuple-descriptor>
-                  <tuple>
-                    <value>99.00500000000001</value>
-                    <value>1980</value>
-                    <value>&quot;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]&quot;</value>
-                  </tuple>
-                </tuple-reference>
-              </visual-coordinate>
-            </point>
-            <body x='155' y='26' />
-          </annotation>
-          <annotation class='point' id='2' mark-position='1' pullback='12' text-width='233'>
-            <formatted-text>
-              <run bold='true' fontalignment='1' fontsize='8'>Start Boom Cycle</run>
-              <run fontalignment='1'>Æ&#10;</run>
-              <run fontalignment='1' fontcolor='#787878' fontsize='8'>Year: </run>
-              <run bold='true' fontalignment='1' fontsize='8'>&lt;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]&gt;</run>
-              <run fontalignment='1'>Æ&#10;</run>
-              <run fontalignment='1' fontcolor='#787878' fontsize='8'>Avg. Crude Price USD: </run>
-              <run bold='true' fontalignment='1' fontsize='8'>&lt;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]&gt;</run>
-            </formatted-text>
-            <point>
-              <visual-coordinate class='mark'>
-                <tuple-reference>
-                  <tuple-descriptor>
-                    <pane-descriptor>
-                      <x-fields>
-                        <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]</field>
-                      </x-fields>
-                      <y-fields>
-                        <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]</field>
-                      </y-fields>
-                    </pane-descriptor>
-                    <columns>
-                      <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]</field>
-                      <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]</field>
-                      <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]</field>
-                    </columns>
-                  </tuple-descriptor>
-                  <tuple>
-                    <value>19.2575</value>
-                    <value>1998</value>
-                    <value>&quot;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]&quot;</value>
-                  </tuple>
-                </tuple-reference>
-              </visual-coordinate>
-            </point>
-            <body x='-174' y='35' />
-          </annotation>
-          <annotation class='point' id='3' mark-position='1' pullback='12' text-width='223'>
-            <formatted-text>
-              <run bold='true' fontalignment='1' fontsize='8'>Start of Bust Cycle</run>
-              <run fontalignment='1'>Æ&#10;</run>
-              <run fontalignment='1' fontcolor='#787878' fontsize='8'>Year: </run>
-              <run bold='true' fontalignment='1' fontsize='8'>&lt;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]&gt;</run>
-              <run fontalignment='1'>Æ&#10;</run>
-              <run fontalignment='1' fontcolor='#787878' fontsize='8'>Avg. Crude Price USD: </run>
-              <run bold='true' fontalignment='1' fontsize='8'>&lt;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]&gt;</run>
-            </formatted-text>
-            <point>
-              <visual-coordinate class='mark'>
-                <tuple-reference>
-                  <tuple-descriptor>
-                    <pane-descriptor>
-                      <x-fields>
-                        <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]</field>
-                      </x-fields>
-                      <y-fields>
-                        <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]</field>
-                      </y-fields>
-                    </pane-descriptor>
-                    <columns>
-                      <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]</field>
-                      <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]</field>
-                      <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]</field>
-                    </columns>
-                  </tuple-descriptor>
-                  <tuple>
-                    <value>100.6725</value>
-                    <value>2008</value>
-                    <value>&quot;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]&quot;</value>
-                  </tuple>
-                </tuple-reference>
-              </visual-coordinate>
-            </point>
-            <body x='-202' y='122' />
-          </annotation>
-        </annotations>
-      </table>
-      <simple-id uuid='{7F639D49-0E2D-4447-82D3-98FFB51CEFDB}' />
-    </worksheet>
-    <worksheet name='Oil Price vs. Production'>
-      <layout-options>
-        <title>
-          <formatted-text>
-            <run fontalignment='1'>Crude Oil Production vs. Crude Oil Price*</run>
-          </formatted-text>
-        </title>
-      </layout-options>
-      <table>
-        <view>
-          <datasources>
-            <datasource caption='Model_Data (Model_Data_Rev1)' name='federated.0ofjn141ej8ufl1e0q7qx0pd9k8u' />
-          </datasources>
-          <datasource-dependencies datasource='federated.0ofjn141ej8ufl1e0q7qx0pd9k8u'>
-            <column caption='Oil Production Mb/d' datatype='real' name='[Calculation_89227625149636608]' role='measure' type='quantitative'>
-              <calculation class='tableau' formula='[World_Oil_Production]/1000' />
-            </column>
-            <column caption='Crude Price 2010 USD' datatype='real' name='[Crude_Price_2010_USD]' role='measure' type='quantitative' />
-            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
-            <column caption='World Oil Production' datatype='real' name='[World_Oil_Production]' role='measure' type='quantitative' />
-            <column-instance column='[Calculation_89227625149636608]' derivation='Avg' name='[avg:Calculation_89227625149636608:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Crude_Price_2010_USD]' derivation='Avg' name='[avg:Crude_Price_2010_USD:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Date]' derivation='Year' name='[yr:Date:ok]' pivot='key' type='ordinal' />
-            <column-instance column='[Date]' derivation='Year' name='[yr:Date:qk]' pivot='key' type='quantitative' />
-          </datasource-dependencies>
-          <filter class='categorical' column='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]'>
-            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
-              <groupfilter function='level-members' level='[yr:Date:ok]' />
-              <groupfilter function='union'>
-                <groupfilter function='member' level='[yr:Date:ok]' member='1975' />
-                <groupfilter function='member' level='[yr:Date:ok]' member='1976' />
-                <groupfilter function='member' level='[yr:Date:ok]' member='1977' />
-                <groupfilter function='member' level='[yr:Date:ok]' member='1978' />
-                <groupfilter function='member' level='[yr:Date:ok]' member='1979' />
-                <groupfilter function='member' level='[yr:Date:ok]' member='2019' />
-              </groupfilter>
-            </groupfilter>
-          </filter>
-          <filter class='quantitative' column='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:qk]' included-values='in-range'>
-            <min>1975</min>
-            <max>2018</max>
-          </filter>
-          <slices>
-            <column>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:qk]</column>
-            <column>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]</column>
-          </slices>
-          <aggregation value='true' />
-        </view>
-        <style>
-          <style-rule element='axis'>
-            <encoding attr='space' class='0' domain-expand='false' field='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Calculation_89227625149636608:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
-            <format attr='title' class='0' field='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Calculation_89227625149636608:qk]' scope='rows' value='Avg. Production' />
-            <format attr='auto-subtitle' class='0' field='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Calculation_89227625149636608:qk]' scope='rows' value='false' />
-            <format attr='subtitle' class='0' field='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Calculation_89227625149636608:qk]' scope='rows' value='Million Barrels per Day' />
-            <encoding attr='space' class='0' domain-expand='false' field='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]' field-type='quantitative' scope='rows' type='space' />
-          </style-rule>
-          <style-rule element='label'>
-            <format attr='text-orientation' field='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]' value='-90' />
-          </style-rule>
-          <style-rule element='pane'>
-            <format attr='background-color' value='#dfedeb' />
-          </style-rule>
-          <style-rule element='table'>
-            <format attr='background-color' value='#e6ecf0' />
-          </style-rule>
-          <style-rule element='worksheet'>
-            <format attr='display-field-labels' scope='cols' value='false' />
-          </style-rule>
-          <style-rule element='caption'>
-            <format attr='background-color' value='#ffffff' />
-          </style-rule>
-          <style-rule element='title'>
-            <format attr='background-color' value='#ddebf0' />
-          </style-rule>
-          <style-rule element='legend-title-text'>
-            <format attr='color' field='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]' value='Legend'>
-              <formatted-text>
-                <run fontalignment='1'>Legend</run>
-              </formatted-text>
-            </format>
-          </style-rule>
-          <style-rule element='annotation'>
-            <format attr='stroke-size' id='annotation_0' value='2' />
-            <format attr='stroke-color' id='annotation_0' value='#000000' />
-            <format attr='stroke-size' id='annotation_3' value='2' />
-            <format attr='stroke-color' id='annotation_3' value='#000000' />
-            <format attr='stroke-size' id='annotation_2' value='2' />
-            <format attr='stroke-color' id='annotation_2' value='#000000' />
-          </style-rule>
-          <style-rule element='quick-filter'>
-            <format attr='title' field='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:qk]' value='Year'>
-              <formatted-text>
-                <run fontalignment='1'>Year</run>
-              </formatted-text>
-            </format>
-          </style-rule>
-        </style>
-        <panes>
-          <pane id='7' selection-relaxation-option='selection-relaxation-allow'>
-            <view>
-              <breakdown value='off' />
-            </view>
-            <mark class='Line' />
-            <encodings>
-              <color column='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]' />
-            </encodings>
-          </pane>
-          <pane id='8' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]'>
-            <view>
-              <breakdown value='off' />
-            </view>
-            <mark class='Line' />
-            <mark-sizing mark-sizing-setting='marks-scaling-off' />
-            <encodings>
-              <color column='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]' />
-            </encodings>
-            <style>
-              <style-rule element='mark'>
-                <format attr='size' value='1.3293370008468628' />
-              </style-rule>
-            </style>
-          </pane>
-          <pane id='10' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Calculation_89227625149636608:qk]'>
-            <view>
-              <breakdown value='off' />
-            </view>
-            <mark class='Area' />
-            <encodings>
-              <color column='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]' />
-            </encodings>
-          </pane>
-        </panes>
-        <rows>([federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk] + [federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Calculation_89227625149636608:qk])</rows>
-        <cols>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]</cols>
-        <annotations>
-          <annotation class='point' id='0' mark-position='1' pullback='12' text-width='195'>
-            <formatted-text>
-              <run bold='true' fontsize='8'>1980&apos;s Oil Glut</run>
-              <run>Æ&#10;</run>
-              <run fontcolor='#787878' fontsize='8'>Year: </run>
-              <run bold='true' fontsize='8'>&lt;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]&gt;</run>
-              <run>Æ&#10;</run>
-              <run fontcolor='#787878' fontsize='8'>Avg. Crude Price USD: </run>
-              <run bold='true' fontsize='8'>&lt;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]&gt;</run>
-              <run>Æ&#10;</run>
-            </formatted-text>
-            <point>
-              <visual-coordinate class='mark'>
-                <tuple-reference>
-                  <tuple-descriptor>
-                    <pane-descriptor>
-                      <x-fields>
-                        <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]</field>
-                      </x-fields>
-                      <y-fields>
-                        <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]</field>
-                      </y-fields>
-                    </pane-descriptor>
-                    <columns>
-                      <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]</field>
-                      <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]</field>
-                      <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]</field>
-                    </columns>
-                  </tuple-descriptor>
-                  <tuple>
-                    <value>99.00500000000001</value>
-                    <value>1980</value>
-                    <value>&quot;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]&quot;</value>
-                  </tuple>
-                </tuple-reference>
-              </visual-coordinate>
-            </point>
-            <body x='131' y='16' />
-          </annotation>
-          <annotation class='point' id='2' mark-position='1' pullback='12' text-width='205'>
-            <formatted-text>
-              <run bold='true' fontsize='8'>Start of Boom Cycle</run>
-              <run>Æ&#10;</run>
-              <run fontcolor='#787878' fontsize='8'>Year: </run>
-              <run bold='true' fontsize='8'>&lt;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]&gt;</run>
-              <run>Æ&#10;</run>
-              <run fontcolor='#787878' fontsize='8'>Avg. Crude Price USD: </run>
-              <run bold='true' fontsize='8'>&lt;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]&gt;</run>
-            </formatted-text>
-            <point>
-              <visual-coordinate class='mark'>
-                <tuple-reference>
-                  <tuple-descriptor>
-                    <pane-descriptor>
-                      <x-fields>
-                        <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]</field>
-                      </x-fields>
-                      <y-fields>
-                        <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]</field>
-                      </y-fields>
-                    </pane-descriptor>
-                    <columns>
-                      <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]</field>
-                      <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]</field>
-                      <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]</field>
-                    </columns>
-                  </tuple-descriptor>
-                  <tuple>
-                    <value>19.2575</value>
-                    <value>1998</value>
-                    <value>&quot;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]&quot;</value>
-                  </tuple>
-                </tuple-reference>
-              </visual-coordinate>
-            </point>
-            <body x='177' y='-15' />
-          </annotation>
-          <annotation class='point' id='3' mark-position='1' pullback='12' text-width='209'>
-            <formatted-text>
-              <run bold='true' fontsize='8'>Start of Bust Cycle</run>
-              <run>Æ&#10;</run>
-              <run fontcolor='#787878' fontsize='8'>Year: </run>
-              <run bold='true' fontsize='8'>&lt;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]&gt;</run>
-              <run>Æ&#10;</run>
-              <run fontcolor='#787878' fontsize='8'>Avg. Crude Price  USD: </run>
-              <run bold='true' fontsize='8'>&lt;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]&gt;</run>
-            </formatted-text>
-            <point>
-              <visual-coordinate class='mark'>
-                <tuple-reference>
-                  <tuple-descriptor>
-                    <pane-descriptor>
-                      <x-fields>
-                        <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]</field>
-                      </x-fields>
-                      <y-fields>
-                        <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]</field>
-                      </y-fields>
-                    </pane-descriptor>
-                    <columns>
-                      <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]</field>
-                      <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]</field>
-                      <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]</field>
-                    </columns>
-                  </tuple-descriptor>
-                  <tuple>
-                    <value>100.6725</value>
-                    <value>2008</value>
-                    <value>&quot;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]&quot;</value>
-                  </tuple>
-                </tuple-reference>
-              </visual-coordinate>
-            </point>
-            <body x='-173' y='128' />
-          </annotation>
-        </annotations>
-      </table>
-      <simple-id uuid='{856E6CDA-02B9-4122-913A-93509B67496D}' />
-    </worksheet>
-    <worksheet name='Oil Price vs. Rig Count'>
-      <layout-options>
-        <title>
-          <formatted-text>
-            <run fontalignment='1'>Active Rig Count vs. Crude Oil Price*</run>
-          </formatted-text>
-        </title>
-      </layout-options>
-      <table>
-        <view>
-          <datasources>
-            <datasource caption='Model_Data (Model_Data_Rev1)' name='federated.0ofjn141ej8ufl1e0q7qx0pd9k8u' />
-          </datasources>
-          <datasource-dependencies datasource='federated.0ofjn141ej8ufl1e0q7qx0pd9k8u'>
-            <column caption='Active Rig Count' datatype='integer' name='[Active_Rig_Count]' role='measure' type='quantitative' />
-            <column caption='Crude Price 2010 USD' datatype='real' name='[Crude_Price_2010_USD]' role='measure' type='quantitative' />
-            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
-            <column-instance column='[Active_Rig_Count]' derivation='Avg' name='[avg:Active_Rig_Count:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Crude_Price_2010_USD]' derivation='Avg' name='[avg:Crude_Price_2010_USD:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Date]' derivation='Year' name='[yr:Date:ok]' pivot='key' type='ordinal' />
-            <column-instance column='[Date]' derivation='Year' name='[yr:Date:qk]' pivot='key' type='quantitative' />
-          </datasource-dependencies>
-          <filter class='categorical' column='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]'>
-            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
-              <groupfilter function='level-members' level='[yr:Date:ok]' />
-              <groupfilter function='union'>
-                <groupfilter function='member' level='[yr:Date:ok]' member='1975' />
-                <groupfilter function='member' level='[yr:Date:ok]' member='1976' />
-                <groupfilter function='member' level='[yr:Date:ok]' member='1977' />
-                <groupfilter function='member' level='[yr:Date:ok]' member='1978' />
-                <groupfilter function='member' level='[yr:Date:ok]' member='1979' />
-                <groupfilter function='member' level='[yr:Date:ok]' member='2019' />
-              </groupfilter>
-            </groupfilter>
-          </filter>
-          <filter class='quantitative' column='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:qk]' included-values='all' />
-          <slices>
-            <column>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:qk]</column>
-            <column>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]</column>
-          </slices>
-          <aggregation value='true' />
-        </view>
-        <style>
-          <style-rule element='axis'>
-            <encoding attr='space' class='0' domain-expand='false' field='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]' field-type='quantitative' scope='rows' type='space' />
-            <encoding attr='space' class='0' domain-expand='false' field='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Active_Rig_Count:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
-            <format attr='title' class='0' field='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]' scope='rows' value='Avg. Crude Price USD' />
-          </style-rule>
-          <style-rule element='pane'>
-            <format attr='background-color' value='#dfedeb' />
-          </style-rule>
-          <style-rule element='table'>
-            <format attr='background-color' value='#e6ecf0' />
-          </style-rule>
-          <style-rule element='worksheet'>
-            <format attr='display-field-labels' scope='cols' value='false' />
-          </style-rule>
-          <style-rule element='caption'>
-            <format attr='background-color' value='#ffffff' />
-          </style-rule>
-          <style-rule element='title'>
-            <format attr='background-color' value='#ddebf0' />
-          </style-rule>
-          <style-rule element='annotation'>
-            <format attr='stroke-size' id='annotation_0' value='2' />
-            <format attr='stroke-color' id='annotation_0' value='#000000' />
-            <format attr='stroke-size' id='annotation_3' value='2' />
-            <format attr='stroke-color' id='annotation_3' value='#000000' />
-          </style-rule>
-        </style>
-        <panes>
-          <pane id='8' selection-relaxation-option='selection-relaxation-allow'>
-            <view>
-              <breakdown value='off' />
-            </view>
-            <mark class='Line' />
-            <encodings>
-              <color column='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]' />
-            </encodings>
-          </pane>
-          <pane id='9' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]'>
-            <view>
-              <breakdown value='off' />
-            </view>
-            <mark class='Line' />
-            <encodings>
-              <color column='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]' />
-            </encodings>
-          </pane>
-          <pane id='10' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Active_Rig_Count:qk]'>
-            <view>
-              <breakdown value='off' />
-            </view>
-            <mark class='Area' />
-            <encodings>
-              <color column='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]' />
-            </encodings>
-          </pane>
-        </panes>
-        <rows>([federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk] + [federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Active_Rig_Count:qk])</rows>
-        <cols>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]</cols>
-        <annotations>
-          <annotation class='point' id='0' mark-position='1' pullback='12' text-width='196'>
-            <formatted-text>
-              <run bold='true' fontsize='8'>1980&apos;s Oil Glut</run>
-              <run>Æ&#10;</run>
-              <run fontcolor='#787878' fontsize='8'>Year: </run>
-              <run bold='true' fontsize='8'>&lt;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]&gt;</run>
-              <run>Æ&#10;</run>
-              <run fontcolor='#787878' fontsize='8'>Avg. Crude Price USD: </run>
-              <run bold='true' fontsize='8'>&lt;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]&gt;</run>
-              <run>Æ&#10;</run>
-            </formatted-text>
-            <point>
-              <visual-coordinate class='mark'>
-                <tuple-reference>
-                  <tuple-descriptor>
-                    <pane-descriptor>
-                      <x-fields>
-                        <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]</field>
-                      </x-fields>
-                      <y-fields>
-                        <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]</field>
-                      </y-fields>
-                    </pane-descriptor>
-                    <columns>
-                      <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]</field>
-                      <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]</field>
-                      <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]</field>
-                    </columns>
-                  </tuple-descriptor>
-                  <tuple>
-                    <value>99.00500000000001</value>
-                    <value>1980</value>
-                    <value>&quot;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]&quot;</value>
-                  </tuple>
-                </tuple-reference>
-              </visual-coordinate>
-            </point>
-            <body x='168' y='26' />
-          </annotation>
-          <annotation class='point' id='2' mark-position='1' pullback='12' text-width='196'>
-            <formatted-text>
-              <run bold='true' fontsize='8'>Start of Boom Cycle</run>
-              <run>Æ&#10;</run>
-              <run fontcolor='#787878' fontsize='8'>Year: </run>
-              <run bold='true' fontsize='8'>&lt;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]&gt;</run>
-              <run>Æ&#10;</run>
-              <run fontcolor='#787878' fontsize='8'>Avg. Crude Price USD: </run>
-              <run bold='true' fontsize='8'>&lt;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]&gt;</run>
-            </formatted-text>
-            <point>
-              <visual-coordinate class='mark'>
-                <tuple-reference>
-                  <tuple-descriptor>
-                    <pane-descriptor>
-                      <x-fields>
-                        <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]</field>
-                      </x-fields>
-                      <y-fields>
-                        <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]</field>
-                      </y-fields>
-                    </pane-descriptor>
-                    <columns>
-                      <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]</field>
-                      <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]</field>
-                      <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]</field>
-                    </columns>
-                  </tuple-descriptor>
-                  <tuple>
-                    <value>19.2575</value>
-                    <value>1998</value>
-                    <value>&quot;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]&quot;</value>
-                  </tuple>
-                </tuple-reference>
-              </visual-coordinate>
-            </point>
-            <body x='219' y='-14' />
-          </annotation>
-          <annotation class='point' id='3' mark-position='1' pullback='12' text-width='205'>
-            <formatted-text>
-              <run bold='true' fontalignment='1' fontsize='8'>Start of Bust Cycle</run>
-              <run fontalignment='1'>Æ&#10;</run>
-              <run fontalignment='1' fontcolor='#787878' fontsize='8'>Year: </run>
-              <run bold='true' fontalignment='1' fontsize='8'>&lt;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]&gt;</run>
-              <run fontalignment='1'>Æ&#10;</run>
-              <run fontalignment='1' fontcolor='#787878' fontsize='8'>Avg. Crude Price USD: </run>
-              <run bold='true' fontalignment='1' fontsize='8'>&lt;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]&gt;</run>
-            </formatted-text>
-            <point>
-              <visual-coordinate class='mark'>
-                <tuple-reference>
-                  <tuple-descriptor>
-                    <pane-descriptor>
-                      <x-fields>
-                        <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]</field>
-                      </x-fields>
-                      <y-fields>
-                        <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]</field>
-                      </y-fields>
-                    </pane-descriptor>
-                    <columns>
-                      <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]</field>
-                      <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]</field>
-                      <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]</field>
-                    </columns>
-                  </tuple-descriptor>
-                  <tuple>
-                    <value>100.6725</value>
-                    <value>2008</value>
-                    <value>&quot;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]&quot;</value>
-                  </tuple>
-                </tuple-reference>
-              </visual-coordinate>
-            </point>
-            <body x='-166' y='97' />
-          </annotation>
-        </annotations>
-      </table>
-      <simple-id uuid='{B5AC13CB-1D50-44BD-8E17-8E6BE5714852}' />
-    </worksheet>
   </worksheets>
   <dashboards>
-    <dashboard name='Consumption'>
-      <style>
-        <style-rule element='table'>
-          <format attr='background-color' value='#ddebf0' />
-        </style-rule>
-        <style-rule element='dash-title'>
-          <format attr='background-color' value='#ddebf0' />
-          <format attr='border-color' value='#000000' />
-          <format attr='border-width' value='0' />
-          <format attr='border-style' value='none' />
-        </style-rule>
-        <style-rule element='dash-subtitle'>
-          <format attr='background-color' value='#ddebf0' />
-        </style-rule>
-      </style>
-      <size sizing-mode='automatic' />
-      <datasources>
-        <datasource caption='Model_Data (Model_Data_Rev1)' name='federated.0ofjn141ej8ufl1e0q7qx0pd9k8u' />
-      </datasources>
-      <datasource-dependencies datasource='federated.0ofjn141ej8ufl1e0q7qx0pd9k8u'>
-        <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
-        <column-instance column='[Date]' derivation='Year' name='[yr:Date:qk]' pivot='key' type='quantitative' />
-      </datasource-dependencies>
-      <zones>
-        <zone h='100000' id='4' type='layout-basic' w='100000' x='0' y='0'>
-          <zone h='98024' id='14' param='vert' type='layout-flow' w='98914' x='543' y='988'>
-            <zone h='98024' id='7' param='horz' type='layout-flow' w='98914' x='543' y='988'>
-              <zone h='98024' id='5' type='layout-basic' w='87025' x='543' y='988'>
-                <zone h='98024' id='3' name='Oil Price vs. Consumption' w='87025' x='543' y='988'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='solid' />
-                    <format attr='border-width' value='1' />
-                    <format attr='margin' value='4' />
-                  </zone-style>
-                </zone>
-              </zone>
-              <zone fixed-size='197' h='98024' id='6' is-fixed='true' param='vert' type='layout-flow' w='11889' x='87568' y='988'>
-                <zone fixed-size='112' h='13172' id='8' is-fixed='true' name='Oil Price vs. Consumption' param='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:qk]' show-domain='false' show-null-ctrls='false' type='filter' w='11889' x='87568' y='988'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='solid' />
-                    <format attr='border-width' value='1' />
-                    <format attr='margin' value='4' />
-                  </zone-style>
-                </zone>
-                <zone fixed-size='137' h='15916' id='9' is-fixed='true' name='Oil Price vs. Consumption' pane-specification-id='7' param='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]' type='color' w='11889' x='87568' y='14160'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='solid' />
-                    <format attr='border-width' value='1' />
-                    <format attr='margin' value='4' />
-                  </zone-style>
-                </zone>
-                <zone forceUpdate='true' h='38090' id='10' type='text' w='11889' x='87568' y='30076'>
-                  <formatted-text>
-                    <run bold='true' fontcolor='#000000' fontname='Tableau Book,serif' fontsize='10' underline='true'>Analysis</run>
-                    <run>Æ&#10;&#10;</run>
-                    <run fontcolor='#000000' fontname='Tableau Book,serif'>What we can see here is that the World Oil Consumption continues to increase overall but during the 1980&apos;s and early 2000&apos;s there was a drop in Crude Oil consumption which resulted in a significant commodity price declines.</run>
-                    <run fontcolor='#000000' fontname='Benton Sans Book'>Æ </run>
-                    <run>Æ&#10;</run>
-                    <run fontname='Tableau Book,serif'>Æ </run>
-                    <run fontcolor='#000000' fontname='Benton Sans Book'>Æ </run>
-                    <run>Æ&#10;</run>
-                    <run fontname='Tableau Book,serif'>* Crude Oil Price has been adjusted to 2010 USD</run>
-                    <run fontcolor='#000000' fontname='Benton Sans Book'>Æ </run>
-                  </formatted-text>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='solid' />
-                    <format attr='border-width' value='1' />
-                    <format attr='margin' value='4' />
-                  </zone-style>
-                </zone>
-              </zone>
-            </zone>
-          </zone>
-          <zone-style>
-            <format attr='border-color' value='#000000' />
-            <format attr='border-style' value='solid' />
-            <format attr='border-width' value='1' />
-            <format attr='margin' value='8' />
-          </zone-style>
-        </zone>
-      </zones>
-      <devicelayouts>
-        <devicelayout auto-generated='true' name='Phone'>
-          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
-          <zones>
-            <zone h='100000' id='52' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98244' id='51' param='vert' type='layout-flow' w='99034' x='483' y='878'>
-                <zone fixed-size='112' h='13172' id='8' name='Oil Price vs. Consumption' param='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:qk]' show-domain='false' show-null-ctrls='false' type='filter' w='11889' x='87568' y='988'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='solid' />
-                    <format attr='border-width' value='1' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone fixed-size='280' h='98024' id='3' is-fixed='true' name='Oil Price vs. Consumption' w='87025' x='543' y='988'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='solid' />
-                    <format attr='border-width' value='1' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone fixed-size='137' h='15916' id='9' name='Oil Price vs. Consumption' pane-specification-id='7' param='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]' type='color' w='11889' x='87568' y='14160'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='solid' />
-                    <format attr='border-width' value='1' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone forceUpdate='true' h='38090' id='10' type='text' w='11889' x='87568' y='30076'>
-                  <formatted-text>
-                    <run bold='true' fontcolor='#000000' fontname='Tableau Book,serif' fontsize='10' underline='true'>Analysis</run>
-                    <run>Æ&#10;&#10;</run>
-                    <run fontcolor='#000000' fontname='Tableau Book,serif'>What we can see here is that the World Oil Consumption continues to increase overall but during the 1980&apos;s and early 2000&apos;s there was a drop in Crude Oil consumption which resulted in a significant commodity price declines.</run>
-                    <run fontcolor='#000000' fontname='Benton Sans Book'>Æ </run>
-                    <run>Æ&#10;</run>
-                    <run fontname='Tableau Book,serif'>Æ </run>
-                    <run fontcolor='#000000' fontname='Benton Sans Book'>Æ </run>
-                    <run>Æ&#10;</run>
-                    <run fontname='Tableau Book,serif'>* Crude Oil Price has been adjusted to 2010 USD</run>
-                    <run fontcolor='#000000' fontname='Benton Sans Book'>Æ </run>
-                  </formatted-text>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='solid' />
-                    <format attr='border-width' value='1' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-              </zone>
-              <zone-style>
-                <format attr='border-color' value='#000000' />
-                <format attr='border-style' value='none' />
-                <format attr='border-width' value='0' />
-                <format attr='margin' value='8' />
-              </zone-style>
-            </zone>
-          </zones>
-        </devicelayout>
-      </devicelayouts>
-      <simple-id uuid='{82FC9395-FC24-40BD-B670-328C554E96C7}' />
-    </dashboard>
-    <dashboard name='Correlation'>
-      <layout-options>
-        <title>
-          <formatted-text>
-            <run fontalignment='1'>Correlation Matrix</run>
-          </formatted-text>
-        </title>
-      </layout-options>
-      <style>
-        <style-rule element='table'>
-          <format attr='background-color' value='#ddebf0' />
-        </style-rule>
-      </style>
-      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
-      <zones>
-        <zone h='100000' id='4' type='layout-basic' w='100000' x='0' y='0'>
-          <zone h='97750' id='8' param='vert' type='layout-flow' w='98200' x='900' y='1125'>
-            <zone h='6250' id='9' type='title' w='98200' x='900' y='1125'>
-              <zone-style>
-                <format attr='border-color' value='#000000' />
-                <format attr='border-style' value='none' />
-                <format attr='border-width' value='0' />
-                <format attr='margin' value='4' />
-              </zone-style>
-            </zone>
-            <zone h='91500' id='6' type='layout-basic' w='98200' x='900' y='7375'>
-              <zone h='91500' id='3' is-scaled='1' param='D:/OneDrive/Homework/Project_3/Notebooks/heatmap.png' type='bitmap' w='76444' x='900' y='7375'>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='solid' />
-                  <format attr='border-width' value='1' />
-                  <format attr='margin' value='4' />
-                  <format attr='padding' value='22' />
-                </zone-style>
-              </zone>
-              <zone forceUpdate='true' h='70250' id='5' type='text' w='21756' x='77344' y='7375'>
-                <formatted-text>
-                  <run bold='true' fontcolor='#000000' fontname='Tableau Book,serif' fontsize='10' underline='true'>Analysis</run>
-                  <run>Æ&#10;</run>
-                  <run fontalignment='1'>Æ&#10;</run>
-                  <run fontalignment='1' fontcolor='#000000' fontname='Tableau Book,serif'>Using Seaborn Heatmap we explore how each of the features interact with each other. By analyzing this plot we can see that it would appear there is a correlation between Offshore Utilization Rates, Natural Gas Pricing, Land Rig Activity and to a lesser extent Crude Price. There would appear to be a much better correlation between Land Rig Activity and Crude Oil Pricing which is what the assumption would be. It is my belief that the lack of any significant movement in Offshore Rig Utilization is the underlaying reason for the low correlation to any of the features being explored.</run>
-                  <run fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book'>Æ </run>
-                </formatted-text>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='solid' />
-                  <format attr='border-width' value='1' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-              <zone h='21250' id='12' type='empty' w='21756' x='77344' y='77625'>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='none' />
-                  <format attr='border-width' value='0' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-            </zone>
-          </zone>
-          <zone-style>
-            <format attr='border-color' value='#000000' />
-            <format attr='border-style' value='solid' />
-            <format attr='border-width' value='1' />
-            <format attr='margin' value='8' />
-          </zone-style>
-        </zone>
-      </zones>
-      <devicelayouts>
-        <devicelayout auto-generated='true' name='Phone'>
-          <layout-options>
-            <title>
-              <formatted-text>
-                <run fontalignment='1'>Correlation Matrix</run>
-              </formatted-text>
-            </title>
-          </layout-options>
-          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
-          <zones>
-            <zone h='100000' id='47' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='46' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
-                <zone h='6250' id='9' type='title' w='98200' x='900' y='1125'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone fixed-size='280' h='91500' id='3' is-fixed='true' is-scaled='1' param='D:/OneDrive/Homework/Project_3/Notebooks/heatmap.png' type='bitmap' w='76444' x='900' y='7375'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='solid' />
-                    <format attr='border-width' value='1' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone forceUpdate='true' h='70250' id='5' type='text' w='21756' x='77344' y='7375'>
-                  <formatted-text>
-                    <run bold='true' fontcolor='#000000' fontname='Tableau Book,serif' fontsize='10' underline='true'>Analysis</run>
-                    <run>Æ&#10;</run>
-                    <run fontalignment='1'>Æ&#10;</run>
-                    <run fontalignment='1' fontcolor='#000000' fontname='Tableau Book,serif'>Using Seaborn Heatmap we explore how each of the features interact with each other. By analyzing this plot we can see that it would appear there is a correlation between Offshore Utilization Rates, Natural Gas Pricing, Land Rig Activity and to a lesser extent Crude Price. There would appear to be a much better correlation between Land Rig Activity and Crude Oil Pricing which is what the assumption would be. It is my belief that the lack of any significant movement in Offshore Rig Utilization is the underlaying reason for the low correlation to any of the features being explored.</run>
-                    <run fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book'>Æ </run>
-                  </formatted-text>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='solid' />
-                    <format attr='border-width' value='1' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-              </zone>
-              <zone-style>
-                <format attr='border-color' value='#000000' />
-                <format attr='border-style' value='none' />
-                <format attr='border-width' value='0' />
-                <format attr='margin' value='8' />
-              </zone-style>
-            </zone>
-          </zones>
-        </devicelayout>
-      </devicelayouts>
-      <simple-id uuid='{764F3A26-F0FC-4984-B1C4-94218442144A}' />
-    </dashboard>
     <dashboard name='Drilling Map'>
       <style>
         <style-rule element='table'>
@@ -2375,8 +1066,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='850' minheight='850' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='17' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98244' id='16' param='vert' type='layout-flow' w='99016' x='492' y='878'>
+            <zone h='100000' id='15' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98244' id='14' param='vert' type='layout-flow' w='99016' x='492' y='878'>
                 <zone fixed-size='280' h='71021' id='1' is-fixed='true' name='Land_offshore' w='89182' x='492' y='878'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2453,1240 +1144,8 @@
       </devicelayouts>
       <simple-id uuid='{401A6834-C21A-4A67-B726-7ECCD6D90ACD}' />
     </dashboard>
-    <dashboard name='Introduction'>
-      <layout-options>
-        <title>
-          <formatted-text>
-            <run fontalignment='1'>Correlation Matrix</run>
-          </formatted-text>
-        </title>
-      </layout-options>
-      <style>
-        <style-rule element='table'>
-          <format attr='background-color' value='#ddebf0' />
-        </style-rule>
-      </style>
-      <size sizing-mode='automatic' />
-      <zones>
-        <zone h='100000' id='4' type='layout-basic' w='100000' x='0' y='0'>
-          <zone h='98024' id='8' param='vert' type='layout-flow' w='98894' x='553' y='988'>
-            <zone h='98024' id='6' type='layout-basic' w='98894' x='553' y='988'>
-              <zone h='82230' id='12' type='empty' w='98894' x='553' y='16782'>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='none' />
-                  <format attr='border-width' value='0' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-              <zone forceUpdate='true' h='15794' id='13' type='text' w='98894' x='553' y='988'>
-                <formatted-text>
-                  <run fontalignment='1' fontcolor='#000000' fontname='Tableau Semibold' fontsize='22'>Offshore Drilling Markets</run>
-                  <run fontalignment='1'>Æ&#10;</run>
-                </formatted-text>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='none' />
-                  <format attr='border-width' value='0' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-            </zone>
-          </zone>
-          <zone-style>
-            <format attr='border-color' value='#000000' />
-            <format attr='border-style' value='solid' />
-            <format attr='border-width' value='1' />
-            <format attr='margin' value='8' />
-          </zone-style>
-        </zone>
-        <zone forceUpdate='true' h='23000' id='17' type='text' w='21800' x='77300' y='68000'>
-          <formatted-text>
-            <run bold='true' fontcolor='#000000' fontsize='12'>Project Team:</run>
-            <run>Æ&#10;&#10;</run>
-            <run bold='true' fontcolor='#000000' fontsize='10'>Han Yang</run>
-            <run>Æ&#10;</run>
-            <run bold='true' fontcolor='#000000' fontsize='10'>Shilpa Muralidhar</run>
-            <run>Æ&#10;</run>
-            <run bold='true' fontcolor='#000000' fontsize='10'>Michael Harper</run>
-            <run>Æ&#10;</run>
-            <run bold='true' fontcolor='#000000' fontsize='10'>John Hawkins</run>
-          </formatted-text>
-        </zone>
-        <zone forceUpdate='true' h='14875' id='20' type='text' w='30500' x='32800' y='12875'>
-          <formatted-text>
-            <run fontalignment='1' fontcolor='#000000' fontsize='16'>Can We Predict the Furture?</run>
-          </formatted-text>
-        </zone>
-        <zone h='35750' id='21' is-scaled='1' param='D:/OneDrive/Homework/Project_3/Shilpa_Project_3/For Tableu/images/DeepwaterDrillship_LowRes-copy.jpg' type='bitmap' w='27200' x='35500' y='27500' />
-        <zone h='35125' id='22' is-scaled='1' param='D:/OneDrive/Homework/Project_3/Shilpa_Project_3/For Tableu/images/cahrt.png' type='bitmap' w='32200' x='64600' y='20500' />
-        <zone h='33250' id='23' is-scaled='1' param='D:/OneDrive/Homework/Project_3/Shilpa_Project_3/For Tableu/images/EIA-11.3-mbd.jpg' type='bitmap' w='39700' x='2100' y='63500' />
-        <zone h='30500' id='24' is-scaled='1' param='D:/OneDrive/Homework/Project_3/Shilpa_Project_3/For Tableu/images/Utilization.jpg' type='bitmap' w='29200' x='3400' y='27375' />
-        <zone h='25250' id='25' is-scaled='1' param='D:/OneDrive/Homework/Project_3/Shilpa_Project_3/For Tableu/images/shutterstock_340684169-780x520.jpg' type='bitmap' w='25000' x='49400' y='68375' />
-      </zones>
-      <devicelayouts>
-        <devicelayout auto-generated='true' name='Phone'>
-          <layout-options>
-            <title>
-              <formatted-text>
-                <run fontalignment='1'>Correlation Matrix</run>
-              </formatted-text>
-            </title>
-          </layout-options>
-          <size maxheight='1550' minheight='1550' sizing-mode='vscroll' />
-          <zones>
-            <zone h='100000' id='51' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98244' id='50' param='vert' type='layout-flow' w='99016' x='492' y='878'>
-                <zone forceUpdate='true' h='15794' id='13' type='text' w='98894' x='553' y='988'>
-                  <formatted-text>
-                    <run fontalignment='1' fontcolor='#000000' fontname='Tableau Semibold' fontsize='22'>Offshore Drilling Markets</run>
-                    <run fontalignment='1'>Æ&#10;</run>
-                  </formatted-text>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone forceUpdate='true' h='14875' id='20' type='text' w='30500' x='32800' y='12875'>
-                  <formatted-text>
-                    <run fontalignment='1' fontcolor='#000000' fontsize='16'>Can We Predict the Furture?</run>
-                  </formatted-text>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone fixed-size='280' h='35125' id='22' is-fixed='true' is-scaled='1' param='D:/OneDrive/Homework/Project_3/Shilpa_Project_3/For Tableu/images/cahrt.png' type='bitmap' w='32200' x='64600' y='20500'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone fixed-size='244' h='30500' id='24' is-fixed='true' is-scaled='1' param='D:/OneDrive/Homework/Project_3/Shilpa_Project_3/For Tableu/images/Utilization.jpg' type='bitmap' w='29200' x='3400' y='27375'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone fixed-size='280' h='35750' id='21' is-fixed='true' is-scaled='1' param='D:/OneDrive/Homework/Project_3/Shilpa_Project_3/For Tableu/images/DeepwaterDrillship_LowRes-copy.jpg' type='bitmap' w='27200' x='35500' y='27500'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone fixed-size='266' h='33250' id='23' is-fixed='true' is-scaled='1' param='D:/OneDrive/Homework/Project_3/Shilpa_Project_3/For Tableu/images/EIA-11.3-mbd.jpg' type='bitmap' w='39700' x='2100' y='63500'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone forceUpdate='true' h='23000' id='17' type='text' w='21800' x='77300' y='68000'>
-                  <formatted-text>
-                    <run bold='true' fontcolor='#000000' fontsize='12'>Project Team:</run>
-                    <run>Æ&#10;&#10;</run>
-                    <run bold='true' fontcolor='#000000' fontsize='10'>Han Yang</run>
-                    <run>Æ&#10;</run>
-                    <run bold='true' fontcolor='#000000' fontsize='10'>Shilpa Muralidhar</run>
-                    <run>Æ&#10;</run>
-                    <run bold='true' fontcolor='#000000' fontsize='10'>Michael Harper</run>
-                    <run>Æ&#10;</run>
-                    <run bold='true' fontcolor='#000000' fontsize='10'>John Hawkins</run>
-                  </formatted-text>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone fixed-size='202' h='25250' id='25' is-fixed='true' is-scaled='1' param='D:/OneDrive/Homework/Project_3/Shilpa_Project_3/For Tableu/images/shutterstock_340684169-780x520.jpg' type='bitmap' w='25000' x='49400' y='68375'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-              </zone>
-              <zone-style>
-                <format attr='border-color' value='#000000' />
-                <format attr='border-style' value='none' />
-                <format attr='border-width' value='0' />
-                <format attr='margin' value='8' />
-              </zone-style>
-            </zone>
-          </zones>
-        </devicelayout>
-      </devicelayouts>
-      <simple-id uuid='{AEFDB51D-F02A-4787-89F0-C3398EC507EB}' />
-    </dashboard>
-    <dashboard name='Land-Offshore-Count'>
-      <style>
-        <style-rule element='table'>
-          <format attr='background-color' value='#ddebf0' />
-        </style-rule>
-      </style>
-      <size sizing-mode='automatic' />
-      <datasources>
-        <datasource caption='Model_Data (Model_Data_Rev1)' name='federated.0ofjn141ej8ufl1e0q7qx0pd9k8u' />
-      </datasources>
-      <datasource-dependencies datasource='federated.0ofjn141ej8ufl1e0q7qx0pd9k8u'>
-        <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
-        <column-instance column='[Date]' derivation='Year' name='[yr:Date:qk]' pivot='key' type='quantitative' />
-      </datasource-dependencies>
-      <zones>
-        <zone h='100000' id='4' type='layout-basic' w='100000' x='0' y='0'>
-          <zone h='98024' id='7' param='horz' type='layout-flow' w='98914' x='543' y='988'>
-            <zone h='98024' id='5' type='layout-basic' w='87387' x='543' y='988'>
-              <zone h='98024' id='3' name='Land vs Offshore' w='87387' x='543' y='988'>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='solid' />
-                  <format attr='border-width' value='1' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-            </zone>
-            <zone fixed-size='191' h='98024' id='6' is-fixed='true' param='vert' type='layout-flow' w='11527' x='87930' y='988'>
-              <zone fixed-size='101' h='11965' id='8' is-fixed='true' name='Land vs Offshore' param='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:qk]' show-domain='false' show-null-ctrls='false' type='filter' w='11527' x='87930' y='988'>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='solid' />
-                  <format attr='border-width' value='1' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-              <zone fixed-size='134' h='15587' id='9' is-fixed='true' name='Land vs Offshore' pane-specification-id='10' param='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]' type='color' w='11527' x='87930' y='12953'>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='solid' />
-                  <format attr='border-width' value='1' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-              <zone fixed-size='413' forceUpdate='true' h='46213' id='10' is-fixed='true' type='text' w='11527' x='87930' y='28540'>
-                <formatted-text>
-                  <run bold='true' fontcolor='#000000' fontname='Tableau Book,serif' fontsize='10' underline='true'>Analysis</run>
-                  <run fontalignment='1'>Æ&#10;&#10;</run>
-                  <run fontalignment='1' fontcolor='#000000' fontname='Tableau Book,serif'>There has historically been a steady offshore rig count while land rig activity tend to fluctuate with higher volatility.  The reason for this is the ability to bring land assets online and offline at a much faster rate versus the offshore assets which represent much higher capital expenditures and more long term exploration and development projects.</run>
-                  <run fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book'>Æ </run>
-                </formatted-text>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='solid' />
-                  <format attr='border-width' value='1' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-            </zone>
-          </zone>
-          <zone-style>
-            <format attr='border-color' value='#000000' />
-            <format attr='border-style' value='solid' />
-            <format attr='border-width' value='1' />
-            <format attr='margin' value='8' />
-          </zone-style>
-        </zone>
-      </zones>
-      <devicelayouts>
-        <devicelayout auto-generated='true' name='Phone'>
-          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
-          <zones>
-            <zone h='100000' id='48' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98244' id='47' param='vert' type='layout-flow' w='99034' x='483' y='878'>
-                <zone fixed-size='101' h='11965' id='8' name='Land vs Offshore' param='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:qk]' show-domain='false' show-null-ctrls='false' type='filter' w='11527' x='87930' y='988'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='solid' />
-                    <format attr='border-width' value='1' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone fixed-size='280' h='98024' id='3' is-fixed='true' name='Land vs Offshore' w='87387' x='543' y='988'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='solid' />
-                    <format attr='border-width' value='1' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone fixed-size='134' h='15587' id='9' name='Land vs Offshore' pane-specification-id='10' param='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]' type='color' w='11527' x='87930' y='12953'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='solid' />
-                    <format attr='border-width' value='1' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone fixed-size='413' forceUpdate='true' h='46213' id='10' type='text' w='11527' x='87930' y='28540'>
-                  <formatted-text>
-                    <run bold='true' fontcolor='#000000' fontname='Tableau Book,serif' fontsize='10' underline='true'>Analysis</run>
-                    <run fontalignment='1'>Æ&#10;&#10;</run>
-                    <run fontalignment='1' fontcolor='#000000' fontname='Tableau Book,serif'>There has historically been a steady offshore rig count while land rig activity tend to fluctuate with higher volatility.  The reason for this is the ability to bring land assets online and offline at a much faster rate versus the offshore assets which represent much higher capital expenditures and more long term exploration and development projects.</run>
-                    <run fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book'>Æ </run>
-                  </formatted-text>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='solid' />
-                    <format attr='border-width' value='1' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-              </zone>
-              <zone-style>
-                <format attr='border-color' value='#000000' />
-                <format attr='border-style' value='none' />
-                <format attr='border-width' value='0' />
-                <format attr='margin' value='8' />
-              </zone-style>
-            </zone>
-          </zones>
-        </devicelayout>
-      </devicelayouts>
-      <simple-id uuid='{C69B25E8-6BEA-4002-9617-E2619BC8DFA1}' />
-    </dashboard>
-    <dashboard name='Offhsore Utilization'>
-      <style>
-        <style-rule element='table'>
-          <format attr='background-color' value='#ddebf0' />
-        </style-rule>
-        <style-rule element='dash-title'>
-          <format attr='background-color' value='#ddebf0' />
-        </style-rule>
-        <style-rule element='dash-subtitle'>
-          <format attr='background-color' value='#ddebf0' />
-        </style-rule>
-      </style>
-      <size sizing-mode='automatic' />
-      <datasources>
-        <datasource caption='Model_Data (Model_Data_Rev1)' name='federated.0ofjn141ej8ufl1e0q7qx0pd9k8u' />
-      </datasources>
-      <datasource-dependencies datasource='federated.0ofjn141ej8ufl1e0q7qx0pd9k8u'>
-        <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
-        <column-instance column='[Date]' derivation='Year' name='[yr:Date:qk]' pivot='key' type='quantitative' />
-      </datasource-dependencies>
-      <zones>
-        <zone h='100000' id='4' type='layout-basic' w='100000' x='0' y='0'>
-          <zone h='98024' id='29' param='horz' type='layout-flow' w='98914' x='543' y='988'>
-            <zone fixed-size='1321' h='98024' id='13' is-fixed='true' param='horz' type='layout-flow' w='79722' x='543' y='988'>
-              <zone fixed-size='160' h='98024' id='12' is-fixed='true' param='vert' type='layout-flow' w='79722' x='543' y='988'>
-                <zone h='93634' id='27' name='Offhsore Rig Utilization' w='77308' x='1750' y='3183'>
-                  <layout-cache minheight='238' type-h='scalable' type-w='fixed' />
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='solid' />
-                    <format attr='border-width' value='1' />
-                    <format attr='margin' value='4' />
-                  </zone-style>
-                </zone>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='none' />
-                  <format attr='border-width' value='0' />
-                  <format attr='margin' value='20' />
-                </zone-style>
-              </zone>
-            </zone>
-            <zone fixed-size='160' h='98024' id='28' is-fixed='true' param='vert' type='layout-flow' w='9656' x='80265' y='988'>
-              <zone fixed-size='86' h='10318' id='30' is-fixed='true' name='Offhsore Rig Utilization' param='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:qk]' show-domain='false' show-null-ctrls='false' type='filter' values='relevant' w='9656' x='80265' y='988'>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='solid' />
-                  <format attr='border-width' value='1' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-              <zone fixed-size='137' h='15916' id='31' is-fixed='true' name='Offhsore Rig Utilization' pane-specification-id='14' param='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]' type='color' w='9656' x='80265' y='11306'>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='solid' />
-                  <format attr='border-width' value='1' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-              <zone forceUpdate='true' h='53567' id='26' type='text' w='9656' x='80265' y='27222'>
-                <formatted-text>
-                  <run bold='true' fontcolor='#000000' fontname='Tableau Book,serif,serif' fontsize='10' underline='true'>Analysis</run>
-                  <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='10'>Æ </run>
-                  <run>Æ&#10;</run>
-                  <run fontcolor='#000000' fontname='Benton Sans Book,serif'>Æ </run>
-                  <run fontcolor='#000000' fontname='Benton Sans Book'>Æ </run>
-                  <run fontalignment='1'>Æ&#10;</run>
-                  <run fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book,serif'>Offshore Rig Utilization is used to describe the supply and demand dynamics of the offshore drilling sector. We see that during the boom cycles as defined by high oil prices the rig utilization rates are high and during times of bust cycles the utilization rates are low. It assumptions made about utilization rates that drilling contractors make decisions about future day rates, and ongoing investments in the business.</run>
-                  <run fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book'>Æ </run>
-                </formatted-text>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='solid' />
-                  <format attr='border-width' value='1' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-            </zone>
-          </zone>
-          <zone-style>
-            <format attr='border-color' value='#000000' />
-            <format attr='border-style' value='solid' />
-            <format attr='border-width' value='1' />
-            <format attr='margin' value='8' />
-          </zone-style>
-        </zone>
-      </zones>
-      <devicelayouts>
-        <devicelayout auto-generated='true' name='Phone'>
-          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
-          <zones>
-            <zone h='100000' id='61' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98244' id='60' param='vert' type='layout-flow' w='99034' x='483' y='878'>
-                <zone fixed-size='86' h='10318' id='30' name='Offhsore Rig Utilization' param='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:qk]' show-domain='false' show-null-ctrls='false' type='filter' values='relevant' w='9656' x='80265' y='988'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='solid' />
-                    <format attr='border-width' value='1' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone fixed-size='280' h='93634' id='27' is-fixed='true' name='Offhsore Rig Utilization' w='77308' x='1750' y='3183'>
-                  <layout-cache minheight='238' type-h='scalable' type-w='fixed' />
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='solid' />
-                    <format attr='border-width' value='1' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone fixed-size='137' h='15916' id='31' name='Offhsore Rig Utilization' pane-specification-id='14' param='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]' type='color' w='9656' x='80265' y='11306'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='solid' />
-                    <format attr='border-width' value='1' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone forceUpdate='true' h='53567' id='26' type='text' w='9656' x='80265' y='27222'>
-                  <formatted-text>
-                    <run bold='true' fontcolor='#000000' fontname='Tableau Book,serif,serif' fontsize='10' underline='true'>Analysis</run>
-                    <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='10'>Æ </run>
-                    <run>Æ&#10;</run>
-                    <run fontcolor='#000000' fontname='Benton Sans Book,serif'>Æ </run>
-                    <run fontcolor='#000000' fontname='Benton Sans Book'>Æ </run>
-                    <run fontalignment='1'>Æ&#10;</run>
-                    <run fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book,serif'>Offshore Rig Utilization is used to describe the supply and demand dynamics of the offshore drilling sector. We see that during the boom cycles as defined by high oil prices the rig utilization rates are high and during times of bust cycles the utilization rates are low. It assumptions made about utilization rates that drilling contractors make decisions about future day rates, and ongoing investments in the business.</run>
-                    <run fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book'>Æ </run>
-                  </formatted-text>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='solid' />
-                    <format attr='border-width' value='1' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-              </zone>
-              <zone-style>
-                <format attr='border-color' value='#000000' />
-                <format attr='border-style' value='none' />
-                <format attr='border-width' value='0' />
-                <format attr='margin' value='8' />
-              </zone-style>
-            </zone>
-          </zones>
-        </devicelayout>
-      </devicelayouts>
-      <simple-id uuid='{18879B2E-C066-4D8A-9DFB-822A752487F0}' />
-    </dashboard>
-    <dashboard name='Offshore Utilization' type='storyboard'>
-      <style />
-      <size sizing-mode='automatic' />
-      <zones>
-        <zone h='100000' id='2' type='layout-basic' w='100000' x='0' y='0'>
-          <zone h='98244' id='1' param='vert' removable='false' type='layout-flow' w='99034' x='483' y='878'>
-            <zone h='11087' id='4' is-fixed='true' paired-zone-id='5' removable='false' type='flipboard-nav' w='99034' x='483' y='878' />
-            <zone h='87157' id='5' paired-zone-id='4' removable='false' type='flipboard' w='99034' x='483' y='11965'>
-              <flipboard active-id='6' nav-type='caption' show-nav-arrows='true'>
-                <story-points>
-                  <story-point caption='Introduction' captured-sheet='Introduction' id='1' />
-                  <story-point caption='Land Rigs' captured-sheet='Overview Land' id='2' />
-                  <story-point caption='Offshore Rigs' captured-sheet='Overview Offhsore' id='3' />
-                  <story-point caption='Business Problem&#9;' captured-sheet='Problem to Solve' id='4' />
-                  <story-point caption='Production vs. Price' captured-sheet='Production' id='5' />
-                  <story-point caption='Consumption vs. Price' captured-sheet='Consumption' id='6'>
-                    <currentDeltas>
-                      <worksheet name='Oil Price vs. Consumption'>
-                        <filter class='quantitative' column='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:qk]' included-values='in-range'>
-                          <min>1981</min>
-                          <max>2018</max>
-                        </filter>
-                        <annotations>
-                          <annotation class='point' delta-type='edited' id='2' mark-position='1' pullback='12' text-width='233'>
-                            <formatted-text>
-                              <run bold='true' fontalignment='1' fontsize='8'>Start Boom Cycle</run>
-                              <run fontalignment='1'>Æ&#10;</run>
-                              <run fontalignment='1' fontcolor='#787878' fontsize='8'>Year: </run>
-                              <run bold='true' fontalignment='1' fontsize='8'>&lt;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]&gt;</run>
-                              <run fontalignment='1'>Æ&#10;</run>
-                              <run fontalignment='1' fontcolor='#787878' fontsize='8'>Avg. Crude Price USD: </run>
-                              <run bold='true' fontalignment='1' fontsize='8'>&lt;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]&gt;</run>
-                            </formatted-text>
-                            <point>
-                              <visual-coordinate class='mark'>
-                                <tuple-reference>
-                                  <tuple-descriptor>
-                                    <pane-descriptor>
-                                      <x-fields>
-                                        <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]</field>
-                                      </x-fields>
-                                      <y-fields>
-                                        <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]</field>
-                                      </y-fields>
-                                    </pane-descriptor>
-                                    <columns>
-                                      <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]</field>
-                                      <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]</field>
-                                      <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]</field>
-                                    </columns>
-                                  </tuple-descriptor>
-                                  <tuple>
-                                    <value>19.2575</value>
-                                    <value>1998</value>
-                                    <value>&quot;[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Crude_Price_2010_USD:qk]&quot;</value>
-                                  </tuple>
-                                </tuple-reference>
-                              </visual-coordinate>
-                            </point>
-                            <body x='328' y='-31' />
-                          </annotation>
-                        </annotations>
-                      </worksheet>
-                    </currentDeltas>
-                    <capturedDeltas />
-                  </story-point>
-                  <story-point caption='Rig Counts' captured-sheet='Land-Offshore-Count' id='7' />
-                  <story-point caption='Offshore Utilization Rates' captured-sheet='Offhsore Utilization' id='8' />
-                  <story-point caption='Correlation Matrix' captured-sheet='Correlation' id='9' />
-                </story-points>
-              </flipboard>
-            </zone>
-          </zone>
-          <zone-style>
-            <format attr='border-color' value='#000000' />
-            <format attr='border-style' value='none' />
-            <format attr='border-width' value='0' />
-            <format attr='margin' value='8' />
-          </zone-style>
-        </zone>
-      </zones>
-      <simple-id uuid='{A60D9852-A8EA-4968-A1B6-59EBBD2A1593}' />
-    </dashboard>
-    <dashboard name='Overview Land'>
-      <layout-options>
-        <title>
-          <formatted-text>
-            <run fontalignment='1'>Correlation Matrix</run>
-          </formatted-text>
-        </title>
-      </layout-options>
-      <style>
-        <style-rule element='table'>
-          <format attr='background-color' value='#ddebf0' />
-        </style-rule>
-      </style>
-      <size sizing-mode='automatic' />
-      <zones>
-        <zone h='100000' id='4' type='layout-basic' w='100000' x='0' y='0'>
-          <zone h='98024' id='8' param='vert' type='layout-flow' w='98914' x='543' y='988'>
-            <zone h='98024' id='6' type='layout-basic' w='98914' x='543' y='988'>
-              <zone h='82230' id='12' type='empty' w='98914' x='543' y='16782'>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='none' />
-                  <format attr='border-width' value='0' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-              <zone forceUpdate='true' h='15794' id='13' type='text' w='98914' x='543' y='988'>
-                <formatted-text>
-                  <run fontalignment='1' fontcolor='#000000' fontname='Tableau Semibold' fontsize='22'>Oil and Gas Drilling Sector</run>
-                  <run fontalignment='1'>Æ&#10;</run>
-                </formatted-text>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='none' />
-                  <format attr='border-width' value='0' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-            </zone>
-          </zone>
-          <zone-style>
-            <format attr='border-color' value='#000000' />
-            <format attr='border-style' value='solid' />
-            <format attr='border-width' value='1' />
-            <format attr='margin' value='8' />
-          </zone-style>
-        </zone>
-        <zone forceUpdate='true' h='14750' id='20' type='text' w='32200' x='3800' y='20750'>
-          <formatted-text>
-            <run bold='true' fontcolor='#000000' fontsize='14'>Land Rigs:</run>
-          </formatted-text>
-        </zone>
-        <zone h='57375' id='21' is-scaled='1' param='D:/OneDrive/Homework/Project_3/Shilpa_Project_3/For Tableu/images/web_T700_aerial.jpg' type='bitmap' w='67700' x='20700' y='32250' />
-      </zones>
-      <devicelayouts>
-        <devicelayout auto-generated='true' name='Phone'>
-          <layout-options>
-            <title>
-              <formatted-text>
-                <run fontalignment='1'>Correlation Matrix</run>
-              </formatted-text>
-            </title>
-          </layout-options>
-          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
-          <zones>
-            <zone h='100000' id='47' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98244' id='46' param='vert' type='layout-flow' w='99034' x='483' y='878'>
-                <zone forceUpdate='true' h='15794' id='13' type='text' w='98914' x='543' y='988'>
-                  <formatted-text>
-                    <run fontalignment='1' fontcolor='#000000' fontname='Tableau Semibold' fontsize='22'>Oil and Gas Drilling Sector</run>
-                    <run fontalignment='1'>Æ&#10;</run>
-                  </formatted-text>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone forceUpdate='true' h='14750' id='20' type='text' w='32200' x='3800' y='20750'>
-                  <formatted-text>
-                    <run bold='true' fontcolor='#000000' fontsize='14'>Land Rigs:</run>
-                  </formatted-text>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone fixed-size='280' h='57375' id='21' is-fixed='true' is-scaled='1' param='D:/OneDrive/Homework/Project_3/Shilpa_Project_3/For Tableu/images/web_T700_aerial.jpg' type='bitmap' w='67700' x='20700' y='32250'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-              </zone>
-              <zone-style>
-                <format attr='border-color' value='#000000' />
-                <format attr='border-style' value='none' />
-                <format attr='border-width' value='0' />
-                <format attr='margin' value='8' />
-              </zone-style>
-            </zone>
-          </zones>
-        </devicelayout>
-      </devicelayouts>
-      <simple-id uuid='{CA4665DA-02E7-49DE-92FD-D7F422B135F1}' />
-    </dashboard>
-    <dashboard name='Overview Offhsore'>
-      <layout-options>
-        <title>
-          <formatted-text>
-            <run fontalignment='1'>Correlation Matrix</run>
-          </formatted-text>
-        </title>
-      </layout-options>
-      <style>
-        <style-rule element='table'>
-          <format attr='background-color' value='#ddebf0' />
-        </style-rule>
-      </style>
-      <size sizing-mode='automatic' />
-      <zones>
-        <zone h='100000' id='4' type='layout-basic' w='100000' x='0' y='0'>
-          <zone h='98024' id='8' param='vert' type='layout-flow' w='98914' x='543' y='988'>
-            <zone h='98024' id='6' type='layout-basic' w='98914' x='543' y='988'>
-              <zone h='82230' id='12' type='empty' w='98914' x='543' y='16782'>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='none' />
-                  <format attr='border-width' value='0' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-              <zone forceUpdate='true' h='15794' id='13' type='text' w='98914' x='543' y='988'>
-                <formatted-text>
-                  <run fontalignment='1' fontcolor='#000000' fontname='Tableau Semibold' fontsize='22'>Oil and Gas Drilling Sector</run>
-                  <run fontalignment='1'>Æ&#10;</run>
-                </formatted-text>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='none' />
-                  <format attr='border-width' value='0' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-            </zone>
-          </zone>
-          <zone-style>
-            <format attr='border-color' value='#000000' />
-            <format attr='border-style' value='solid' />
-            <format attr='border-width' value='1' />
-            <format attr='margin' value='8' />
-          </zone-style>
-        </zone>
-        <zone forceUpdate='true' h='14750' id='20' type='text' w='32200' x='3800' y='20750'>
-          <formatted-text>
-            <run bold='true' fontcolor='#000000' fontsize='14'>Offshore Rigs:</run>
-          </formatted-text>
-        </zone>
-        <zone h='40625' id='21' is-scaled='1' param='D:/OneDrive/Homework/Project_3/Shilpa_Project_3/For Tableu/images/DeepwaterDrillship_LowRes-copy.jpg' type='bitmap' w='43700' x='46600' y='18250' />
-        <zone h='44000' id='22' is-scaled='1' param='D:/OneDrive/Homework/Project_3/Shilpa_Project_3/For Tableu/images/10l-image-Ensco.jpg' type='bitmap' w='43000' x='2700' y='34500' />
-        <zone h='35625' id='23' is-scaled='1' param='D:/OneDrive/Homework/Project_3/Shilpa_Project_3/For Tableu/images/shutterstock_340684169-780x520.jpg' type='bitmap' w='35500' x='51300' y='60875' />
-      </zones>
-      <devicelayouts>
-        <devicelayout auto-generated='true' name='Phone'>
-          <layout-options>
-            <title>
-              <formatted-text>
-                <run fontalignment='1'>Correlation Matrix</run>
-              </formatted-text>
-            </title>
-          </layout-options>
-          <size maxheight='1000' minheight='1000' sizing-mode='vscroll' />
-          <zones>
-            <zone h='100000' id='49' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98244' id='48' param='vert' type='layout-flow' w='99034' x='483' y='878'>
-                <zone forceUpdate='true' h='15794' id='13' type='text' w='98914' x='543' y='988'>
-                  <formatted-text>
-                    <run fontalignment='1' fontcolor='#000000' fontname='Tableau Semibold' fontsize='22'>Oil and Gas Drilling Sector</run>
-                    <run fontalignment='1'>Æ&#10;</run>
-                  </formatted-text>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone fixed-size='280' h='40625' id='21' is-fixed='true' is-scaled='1' param='D:/OneDrive/Homework/Project_3/Shilpa_Project_3/For Tableu/images/DeepwaterDrillship_LowRes-copy.jpg' type='bitmap' w='43700' x='46600' y='18250'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone forceUpdate='true' h='14750' id='20' type='text' w='32200' x='3800' y='20750'>
-                  <formatted-text>
-                    <run bold='true' fontcolor='#000000' fontsize='14'>Offshore Rigs:</run>
-                  </formatted-text>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone fixed-size='280' h='44000' id='22' is-fixed='true' is-scaled='1' param='D:/OneDrive/Homework/Project_3/Shilpa_Project_3/For Tableu/images/10l-image-Ensco.jpg' type='bitmap' w='43000' x='2700' y='34500'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone fixed-size='280' h='35625' id='23' is-fixed='true' is-scaled='1' param='D:/OneDrive/Homework/Project_3/Shilpa_Project_3/For Tableu/images/shutterstock_340684169-780x520.jpg' type='bitmap' w='35500' x='51300' y='60875'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-              </zone>
-              <zone-style>
-                <format attr='border-color' value='#000000' />
-                <format attr='border-style' value='none' />
-                <format attr='border-width' value='0' />
-                <format attr='margin' value='8' />
-              </zone-style>
-            </zone>
-          </zones>
-        </devicelayout>
-      </devicelayouts>
-      <simple-id uuid='{AF6997EB-0DB6-4085-A5B2-AFA04CE0D5EE}' />
-    </dashboard>
-    <dashboard name='Problem to Solve'>
-      <layout-options>
-        <title>
-          <formatted-text>
-            <run fontalignment='1'>Correlation Matrix</run>
-          </formatted-text>
-        </title>
-      </layout-options>
-      <style>
-        <style-rule element='table'>
-          <format attr='background-color' value='#ddebf0' />
-        </style-rule>
-      </style>
-      <size sizing-mode='automatic' />
-      <zones>
-        <zone h='100000' id='4' type='layout-basic' w='100000' x='0' y='0'>
-          <zone h='98024' id='8' param='vert' type='layout-flow' w='98914' x='543' y='988'>
-            <zone h='98024' id='6' type='layout-basic' w='98914' x='543' y='988'>
-              <zone h='82230' id='12' type='empty' w='98914' x='543' y='16782'>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='none' />
-                  <format attr='border-width' value='0' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-              <zone forceUpdate='true' h='15794' id='13' type='text' w='98914' x='543' y='988'>
-                <formatted-text>
-                  <run fontalignment='1' fontcolor='#000000' fontname='Tableau Semibold,serif' fontsize='22'>Oil and Gas Drilling Sector Dilemma</run>
-                  <run fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book' fontsize='22'>Æ </run>
-                  <run>Æ&#10;</run>
-                </formatted-text>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='none' />
-                  <format attr='border-width' value='0' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-            </zone>
-          </zone>
-          <zone-style>
-            <format attr='border-color' value='#000000' />
-            <format attr='border-style' value='solid' />
-            <format attr='border-width' value='1' />
-            <format attr='margin' value='8' />
-          </zone-style>
-        </zone>
-        <zone forceUpdate='true' h='66125' id='20' type='text' w='90700' x='5400' y='24250'>
-          <formatted-text>
-            <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='14'>Business Case: </run>
-            <run>Æ&#10;&#10;</run>
-            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='14'>You own an offshore drilling rig and are considering making a bid on a tender you have received. </run>
-            <run>Æ&#10;</run>
-            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='14'>Æ  </run>
-            <run>Æ&#10;</run>
-            <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='14'>Economics: </run>
-            <run>Æ&#10;&#10;</run>
-            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='14'>-  The rig is currently in a &quot;warm stacked&quot; mode </run>
-            <run>Æ&#10;</run>
-            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='14'>Æ  </run>
-            <run>Æ&#10;</run>
-            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='14'>-  The rig is costing you $15,000 per day to operate </run>
-            <run>Æ&#10;</run>
-            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='14'>Æ  </run>
-            <run>Æ&#10;</run>
-            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='14'>-  In order to put the rig back to work you need to spend  an additional $80 million. </run>
-            <run>Æ&#10;</run>
-            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='14'>Æ  </run>
-            <run>Æ&#10;</run>
-            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='14'>-  When the rig is in operation your daily costs are $150,000. </run>
-            <run>Æ&#10;</run>
-            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='14'>Æ  </run>
-            <run>Æ&#10;</run>
-            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='14'>-  What day rate do you think you can charge and if it is a 4 year term are you at risk of underbidding the market? </run>
-            <run>Æ&#10;&#10;&#10;&#10;</run>
-          </formatted-text>
-        </zone>
-      </zones>
-      <devicelayouts>
-        <devicelayout auto-generated='true' name='Phone'>
-          <layout-options>
-            <title>
-              <formatted-text>
-                <run fontalignment='1'>Correlation Matrix</run>
-              </formatted-text>
-            </title>
-          </layout-options>
-          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
-          <zones>
-            <zone h='100000' id='46' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98244' id='45' param='vert' type='layout-flow' w='99034' x='483' y='878'>
-                <zone forceUpdate='true' h='15794' id='13' type='text' w='98914' x='543' y='988'>
-                  <formatted-text>
-                    <run fontalignment='1' fontcolor='#000000' fontname='Tableau Semibold,serif' fontsize='22'>Oil and Gas Drilling Sector Dilemma</run>
-                    <run fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book' fontsize='22'>Æ </run>
-                    <run>Æ&#10;</run>
-                  </formatted-text>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone forceUpdate='true' h='66125' id='20' type='text' w='90700' x='5400' y='24250'>
-                  <formatted-text>
-                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='14'>Business Case: </run>
-                    <run>Æ&#10;&#10;</run>
-                    <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='14'>You own an offshore drilling rig and are considering making a bid on a tender you have received. </run>
-                    <run>Æ&#10;</run>
-                    <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='14'>Æ  </run>
-                    <run>Æ&#10;</run>
-                    <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='14'>Economics: </run>
-                    <run>Æ&#10;&#10;</run>
-                    <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='14'>-  The rig is currently in a &quot;warm stacked&quot; mode </run>
-                    <run>Æ&#10;</run>
-                    <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='14'>Æ  </run>
-                    <run>Æ&#10;</run>
-                    <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='14'>-  The rig is costing you $15,000 per day to operate </run>
-                    <run>Æ&#10;</run>
-                    <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='14'>Æ  </run>
-                    <run>Æ&#10;</run>
-                    <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='14'>-  In order to put the rig back to work you need to spend  an additional $80 million. </run>
-                    <run>Æ&#10;</run>
-                    <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='14'>Æ  </run>
-                    <run>Æ&#10;</run>
-                    <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='14'>-  When the rig is in operation your daily costs are $150,000. </run>
-                    <run>Æ&#10;</run>
-                    <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='14'>Æ  </run>
-                    <run>Æ&#10;</run>
-                    <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='14'>-  What day rate do you think you can charge and if it is a 4 year term are you at risk of underbidding the market? </run>
-                    <run>Æ&#10;&#10;&#10;&#10;</run>
-                  </formatted-text>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-              </zone>
-              <zone-style>
-                <format attr='border-color' value='#000000' />
-                <format attr='border-style' value='none' />
-                <format attr='border-width' value='0' />
-                <format attr='margin' value='8' />
-              </zone-style>
-            </zone>
-          </zones>
-        </devicelayout>
-      </devicelayouts>
-      <simple-id uuid='{ADDB7075-2DF6-41EF-B8BE-C6DD7675EC53}' />
-    </dashboard>
-    <dashboard name='Production'>
-      <style>
-        <style-rule element='table'>
-          <format attr='background-color' value='#ddebf0' />
-        </style-rule>
-        <style-rule element='dash-title'>
-          <format attr='background-color' value='#ddebf0' />
-        </style-rule>
-        <style-rule element='dash-subtitle'>
-          <format attr='background-color' value='#ddebf0' />
-        </style-rule>
-      </style>
-      <size sizing-mode='automatic' />
-      <datasources>
-        <datasource caption='Model_Data (Model_Data_Rev1)' name='federated.0ofjn141ej8ufl1e0q7qx0pd9k8u' />
-      </datasources>
-      <datasource-dependencies datasource='federated.0ofjn141ej8ufl1e0q7qx0pd9k8u'>
-        <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
-        <column-instance column='[Date]' derivation='Year' name='[yr:Date:qk]' pivot='key' type='quantitative' />
-      </datasource-dependencies>
-      <zones>
-        <zone h='100000' id='4' type='layout-basic' w='100000' x='0' y='0'>
-          <zone h='98024' id='13' param='horz' type='layout-flow' w='98914' x='543' y='988'>
-            <zone fixed-size='1198' h='98024' id='7' is-fixed='true' param='horz' type='layout-flow' w='72299' x='543' y='988'>
-              <zone fixed-size='222' h='98024' id='6' is-fixed='true' param='vert' type='layout-flow' w='72299' x='543' y='988'>
-                <zone h='98024' id='11' name='Oil Price vs. Production' w='72299' x='543' y='988'>
-                  <layout-cache minheight='211' type-h='scalable' type-w='fixed' />
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='solid' />
-                    <format attr='border-width' value='1' />
-                    <format attr='margin' value='4' />
-                  </zone-style>
-                </zone>
-              </zone>
-            </zone>
-            <zone fixed-size='160' h='98024' id='12' is-fixed='true' param='vert' type='layout-flow' w='12070' x='72842' y='988'>
-              <zone fixed-size='110' h='12953' id='14' is-fixed='true' name='Oil Price vs. Production' param='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:qk]' show-domain='false' show-null-ctrls='false' type='filter' w='9656' x='74049' y='3183'>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='solid' />
-                  <format attr='border-width' value='1' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-              <zone fixed-size='132' h='15368' id='15' is-fixed='true' name='Oil Price vs. Production' pane-specification-id='8' param='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]' type='color' w='9656' x='74049' y='16136'>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='solid' />
-                  <format attr='border-width' value='1' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-              <zone forceUpdate='true' h='28869' id='10' type='text' w='9656' x='74049' y='31504'>
-                <formatted-text>
-                  <run bold='true' fontcolor='#000000' fontname='Tableau Book,serif' fontsize='10' underline='true'>Analysis</run>
-                  <run>Æ&#10;&#10;</run>
-                  <run fontcolor='#000000' fontname='Tableau Book,serif'>What we can see here is that World Oil Production has steadily in creased to meet the Worlds Oil Demands.</run>
-                  <run fontcolor='#000000' fontname='Benton Sans Book'>Æ </run>
-                  <run>Æ&#10;</run>
-                  <run fontname='Tableau Book,serif'>Æ </run>
-                  <run fontcolor='#000000' fontname='Benton Sans Book'>Æ </run>
-                  <run>Æ&#10;</run>
-                  <run fontname='Tableau Book,serif'>* Crude Oil Price has been adjusted to 2010 USD</run>
-                  <run fontcolor='#000000' fontname='Benton Sans Book'>Æ </run>
-                </formatted-text>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='solid' />
-                  <format attr='border-width' value='1' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-              <zone-style>
-                <format attr='border-color' value='#000000' />
-                <format attr='border-style' value='none' />
-                <format attr='border-width' value='0' />
-                <format attr='margin' value='20' />
-              </zone-style>
-            </zone>
-          </zone>
-          <zone-style>
-            <format attr='border-color' value='#000000' />
-            <format attr='border-style' value='solid' />
-            <format attr='border-width' value='1' />
-            <format attr='margin' value='8' />
-          </zone-style>
-        </zone>
-      </zones>
-      <devicelayouts>
-        <devicelayout auto-generated='true' name='Phone'>
-          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
-          <zones>
-            <zone h='100000' id='53' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98244' id='52' param='vert' type='layout-flow' w='99034' x='483' y='878'>
-                <zone fixed-size='110' h='12953' id='14' name='Oil Price vs. Production' param='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:qk]' show-domain='false' show-null-ctrls='false' type='filter' w='9656' x='74049' y='3183'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='solid' />
-                    <format attr='border-width' value='1' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone fixed-size='280' h='98024' id='11' is-fixed='true' name='Oil Price vs. Production' w='72299' x='543' y='988'>
-                  <layout-cache minheight='211' type-h='scalable' type-w='fixed' />
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='solid' />
-                    <format attr='border-width' value='1' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone fixed-size='132' h='15368' id='15' name='Oil Price vs. Production' pane-specification-id='8' param='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]' type='color' w='9656' x='74049' y='16136'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='solid' />
-                    <format attr='border-width' value='1' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone forceUpdate='true' h='28869' id='10' type='text' w='9656' x='74049' y='31504'>
-                  <formatted-text>
-                    <run bold='true' fontcolor='#000000' fontname='Tableau Book,serif' fontsize='10' underline='true'>Analysis</run>
-                    <run>Æ&#10;&#10;</run>
-                    <run fontcolor='#000000' fontname='Tableau Book,serif'>What we can see here is that World Oil Production has steadily in creased to meet the Worlds Oil Demands.</run>
-                    <run fontcolor='#000000' fontname='Benton Sans Book'>Æ </run>
-                    <run>Æ&#10;</run>
-                    <run fontname='Tableau Book,serif'>Æ </run>
-                    <run fontcolor='#000000' fontname='Benton Sans Book'>Æ </run>
-                    <run>Æ&#10;</run>
-                    <run fontname='Tableau Book,serif'>* Crude Oil Price has been adjusted to 2010 USD</run>
-                    <run fontcolor='#000000' fontname='Benton Sans Book'>Æ </run>
-                  </formatted-text>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='solid' />
-                    <format attr='border-width' value='1' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-              </zone>
-              <zone-style>
-                <format attr='border-color' value='#000000' />
-                <format attr='border-style' value='none' />
-                <format attr='border-width' value='0' />
-                <format attr='margin' value='8' />
-              </zone-style>
-            </zone>
-          </zones>
-        </devicelayout>
-      </devicelayouts>
-      <simple-id uuid='{85EB00E0-D265-44CA-94EB-067698B15A06}' />
-    </dashboard>
   </dashboards>
   <windows saved-dpi-scale-factor='1.25' source-height='89'>
-    <window class='worksheet' name='Oil Price vs. Consumption'>
-      <cards>
-        <edge name='left'>
-          <strip size='160'>
-            <card type='pages' />
-            <card type='filters' />
-            <card type='marks' />
-          </strip>
-        </edge>
-        <edge name='top'>
-          <strip size='2147483647'>
-            <card type='columns' />
-          </strip>
-          <strip size='2147483647'>
-            <card type='rows' />
-          </strip>
-          <strip size='2147483647'>
-            <card type='title' />
-          </strip>
-        </edge>
-        <edge name='right'>
-          <strip size='284'>
-            <card param='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
-            <card pane-specification-id='7' param='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]' type='color' />
-          </strip>
-        </edge>
-      </cards>
-      <viewpoint>
-        <highlight>
-          <color-one-way>
-            <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]</field>
-          </color-one-way>
-        </highlight>
-      </viewpoint>
-      <simple-id uuid='{3ADA2581-689A-4D80-ADC0-A0B8F0B952D6}' />
-    </window>
-    <window class='worksheet' name='Oil Price vs. Production'>
-      <cards>
-        <edge name='left'>
-          <strip size='160'>
-            <card type='pages' />
-            <card type='filters' />
-            <card type='marks' />
-          </strip>
-        </edge>
-        <edge name='top'>
-          <strip size='2147483647'>
-            <card type='columns' />
-          </strip>
-          <strip size='2147483647'>
-            <card type='rows' />
-          </strip>
-          <strip size='2147483647'>
-            <card type='title' />
-          </strip>
-        </edge>
-        <edge name='right'>
-          <strip size='300'>
-            <card param='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
-            <card pane-specification-id='8' param='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]' type='color' />
-          </strip>
-        </edge>
-      </cards>
-      <viewpoint>
-        <selection-collection>
-          <node-selection select-tuples='false'>
-            <oriented-node-reference orientation='vertical'>
-              <node-reference>
-                <axis>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[avg:Calculation_89227625149636608:qk]</axis>
-              </node-reference>
-              <page-reference />
-            </oriented-node-reference>
-          </node-selection>
-        </selection-collection>
-        <highlight>
-          <color-one-way>
-            <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]</field>
-            <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]</field>
-          </color-one-way>
-        </highlight>
-      </viewpoint>
-      <simple-id uuid='{D2684AF9-AF37-4052-A817-37DA25BF9EA1}' />
-    </window>
-    <window class='worksheet' name='Oil Price vs. Rig Count'>
-      <cards>
-        <edge name='left'>
-          <strip size='160'>
-            <card type='pages' />
-            <card type='filters' />
-            <card type='marks' />
-          </strip>
-        </edge>
-        <edge name='top'>
-          <strip size='2147483647'>
-            <card type='columns' />
-          </strip>
-          <strip size='2147483647'>
-            <card type='rows' />
-          </strip>
-          <strip size='2147483647'>
-            <card type='title' />
-          </strip>
-        </edge>
-        <edge name='right'>
-          <strip size='300'>
-            <card param='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
-            <card pane-specification-id='9' param='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]' type='color' />
-          </strip>
-        </edge>
-      </cards>
-      <viewpoint>
-        <highlight>
-          <color-one-way>
-            <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]</field>
-          </color-one-way>
-        </highlight>
-      </viewpoint>
-      <simple-id uuid='{F9755ABB-4433-4557-96CE-C6DA1AC5B2C4}' />
-    </window>
     <window class='worksheet' name='Offhsore Rig Utilization'>
       <cards>
         <edge name='left'>
@@ -3725,44 +1184,6 @@
         </highlight>
       </viewpoint>
       <simple-id uuid='{D614419B-58F0-43AB-89F0-55E2CD88A047}' />
-    </window>
-    <window class='worksheet' name='Land vs Offshore'>
-      <cards>
-        <edge name='left'>
-          <strip size='160'>
-            <card type='pages' />
-            <card type='filters' />
-            <card type='marks' />
-            <card type='measures' />
-          </strip>
-        </edge>
-        <edge name='top'>
-          <strip size='2147483647'>
-            <card type='columns' />
-          </strip>
-          <strip size='2147483647'>
-            <card type='rows' />
-          </strip>
-          <strip size='2147483647'>
-            <card type='title' />
-          </strip>
-        </edge>
-        <edge name='right'>
-          <strip size='300'>
-            <card param='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
-            <card pane-specification-id='10' param='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]' type='color' />
-          </strip>
-        </edge>
-      </cards>
-      <viewpoint>
-        <highlight>
-          <color-one-way>
-            <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]</field>
-            <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]</field>
-          </color-one-way>
-        </highlight>
-      </viewpoint>
-      <simple-id uuid='{560D8449-BA9F-416B-B243-84A3BB996271}' />
     </window>
     <window class='worksheet' name='Land_offshore'>
       <cards>
@@ -3809,52 +1230,6 @@
       </viewpoint>
       <simple-id uuid='{FB446636-A76B-44E2-99A7-A6231965C18A}' />
     </window>
-    <window class='dashboard' name='Introduction'>
-      <viewpoints />
-      <active id='-1' />
-      <simple-id uuid='{A3FFF311-E110-4AFD-9C5E-70692634BE32}' />
-    </window>
-    <window class='dashboard' name='Overview Land'>
-      <viewpoints />
-      <active id='-1' />
-      <simple-id uuid='{CD17E95D-340F-405F-8C80-32963F95C421}' />
-    </window>
-    <window class='dashboard' name='Overview Offhsore'>
-      <viewpoints />
-      <active id='-1' />
-      <simple-id uuid='{2DA0A46E-6F88-4ABC-9D5D-030ED15FA701}' />
-    </window>
-    <window class='dashboard' name='Problem to Solve'>
-      <viewpoints />
-      <active id='-1' />
-      <simple-id uuid='{CEECAB86-89A1-4F7E-AD73-E5E2F8C06E17}' />
-    </window>
-    <window class='dashboard' name='Consumption'>
-      <viewpoints>
-        <viewpoint name='Oil Price vs. Consumption'>
-          <zoom type='entire-view' />
-          <highlight field='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]'>
-            <bucket-selection />
-          </highlight>
-        </viewpoint>
-      </viewpoints>
-      <active id='-1' />
-      <simple-id uuid='{474A0CB2-9399-42A9-ADF8-E1ACAE2A116A}' />
-    </window>
-    <window class='dashboard' name='Production'>
-      <viewpoints>
-        <viewpoint name='Oil Price vs. Production'>
-          <zoom type='entire-view' />
-          <highlight>
-            <color-one-way>
-              <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]</field>
-            </color-one-way>
-          </highlight>
-        </viewpoint>
-      </viewpoints>
-      <active id='-1' />
-      <simple-id uuid='{EE8A2159-0B77-41DA-A052-89F5DF4E8BB5}' />
-    </window>
     <window class='dashboard' maximized='true' name='Drilling Map'>
       <viewpoints>
         <viewpoint name='Land_offshore'>
@@ -3871,6 +1246,21 @@
         </viewpoint>
         <viewpoint name='Offhsore Rig Utilization'>
           <zoom type='entire-view' />
+          <selection-collection>
+            <node-selection select-tuples='false'>
+              <oriented-node-reference orientation='horizontal'>
+                <node-reference>
+                  <fields>
+                    <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[yr:Date:ok]</field>
+                  </fields>
+                  <multibucket>
+                    <bucket>1997</bucket>
+                  </multibucket>
+                </node-reference>
+                <page-reference />
+              </oriented-node-reference>
+            </node-selection>
+          </selection-collection>
           <highlight>
             <color-one-way>
               <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]</field>
@@ -3880,42 +1270,6 @@
       </viewpoints>
       <active id='9' />
       <simple-id uuid='{06CED9EC-6932-4CE3-A3A2-C0D9C5DDF38E}' />
-    </window>
-    <window class='dashboard' name='Land-Offshore-Count'>
-      <viewpoints>
-        <viewpoint name='Land vs Offshore'>
-          <zoom type='entire-view' />
-          <highlight>
-            <color-one-way>
-              <field>[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]</field>
-            </color-one-way>
-          </highlight>
-        </viewpoint>
-      </viewpoints>
-      <active id='-1' />
-      <simple-id uuid='{F3694954-F32D-4105-AD71-D92F7832FDF0}' />
-    </window>
-    <window class='dashboard' name='Offhsore Utilization'>
-      <viewpoints>
-        <viewpoint name='Offhsore Rig Utilization'>
-          <zoom type='entire-view' />
-          <highlight field='[federated.0ofjn141ej8ufl1e0q7qx0pd9k8u].[:Measure Names]'>
-            <bucket-selection />
-          </highlight>
-        </viewpoint>
-      </viewpoints>
-      <active id='-1' />
-      <simple-id uuid='{40EAE845-66D0-436D-81CC-FFE7FD29A830}' />
-    </window>
-    <window class='dashboard' name='Offshore Utilization'>
-      <viewpoints />
-      <active id='6' />
-      <simple-id uuid='{0801AE8B-15D0-48E4-91BE-B2434DBF57A6}' />
-    </window>
-    <window class='dashboard' name='Correlation'>
-      <viewpoints />
-      <active id='-1' />
-      <simple-id uuid='{4F24DC08-3619-4011-8B41-01A9B7526D41}' />
     </window>
   </windows>
   <thumbnails>
@@ -4585,128 +1939,128 @@
       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
-      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
+      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
     </thumbnail>
     <thumbnail height='192' name='Introduction' width='192'>
       iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
