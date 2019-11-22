@@ -1,4 +1,4 @@
-Year,Country,Latitude,Longitude,,1982
+Year,Country,Latitude,Longitude,,Rigs
 1982,US_Land,37.0902,-95.7129,,
 1982,US_Offshore,28.126707,-91.305831,,
 1982,Canada_land,56.1304,-106.3468,,
@@ -19,7 +19,7 @@ Year,Country,Latitude,Longitude,,1982
 1982,Hungary_Offshore,,,,0
 1982,Italy_Land,41.8719,12.5674,,366
 1982,Italy_Offshore,41.727206,10.896804,,87
-1982,Norway_Land,60.4720,8.4689,,0
+1982,Norway_Land,60.472,8.4689,,0
 1982,Norway_Offshore,60.010363,3.58667,,151
 1982,Poland_Land,51.9194,19.1451,,0
 1982,Poland_Offshore,55.155538,17.566921,,0
@@ -29,9 +29,9 @@ Year,Country,Latitude,Longitude,,1982
 1982,Spain_Offshore,39.467705,0.812242,,63
 1982,Turkey_Land,38.9637,35.2433,,413
 1982,Turkey_Offshore,42.573404,34.154628,,0
-1982,U.K._Land,55.3781,-3.4360,,28
+1982,U.K._Land,55.3781,-3.436,,28
 1982,U.K._Offshore,57.479149,-0.12889,,665
-1982,Yugoslavia/Croatia_Land,45.1000,15.2000,,285
+1982,Yugoslavia/Croatia_Land,45.1,15.2,,285
 1982,Yugoslavia/Croatia_Offshore,43.165008,15.806668,,0
 1982,Abu Dhabi_Land,24.4539,54.3773,,214
 1982,Abu Dhabi_Offshore,24.756606,54.280173,,273
@@ -39,7 +39,7 @@ Year,Country,Latitude,Longitude,,1982
 1982,Dubai_Offshore,25.452626,55.17867,,24
 1982,Egypt_Land,26.8206,30.8025,,165
 1982,Egypt_Offshore,31.951179,30.916615,,269
-1982,Iran_Land,32.4279,53.6880,,27
+1982,Iran_Land,32.4279,53.688,,27
 1982,Iran_Offshore,26.986451,52.797098,,6
 1982,Iraq_Land,33.2232,43.6793,,129
 1982,Iraq_Offshore,29.826924,48.713334,,0
@@ -73,7 +73,7 @@ Year,Country,Latitude,Longitude,,1982
 1982,Kenya__Offshore,-3.49976,40.801566,,0
 1982,Libya_Land,26.3351,17.2283,,348
 1982,Libya__Offshore,31.683681,18.512678,,18
-1982,Nigeria_Land,9.0820,8.6753,,194
+1982,Nigeria_Land,9.082,8.6753,,194
 1982,Nigeria_Offshore,4.113485,6.999522,,128
 1982,S.Africa_Land,-30.5595,22.9375,,0
 1982,S.Africa_Offshore,-31.842791,16.674006,,24
@@ -83,9 +83,9 @@ Year,Country,Latitude,Longitude,,1982
 1982,Argentina_Offshore,-51.313678,-66.678394,,18
 1982,Bolivia_Land,-16.2902,-63.5887,,137
 1982,Bolivia_Offshore,,,,0
-1982,Brazil_Land,-14.2350,-51.9253,,756
+1982,Brazil_Land,-14.235,-51.9253,,756
 1982,Brazil_Offshore,-22.197004,-40.435152,,374
-1982,Chile_Land,-35.6751,-71.5430,,44
+1982,Chile_Land,-35.6751,-71.543,,44
 1982,Chile_Offshore,-32.775184,-73.644858,,36
 1982,Colombia_Land,4.5709,-74.2973,,268
 1982,Colombia_Offshore,4.919216,-78.594368,,3
@@ -103,7 +103,7 @@ Year,Country,Latitude,Longitude,,1982
 1982,Venezuela_Offshore,9.183729,-60.200212,,211
 1982,Australia_Land,-25.274398,133.775136,,289
 1982,Australia_Offshore,-29.599699,113.685338,,108
-1982,Bangladesh_Land,23.6850,90.3563,,64
+1982,Bangladesh_Land,23.685,90.3563,,64
 1982,Bangladesh_Offshore,21.60567,90.597855,,0
 1982,Brunei_Land,4.535277,114.727669,,35
 1982,Brunei_Offshore,5.151965,114.665627,,88
@@ -115,17 +115,17 @@ Year,Country,Latitude,Longitude,,1982
 1982,Japan_Offshore,38.601583,137.300839,,45
 1982,Malaysia_Land,4.210484,101.975766,,0
 1982,Malaysia_Offshore,3.50164,110.229356,,154
-1982,Myanmar_Land,21.9140,95.9562,,386
+1982,Myanmar_Land,21.914,95.9562,,386
 1982,Myanmar_Offshore,15.93001,96.427671,,1
-1982,New Zealand_Land,-40.9006,174.8860,,12
+1982,New Zealand_Land,-40.9006,174.886,,12
 1982,New Zealand_Offshore,-39.291592,173.493089,,2
-1982,Papua New Guinea_Land,-6.3150,143.9556,,3
+1982,Papua New Guinea_Land,-6.315,143.9556,,3
 1982,Papua New Guinea_Offshore,-9.231086,126.119217,,0
 1982,Phillippines_Land,12.879721,121.774017,,141
 1982,Phillippines_Offshore,8.166545,121.418401,,32
 1982,Taiwan_Land,23.69781,120.960515,,38
 1982,Taiwan_Offshore,22.143055,120.035738,,4
-1982,Thailand_Land,15.8700,100.9925,,36
+1982,Thailand_Land,15.87,100.9925,,36
 1982,Thailand_Offshore,12.269503,100.804317,,60
 1982,Vietnam_Land,14.0583,108.2772,,0
 1982,Vietnam_Offshore,11.868672,109.874274,,0
@@ -150,7 +150,7 @@ Year,Country,Latitude,Longitude,,1982
 1983,Hungary_Offshore,,,,0
 1983,Italy_Land,41.8719,12.5674,,233
 1983,Italy_Offshore,41.727206,10.896804,,80
-1983,Norway_Land,60.4720,8.4689,,0
+1983,Norway_Land,60.472,8.4689,,0
 1983,Norway_Offshore,60.010363,3.58667,,114
 1983,Poland_Land,51.9194,19.1451,,0
 1983,Poland_Offshore,55.155538,17.566921,,0
@@ -160,9 +160,9 @@ Year,Country,Latitude,Longitude,,1982
 1983,Spain_Offshore,39.467705,0.812242,,40
 1983,Turkey_Land,38.9637,35.2433,,310
 1983,Turkey_Offshore,42.573404,34.154628,,0
-1983,U.K._Land,55.3781,-3.4360,,25
+1983,U.K._Land,55.3781,-3.436,,25
 1983,U.K._Offshore,57.479149,-0.12889,,482
-1983,Yugoslavia/Croatia_Land,45.1000,15.2000,,236
+1983,Yugoslavia/Croatia_Land,45.1,15.2,,236
 1983,Yugoslavia/Croatia_Offshore,43.165008,15.806668,,12
 1983,Abu Dhabi_Land,24.4539,54.3773,,141
 1983,Abu Dhabi_Offshore,24.756606,54.280173,,279
@@ -170,7 +170,7 @@ Year,Country,Latitude,Longitude,,1982
 1983,Dubai_Offshore,25.452626,55.17867,,49
 1983,Egypt_Land,26.8206,30.8025,,190
 1983,Egypt_Offshore,31.951179,30.916615,,230
-1983,Iran_Land,32.4279,53.6880,,140
+1983,Iran_Land,32.4279,53.688,,140
 1983,Iran_Offshore,26.986451,52.797098,,18
 1983,Iraq_Land,33.2232,43.6793,,272
 1983,Iraq_Offshore,29.826924,48.713334,,0
@@ -204,7 +204,7 @@ Year,Country,Latitude,Longitude,,1982
 1983,Kenya__Offshore,-3.49976,40.801566,,0
 1983,Libya_Land,26.3351,17.2283,,271
 1983,Libya__Offshore,31.683681,18.512678,,22
-1983,Nigeria_Land,9.0820,8.6753,,112
+1983,Nigeria_Land,9.082,8.6753,,112
 1983,Nigeria_Offshore,4.113485,6.999522,,94
 1983,S.Africa_Land,-30.5595,22.9375,,0
 1983,S.Africa_Offshore,-31.842791,16.674006,,24
@@ -214,9 +214,9 @@ Year,Country,Latitude,Longitude,,1982
 1983,Argentina_Offshore,-51.313678,-66.678394,,4
 1983,Bolivia_Land,-16.2902,-63.5887,,92
 1983,Bolivia_Offshore,,,,0
-1983,Brazil_Land,-14.2350,-51.9253,,649
+1983,Brazil_Land,-14.235,-51.9253,,649
 1983,Brazil_Offshore,-22.197004,-40.435152,,350
-1983,Chile_Land,-35.6751,-71.5430,,36
+1983,Chile_Land,-35.6751,-71.543,,36
 1983,Chile_Offshore,-32.775184,-73.644858,,36
 1983,Colombia_Land,4.5709,-74.2973,,214
 1983,Colombia_Offshore,4.919216,-78.594368,,1
@@ -234,7 +234,7 @@ Year,Country,Latitude,Longitude,,1982
 1983,Venezuela_Offshore,9.183729,-60.200212,,150
 1983,Australia_Land,-25.274398,133.775136,,176
 1983,Australia_Offshore,-29.599699,113.685338,,121
-1983,Bangladesh_Land,23.6850,90.3563,,22
+1983,Bangladesh_Land,23.685,90.3563,,22
 1983,Bangladesh_Offshore,21.60567,90.597855,,0
 1983,Brunei_Land,4.535277,114.727669,,32
 1983,Brunei_Offshore,5.151965,114.665627,,89
@@ -246,17 +246,17 @@ Year,Country,Latitude,Longitude,,1982
 1983,Japan_Offshore,38.601583,137.300839,,23
 1983,Malaysia_Land,4.210484,101.975766,,0
 1983,Malaysia_Offshore,3.50164,110.229356,,118
-1983,Myanmar_Land,21.9140,95.9562,,425
+1983,Myanmar_Land,21.914,95.9562,,425
 1983,Myanmar_Offshore,15.93001,96.427671,,12
-1983,New Zealand_Land,-40.9006,174.8860,,20
+1983,New Zealand_Land,-40.9006,174.886,,20
 1983,New Zealand_Offshore,-39.291592,173.493089,,7
-1983,Papua New Guinea_Land,-6.3150,143.9556,,7
+1983,Papua New Guinea_Land,-6.315,143.9556,,7
 1983,Papua New Guinea_Offshore,-9.231086,126.119217,,9
 1983,Phillippines_Land,12.879721,121.774017,,89
 1983,Phillippines_Offshore,8.166545,121.418401,,3
 1983,Taiwan_Land,23.69781,120.960515,,51
 1983,Taiwan_Offshore,22.143055,120.035738,,6
-1983,Thailand_Land,15.8700,100.9925,,74
+1983,Thailand_Land,15.87,100.9925,,74
 1983,Thailand_Offshore,12.269503,100.804317,,76
 1983,Vietnam_Land,14.0583,108.2772,,0
 1983,Vietnam_Offshore,11.868672,109.874274,,0
@@ -281,7 +281,7 @@ Year,Country,Latitude,Longitude,,1982
 1984,Hungary_Offshore,,,,0
 1984,Italy_Land,41.8719,12.5674,,243
 1984,Italy_Offshore,41.727206,10.896804,,73
-1984,Norway_Land,60.4720,8.4689,,0
+1984,Norway_Land,60.472,8.4689,,0
 1984,Norway_Offshore,60.010363,3.58667,,117
 1984,Poland_Land,51.9194,19.1451,,0
 1984,Poland_Offshore,55.155538,17.566921,,0
@@ -291,9 +291,9 @@ Year,Country,Latitude,Longitude,,1982
 1984,Spain_Offshore,39.467705,0.812242,,48
 1984,Turkey_Land,38.9637,35.2433,,288
 1984,Turkey_Offshore,42.573404,34.154628,,0
-1984,U.K._Land,55.3781,-3.4360,,63
+1984,U.K._Land,55.3781,-3.436,,63
 1984,U.K._Offshore,57.479149,-0.12889,,652
-1984,Yugoslavia/Croatia_Land,45.1000,15.2000,,281
+1984,Yugoslavia/Croatia_Land,45.1,15.2,,281
 1984,Yugoslavia/Croatia_Offshore,43.165008,15.806668,,24
 1984,Abu Dhabi_Land,24.4539,54.3773,,116
 1984,Abu Dhabi_Offshore,24.756606,54.280173,,235
@@ -301,7 +301,7 @@ Year,Country,Latitude,Longitude,,1982
 1984,Dubai_Offshore,25.452626,55.17867,,39
 1984,Egypt_Land,26.8206,30.8025,,188
 1984,Egypt_Offshore,31.951179,30.916615,,249
-1984,Iran_Land,32.4279,53.6880,,216
+1984,Iran_Land,32.4279,53.688,,216
 1984,Iran_Offshore,26.986451,52.797098,,24
 1984,Iraq_Land,33.2232,43.6793,,226
 1984,Iraq_Offshore,29.826924,48.713334,,0
@@ -335,7 +335,7 @@ Year,Country,Latitude,Longitude,,1982
 1984,Kenya__Offshore,-3.49976,40.801566,,66
 1984,Libya_Land,26.3351,17.2283,,0
 1984,Libya__Offshore,31.683681,18.512678,,0
-1984,Nigeria_Land,9.0820,8.6753,,291
+1984,Nigeria_Land,9.082,8.6753,,291
 1984,Nigeria_Offshore,4.113485,6.999522,,24
 1984,S.Africa_Land,-30.5595,22.9375,,67
 1984,S.Africa_Offshore,-31.842791,16.674006,,67
@@ -345,9 +345,9 @@ Year,Country,Latitude,Longitude,,1982
 1984,Argentina_Offshore,-51.313678,-66.678394,,0
 1984,Bolivia_Land,-16.2902,-63.5887,,72
 1984,Bolivia_Offshore,,,,0
-1984,Brazil_Land,-14.2350,-51.9253,,528
+1984,Brazil_Land,-14.235,-51.9253,,528
 1984,Brazil_Offshore,-22.197004,-40.435152,,304
-1984,Chile_Land,-35.6751,-71.5430,,32
+1984,Chile_Land,-35.6751,-71.543,,32
 1984,Chile_Offshore,-32.775184,-73.644858,,36
 1984,Colombia_Land,4.5709,-74.2973,,190
 1984,Colombia_Offshore,4.919216,-78.594368,,0
@@ -365,7 +365,7 @@ Year,Country,Latitude,Longitude,,1982
 1984,Venezuela_Offshore,9.183729,-60.200212,,109
 1984,Australia_Land,-25.274398,133.775136,,287
 1984,Australia_Offshore,-29.599699,113.685338,,120
-1984,Bangladesh_Land,23.6850,90.3563,,43
+1984,Bangladesh_Land,23.685,90.3563,,43
 1984,Bangladesh_Offshore,21.60567,90.597855,,0
 1984,Brunei_Land,4.535277,114.727669,,24
 1984,Brunei_Offshore,5.151965,114.665627,,80
@@ -377,17 +377,17 @@ Year,Country,Latitude,Longitude,,1982
 1984,Japan_Offshore,38.601583,137.300839,,35
 1984,Malaysia_Land,4.210484,101.975766,,0
 1984,Malaysia_Offshore,3.50164,110.229356,,108
-1984,Myanmar_Land,21.9140,95.9562,,384
+1984,Myanmar_Land,21.914,95.9562,,384
 1984,Myanmar_Offshore,15.93001,96.427671,,12
-1984,New Zealand_Land,-40.9006,174.8860,,16
+1984,New Zealand_Land,-40.9006,174.886,,16
 1984,New Zealand_Offshore,-39.291592,173.493089,,10
-1984,Papua New Guinea_Land,-6.3150,143.9556,,16
+1984,Papua New Guinea_Land,-6.315,143.9556,,16
 1984,Papua New Guinea_Offshore,-9.231086,126.119217,,0
 1984,Phillippines_Land,12.879721,121.774017,,30
 1984,Phillippines_Offshore,8.166545,121.418401,,4
 1984,Taiwan_Land,23.69781,120.960515,,60
 1984,Taiwan_Offshore,22.143055,120.035738,,7
-1984,Thailand_Land,15.8700,100.9925,,64
+1984,Thailand_Land,15.87,100.9925,,64
 1984,Thailand_Offshore,12.269503,100.804317,,71
 1984,Vietnam_Land,14.0583,108.2772,,0
 1984,Vietnam_Offshore,11.868672,109.874274,,0
@@ -412,7 +412,7 @@ Year,Country,Latitude,Longitude,,1982
 1985,Hungary_Offshore,,,,0
 1985,Italy_Land,41.8719,12.5674,,368
 1985,Italy_Offshore,41.727206,10.896804,,109
-1985,Norway_Land,60.4720,8.4689,,0
+1985,Norway_Land,60.472,8.4689,,0
 1985,Norway_Offshore,60.010363,3.58667,,160
 1985,Poland_Land,51.9194,19.1451,,0
 1985,Poland_Offshore,55.155538,17.566921,,0
@@ -422,9 +422,9 @@ Year,Country,Latitude,Longitude,,1982
 1985,Spain_Offshore,39.467705,0.812242,,43
 1985,Turkey_Land,38.9637,35.2433,,302
 1985,Turkey_Offshore,42.573404,34.154628,,0
-1985,U.K._Land,55.3781,-3.4360,,81
+1985,U.K._Land,55.3781,-3.436,,81
 1985,U.K._Offshore,57.479149,-0.12889,,673
-1985,Yugoslavia/Croatia_Land,45.1000,15.2000,,300
+1985,Yugoslavia/Croatia_Land,45.1,15.2,,300
 1985,Yugoslavia/Croatia_Offshore,43.165008,15.806668,,24
 1985,Abu Dhabi_Land,24.4539,54.3773,,115
 1985,Abu Dhabi_Offshore,24.756606,54.280173,,140
@@ -432,7 +432,7 @@ Year,Country,Latitude,Longitude,,1982
 1985,Dubai_Offshore,25.452626,55.17867,,51
 1985,Egypt_Land,26.8206,30.8025,,194
 1985,Egypt_Offshore,31.951179,30.916615,,246
-1985,Iran_Land,32.4279,53.6880,,216
+1985,Iran_Land,32.4279,53.688,,216
 1985,Iran_Offshore,26.986451,52.797098,,24
 1985,Iraq_Land,33.2232,43.6793,,331
 1985,Iraq_Offshore,29.826924,48.713334,,0
@@ -466,7 +466,7 @@ Year,Country,Latitude,Longitude,,1982
 1985,Kenya__Offshore,-3.49976,40.801566,,0
 1985,Libya_Land,26.3351,17.2283,,339
 1985,Libya__Offshore,31.683681,18.512678,,22
-1985,Nigeria_Land,9.0820,8.6753,,86
+1985,Nigeria_Land,9.082,8.6753,,86
 1985,Nigeria_Offshore,4.113485,6.999522,,29
 1985,S.Africa_Land,-30.5595,22.9375,,12
 1985,S.Africa_Offshore,-31.842791,16.674006,,22
@@ -476,9 +476,9 @@ Year,Country,Latitude,Longitude,,1982
 1985,Argentina_Offshore,-51.313678,-66.678394,,3
 1985,Bolivia_Land,-16.2902,-63.5887,,64
 1985,Bolivia_Offshore,,,,0
-1985,Brazil_Land,-14.2350,-51.9253,,550
+1985,Brazil_Land,-14.235,-51.9253,,550
 1985,Brazil_Offshore,-22.197004,-40.435152,,361
-1985,Chile_Land,-35.6751,-71.5430,,36
+1985,Chile_Land,-35.6751,-71.543,,36
 1985,Chile_Offshore,-32.775184,-73.644858,,36
 1985,Colombia_Land,4.5709,-74.2973,,256
 1985,Colombia_Offshore,4.919216,-78.594368,,0
@@ -496,7 +496,7 @@ Year,Country,Latitude,Longitude,,1982
 1985,Venezuela_Offshore,9.183729,-60.200212,,114
 1985,Australia_Land,-25.274398,133.775136,,264
 1985,Australia_Offshore,-29.599699,113.685338,,103
-1985,Bangladesh_Land,23.6850,90.3563,,60
+1985,Bangladesh_Land,23.685,90.3563,,60
 1985,Bangladesh_Offshore,21.60567,90.597855,,0
 1985,Brunei_Land,4.535277,114.727669,,15
 1985,Brunei_Offshore,5.151965,114.665627,,69
@@ -508,17 +508,17 @@ Year,Country,Latitude,Longitude,,1982
 1985,Japan_Offshore,38.601583,137.300839,,43
 1985,Malaysia_Land,4.210484,101.975766,,0
 1985,Malaysia_Offshore,3.50164,110.229356,,95
-1985,Myanmar_Land,21.9140,95.9562,,384
+1985,Myanmar_Land,21.914,95.9562,,384
 1985,Myanmar_Offshore,15.93001,96.427671,,12
-1985,New Zealand_Land,-40.9006,174.8860,,38
+1985,New Zealand_Land,-40.9006,174.886,,38
 1985,New Zealand_Offshore,-39.291592,173.493089,,7
-1985,Papua New Guinea_Land,-6.3150,143.9556,,20
+1985,Papua New Guinea_Land,-6.315,143.9556,,20
 1985,Papua New Guinea_Offshore,-9.231086,126.119217,,2
 1985,Phillippines_Land,12.879721,121.774017,,21
 1985,Phillippines_Offshore,8.166545,121.418401,,0
 1985,Taiwan_Land,23.69781,120.960515,,62
 1985,Taiwan_Offshore,22.143055,120.035738,,23
-1985,Thailand_Land,15.8700,100.9925,,51
+1985,Thailand_Land,15.87,100.9925,,51
 1985,Thailand_Offshore,12.269503,100.804317,,56
 1985,Vietnam_Land,14.0583,108.2772,,0
 1985,Vietnam_Offshore,11.868672,109.874274,,0
@@ -543,7 +543,7 @@ Year,Country,Latitude,Longitude,,1982
 1986,Hungary_Offshore,,,,0
 1986,Italy_Land,41.8719,12.5674,,291
 1986,Italy_Offshore,41.727206,10.896804,,108
-1986,Norway_Land,60.4720,8.4689,,0
+1986,Norway_Land,60.472,8.4689,,0
 1986,Norway_Offshore,60.010363,3.58667,,139
 1986,Poland_Land,51.9194,19.1451,,0
 1986,Poland_Offshore,55.155538,17.566921,,0
@@ -553,9 +553,9 @@ Year,Country,Latitude,Longitude,,1982
 1986,Spain_Offshore,39.467705,0.812242,,32
 1986,Turkey_Land,38.9637,35.2433,,328
 1986,Turkey_Offshore,42.573404,34.154628,,1
-1986,U.K._Land,55.3781,-3.4360,,88
+1986,U.K._Land,55.3781,-3.436,,88
 1986,U.K._Offshore,57.479149,-0.12889,,426
-1986,Yugoslavia/Croatia_Land,45.1000,15.2000,,322
+1986,Yugoslavia/Croatia_Land,45.1,15.2,,322
 1986,Yugoslavia/Croatia_Offshore,43.165008,15.806668,,35
 1986,Abu Dhabi_Land,24.4539,54.3773,,93
 1986,Abu Dhabi_Offshore,24.756606,54.280173,,87
@@ -563,7 +563,7 @@ Year,Country,Latitude,Longitude,,1982
 1986,Dubai_Offshore,25.452626,55.17867,,27
 1986,Egypt_Land,26.8206,30.8025,,207
 1986,Egypt_Offshore,31.951179,30.916615,,190
-1986,Iran_Land,32.4279,53.6880,,194
+1986,Iran_Land,32.4279,53.688,,194
 1986,Iran_Offshore,26.986451,52.797098,,24
 1986,Iraq_Land,33.2232,43.6793,,250
 1986,Iraq_Offshore,29.826924,48.713334,,0
@@ -597,7 +597,7 @@ Year,Country,Latitude,Longitude,,1982
 1986,Kenya__Offshore,-3.49976,40.801566,,0
 1986,Libya_Land,26.3351,17.2283,,242
 1986,Libya__Offshore,31.683681,18.512678,,0
-1986,Nigeria_Land,9.0820,8.6753,,84
+1986,Nigeria_Land,9.082,8.6753,,84
 1986,Nigeria_Offshore,4.113485,6.999522,,34
 1986,S.Africa_Land,-30.5595,22.9375,,5
 1986,S.Africa_Offshore,-31.842791,16.674006,,31
@@ -607,9 +607,9 @@ Year,Country,Latitude,Longitude,,1982
 1986,Argentina_Offshore,-51.313678,-66.678394,,0
 1986,Bolivia_Land,-16.2902,-63.5887,,42
 1986,Bolivia_Offshore,,,,0
-1986,Brazil_Land,-14.2350,-51.9253,,550
+1986,Brazil_Land,-14.235,-51.9253,,550
 1986,Brazil_Offshore,-22.197004,-40.435152,,369
-1986,Chile_Land,-35.6751,-71.5430,,36
+1986,Chile_Land,-35.6751,-71.543,,36
 1986,Chile_Offshore,-32.775184,-73.644858,,36
 1986,Colombia_Land,4.5709,-74.2973,,198
 1986,Colombia_Offshore,4.919216,-78.594368,,0
@@ -627,7 +627,7 @@ Year,Country,Latitude,Longitude,,1982
 1986,Venezuela_Offshore,9.183729,-60.200212,,155
 1986,Australia_Land,-25.274398,133.775136,,99
 1986,Australia_Offshore,-29.599699,113.685338,,77
-1986,Bangladesh_Land,23.6850,90.3563,,60
+1986,Bangladesh_Land,23.685,90.3563,,60
 1986,Bangladesh_Offshore,21.60567,90.597855,,0
 1986,Brunei_Land,4.535277,114.727669,,8
 1986,Brunei_Offshore,5.151965,114.665627,,50
@@ -639,17 +639,17 @@ Year,Country,Latitude,Longitude,,1982
 1986,Japan_Offshore,38.601583,137.300839,,38
 1986,Malaysia_Land,4.210484,101.975766,,0
 1986,Malaysia_Offshore,3.50164,110.229356,,92
-1986,Myanmar_Land,21.9140,95.9562,,384
+1986,Myanmar_Land,21.914,95.9562,,384
 1986,Myanmar_Offshore,15.93001,96.427671,,12
-1986,New Zealand_Land,-40.9006,174.8860,,44
+1986,New Zealand_Land,-40.9006,174.886,,44
 1986,New Zealand_Offshore,-39.291592,173.493089,,9
-1986,Papua New Guinea_Land,-6.3150,143.9556,,18
+1986,Papua New Guinea_Land,-6.315,143.9556,,18
 1986,Papua New Guinea_Offshore,-9.231086,126.119217,,2
 1986,Phillippines_Land,12.879721,121.774017,,9
 1986,Phillippines_Offshore,8.166545,121.418401,,0
 1986,Taiwan_Land,23.69781,120.960515,,63
 1986,Taiwan_Offshore,22.143055,120.035738,,24
-1986,Thailand_Land,15.8700,100.9925,,29
+1986,Thailand_Land,15.87,100.9925,,29
 1986,Thailand_Offshore,12.269503,100.804317,,16
 1986,Vietnam_Land,14.0583,108.2772,,0
 1986,Vietnam_Offshore,11.868672,109.874274,,0
@@ -674,7 +674,7 @@ Year,Country,Latitude,Longitude,,1982
 1987,Hungary_Offshore,,,,0
 1987,Italy_Land,41.8719,12.5674,,245
 1987,Italy_Offshore,41.727206,10.896804,,67
-1987,Norway_Land,60.4720,8.4689,,0
+1987,Norway_Land,60.472,8.4689,,0
 1987,Norway_Offshore,60.010363,3.58667,,146
 1987,Poland_Land,51.9194,19.1451,,0
 1987,Poland_Offshore,55.155538,17.566921,,0
@@ -684,9 +684,9 @@ Year,Country,Latitude,Longitude,,1982
 1987,Spain_Offshore,39.467705,0.812242,,0
 1987,Turkey_Land,38.9637,35.2433,,317
 1987,Turkey_Offshore,42.573404,34.154628,,0
-1987,U.K._Land,55.3781,-3.4360,,49
+1987,U.K._Land,55.3781,-3.436,,49
 1987,U.K._Offshore,57.479149,-0.12889,,474
-1987,Yugoslavia/Croatia_Land,45.1000,15.2000,,335
+1987,Yugoslavia/Croatia_Land,45.1,15.2,,335
 1987,Yugoslavia/Croatia_Offshore,43.165008,15.806668,,33
 1987,Abu Dhabi_Land,24.4539,54.3773,,37
 1987,Abu Dhabi_Offshore,24.756606,54.280173,,67
@@ -694,7 +694,7 @@ Year,Country,Latitude,Longitude,,1982
 1987,Dubai_Offshore,25.452626,55.17867,,23
 1987,Egypt_Land,26.8206,30.8025,,165
 1987,Egypt_Offshore,31.951179,30.916615,,105
-1987,Iran_Land,32.4279,53.6880,,209
+1987,Iran_Land,32.4279,53.688,,209
 1987,Iran_Offshore,26.986451,52.797098,,4
 1987,Iraq_Land,33.2232,43.6793,,123
 1987,Iraq_Offshore,29.826924,48.713334,,0
@@ -728,7 +728,7 @@ Year,Country,Latitude,Longitude,,1982
 1987,Kenya__Offshore,-3.49976,40.801566,,0
 1987,Libya_Land,26.3351,17.2283,,145
 1987,Libya__Offshore,31.683681,18.512678,,2
-1987,Nigeria_Land,9.0820,8.6753,,74
+1987,Nigeria_Land,9.082,8.6753,,74
 1987,Nigeria_Offshore,4.113485,6.999522,,58
 1987,S.Africa_Land,-30.5595,22.9375,,2
 1987,S.Africa_Offshore,-31.842791,16.674006,,38
@@ -738,9 +738,9 @@ Year,Country,Latitude,Longitude,,1982
 1987,Argentina_Offshore,-51.313678,-66.678394,,6
 1987,Bolivia_Land,-16.2902,-63.5887,,75
 1987,Bolivia_Offshore,,,,0
-1987,Brazil_Land,-14.2350,-51.9253,,426
+1987,Brazil_Land,-14.235,-51.9253,,426
 1987,Brazil_Offshore,-22.197004,-40.435152,,298
-1987,Chile_Land,-35.6751,-71.5430,,46
+1987,Chile_Land,-35.6751,-71.543,,46
 1987,Chile_Offshore,-32.775184,-73.644858,,35
 1987,Colombia_Land,4.5709,-74.2973,,164
 1987,Colombia_Offshore,4.919216,-78.594368,,0
@@ -758,7 +758,7 @@ Year,Country,Latitude,Longitude,,1982
 1987,Venezuela_Offshore,9.183729,-60.200212,,110
 1987,Australia_Land,-25.274398,133.775136,,154
 1987,Australia_Offshore,-29.599699,113.685338,,34
-1987,Bangladesh_Land,23.6850,90.3563,,62
+1987,Bangladesh_Land,23.685,90.3563,,62
 1987,Bangladesh_Offshore,21.60567,90.597855,,0
 1987,Brunei_Land,4.535277,114.727669,,7
 1987,Brunei_Offshore,5.151965,114.665627,,33
@@ -770,17 +770,17 @@ Year,Country,Latitude,Longitude,,1982
 1987,Japan_Offshore,38.601583,137.300839,,2
 1987,Malaysia_Land,4.210484,101.975766,,1
 1987,Malaysia_Offshore,3.50164,110.229356,,101
-1987,Myanmar_Land,21.9140,95.9562,,351
+1987,Myanmar_Land,21.914,95.9562,,351
 1987,Myanmar_Offshore,15.93001,96.427671,,3
-1987,New Zealand_Land,-40.9006,174.8860,,20
+1987,New Zealand_Land,-40.9006,174.886,,20
 1987,New Zealand_Offshore,-39.291592,173.493089,,10
-1987,Papua New Guinea_Land,-6.3150,143.9556,,20
+1987,Papua New Guinea_Land,-6.315,143.9556,,20
 1987,Papua New Guinea_Offshore,-9.231086,126.119217,,0
 1987,Phillippines_Land,12.879721,121.774017,,19
 1987,Phillippines_Offshore,8.166545,121.418401,,3
 1987,Taiwan_Land,23.69781,120.960515,,35
 1987,Taiwan_Offshore,22.143055,120.035738,,18
-1987,Thailand_Land,15.8700,100.9925,,30
+1987,Thailand_Land,15.87,100.9925,,30
 1987,Thailand_Offshore,12.269503,100.804317,,37
 1987,Vietnam_Land,14.0583,108.2772,,0
 1987,Vietnam_Offshore,11.868672,109.874274,,0
@@ -805,7 +805,7 @@ Year,Country,Latitude,Longitude,,1982
 1988,Hungary_Offshore,,,,0
 1988,Italy_Land,41.8719,12.5674,,202
 1988,Italy_Offshore,41.727206,10.896804,,86
-1988,Norway_Land,60.4720,8.4689,,0
+1988,Norway_Land,60.472,8.4689,,0
 1988,Norway_Offshore,60.010363,3.58667,,180
 1988,Poland_Land,51.9194,19.1451,,0
 1988,Poland_Offshore,55.155538,17.566921,,0
@@ -815,9 +815,9 @@ Year,Country,Latitude,Longitude,,1982
 1988,Spain_Offshore,39.467705,0.812242,,10
 1988,Turkey_Land,38.9637,35.2433,,250
 1988,Turkey_Offshore,42.573404,34.154628,,6
-1988,U.K._Land,55.3781,-3.4360,,60
+1988,U.K._Land,55.3781,-3.436,,60
 1988,U.K._Offshore,57.479149,-0.12889,,622
-1988,Yugoslavia/Croatia_Land,45.1000,15.2000,,336
+1988,Yugoslavia/Croatia_Land,45.1,15.2,,336
 1988,Yugoslavia/Croatia_Offshore,43.165008,15.806668,,36
 1988,Abu Dhabi_Land,24.4539,54.3773,,31
 1988,Abu Dhabi_Offshore,24.756606,54.280173,,58
@@ -825,7 +825,7 @@ Year,Country,Latitude,Longitude,,1982
 1988,Dubai_Offshore,25.452626,55.17867,,39
 1988,Egypt_Land,26.8206,30.8025,,126
 1988,Egypt_Offshore,31.951179,30.916615,,123
-1988,Iran_Land,32.4279,53.6880,,216
+1988,Iran_Land,32.4279,53.688,,216
 1988,Iran_Offshore,26.986451,52.797098,,0
 1988,Iraq_Land,33.2232,43.6793,,271
 1988,Iraq_Offshore,29.826924,48.713334,,0
@@ -859,7 +859,7 @@ Year,Country,Latitude,Longitude,,1982
 1988,Kenya__Offshore,-3.49976,40.801566,,0
 1988,Libya_Land,26.3351,17.2283,,164
 1988,Libya__Offshore,31.683681,18.512678,,29
-1988,Nigeria_Land,9.0820,8.6753,,90
+1988,Nigeria_Land,9.082,8.6753,,90
 1988,Nigeria_Offshore,4.113485,6.999522,,67
 1988,S.Africa_Land,-30.5595,22.9375,,8
 1988,S.Africa_Offshore,-31.842791,16.674006,,44
@@ -869,9 +869,9 @@ Year,Country,Latitude,Longitude,,1982
 1988,Argentina_Offshore,-51.313678,-66.678394,,3
 1988,Bolivia_Land,-16.2902,-63.5887,,64
 1988,Bolivia_Offshore,,,,0
-1988,Brazil_Land,-14.2350,-51.9253,,338
+1988,Brazil_Land,-14.235,-51.9253,,338
 1988,Brazil_Offshore,-22.197004,-40.435152,,128
-1988,Chile_Land,-35.6751,-71.5430,,28
+1988,Chile_Land,-35.6751,-71.543,,28
 1988,Chile_Offshore,-32.775184,-73.644858,,36
 1988,Colombia_Land,4.5709,-74.2973,,222
 1988,Colombia_Offshore,4.919216,-78.594368,,0
@@ -889,7 +889,7 @@ Year,Country,Latitude,Longitude,,1982
 1988,Venezuela_Offshore,9.183729,-60.200212,,124
 1988,Australia_Land,-25.274398,133.775136,,160
 1988,Australia_Offshore,-29.599699,113.685338,,64
-1988,Bangladesh_Land,23.6850,90.3563,,23
+1988,Bangladesh_Land,23.685,90.3563,,23
 1988,Bangladesh_Offshore,21.60567,90.597855,,5
 1988,Brunei_Land,4.535277,114.727669,,12
 1988,Brunei_Offshore,5.151965,114.665627,,35
@@ -901,17 +901,17 @@ Year,Country,Latitude,Longitude,,1982
 1988,Japan_Offshore,38.601583,137.300839,,3
 1988,Malaysia_Land,4.210484,101.975766,,2
 1988,Malaysia_Offshore,3.50164,110.229356,,106
-1988,Myanmar_Land,21.9140,95.9562,,306
+1988,Myanmar_Land,21.914,95.9562,,306
 1988,Myanmar_Offshore,15.93001,96.427671,,0
-1988,New Zealand_Land,-40.9006,174.8860,,16
+1988,New Zealand_Land,-40.9006,174.886,,16
 1988,New Zealand_Offshore,-39.291592,173.493089,,11
-1988,Papua New Guinea_Land,-6.3150,143.9556,,29
+1988,Papua New Guinea_Land,-6.315,143.9556,,29
 1988,Papua New Guinea_Offshore,-9.231086,126.119217,,2
 1988,Phillippines_Land,12.879721,121.774017,,33
 1988,Phillippines_Offshore,8.166545,121.418401,,9
 1988,Taiwan_Land,23.69781,120.960515,,28
 1988,Taiwan_Offshore,22.143055,120.035738,,25
-1988,Thailand_Land,15.8700,100.9925,,26
+1988,Thailand_Land,15.87,100.9925,,26
 1988,Thailand_Offshore,12.269503,100.804317,,41
 1988,Vietnam_Land,14.0583,108.2772,,0
 1988,Vietnam_Offshore,11.868672,109.874274,,0
@@ -936,7 +936,7 @@ Year,Country,Latitude,Longitude,,1982
 1989,Hungary_Offshore,,,,0
 1989,Italy_Land,41.8719,12.5674,,208
 1989,Italy_Offshore,41.727206,10.896804,,58
-1989,Norway_Land,60.4720,8.4689,,0
+1989,Norway_Land,60.472,8.4689,,0
 1989,Norway_Offshore,60.010363,3.58667,,148
 1989,Poland_Land,51.9194,19.1451,,0
 1989,Poland_Offshore,55.155538,17.566921,,0
@@ -946,9 +946,9 @@ Year,Country,Latitude,Longitude,,1982
 1989,Spain_Offshore,39.467705,0.812242,,19
 1989,Turkey_Land,38.9637,35.2433,,240
 1989,Turkey_Offshore,42.573404,34.154628,,0
-1989,U.K._Land,55.3781,-3.4360,,46
+1989,U.K._Land,55.3781,-3.436,,46
 1989,U.K._Offshore,57.479149,-0.12889,,509
-1989,Yugoslavia/Croatia_Land,45.1000,15.2000,,348
+1989,Yugoslavia/Croatia_Land,45.1,15.2,,348
 1989,Yugoslavia/Croatia_Offshore,43.165008,15.806668,,38
 1989,Abu Dhabi_Land,24.4539,54.3773,,26
 1989,Abu Dhabi_Offshore,24.756606,54.280173,,50
@@ -956,7 +956,7 @@ Year,Country,Latitude,Longitude,,1982
 1989,Dubai_Offshore,25.452626,55.17867,,31
 1989,Egypt_Land,26.8206,30.8025,,81
 1989,Egypt_Offshore,31.951179,30.916615,,136
-1989,Iran_Land,32.4279,53.6880,,241
+1989,Iran_Land,32.4279,53.688,,241
 1989,Iran_Offshore,26.986451,52.797098,,0
 1989,Iraq_Land,33.2232,43.6793,,301
 1989,Iraq_Offshore,29.826924,48.713334,,0
@@ -990,7 +990,7 @@ Year,Country,Latitude,Longitude,,1982
 1989,Kenya__Offshore,-3.49976,40.801566,,0
 1989,Libya_Land,26.3351,17.2283,,152
 1989,Libya__Offshore,31.683681,18.512678,,48
-1989,Nigeria_Land,9.0820,8.6753,,118
+1989,Nigeria_Land,9.082,8.6753,,118
 1989,Nigeria_Offshore,4.113485,6.999522,,49
 1989,S.Africa_Land,-30.5595,22.9375,,0
 1989,S.Africa_Offshore,-31.842791,16.674006,,36
@@ -1000,9 +1000,9 @@ Year,Country,Latitude,Longitude,,1982
 1989,Argentina_Offshore,-51.313678,-66.678394,,8
 1989,Bolivia_Land,-16.2902,-63.5887,,67
 1989,Bolivia_Offshore,,,,0
-1989,Brazil_Land,-14.2350,-51.9253,,243
+1989,Brazil_Land,-14.235,-51.9253,,243
 1989,Brazil_Offshore,-22.197004,-40.435152,,87
-1989,Chile_Land,-35.6751,-71.5430,,28
+1989,Chile_Land,-35.6751,-71.543,,28
 1989,Chile_Offshore,-32.775184,-73.644858,,27
 1989,Colombia_Land,4.5709,-74.2973,,179
 1989,Colombia_Offshore,4.919216,-78.594368,,2
@@ -1020,7 +1020,7 @@ Year,Country,Latitude,Longitude,,1982
 1989,Venezuela_Offshore,9.183729,-60.200212,,107
 1989,Australia_Land,-25.274398,133.775136,,86
 1989,Australia_Offshore,-29.599699,113.685338,,85
-1989,Bangladesh_Land,23.6850,90.3563,,45
+1989,Bangladesh_Land,23.685,90.3563,,45
 1989,Bangladesh_Offshore,21.60567,90.597855,,15
 1989,Brunei_Land,4.535277,114.727669,,16
 1989,Brunei_Offshore,5.151965,114.665627,,31
@@ -1032,17 +1032,17 @@ Year,Country,Latitude,Longitude,,1982
 1989,Japan_Offshore,38.601583,137.300839,,2
 1989,Malaysia_Land,4.210484,101.975766,,10
 1989,Malaysia_Offshore,3.50164,110.229356,,129
-1989,Myanmar_Land,21.9140,95.9562,,276
+1989,Myanmar_Land,21.914,95.9562,,276
 1989,Myanmar_Offshore,15.93001,96.427671,,0
-1989,New Zealand_Land,-40.9006,174.8860,,17
+1989,New Zealand_Land,-40.9006,174.886,,17
 1989,New Zealand_Offshore,-39.291592,173.493089,,5
-1989,Papua New Guinea_Land,-6.3150,143.9556,,27
+1989,Papua New Guinea_Land,-6.315,143.9556,,27
 1989,Papua New Guinea_Offshore,-9.231086,126.119217,,9
 1989,Phillippines_Land,12.879721,121.774017,,65
 1989,Phillippines_Offshore,8.166545,121.418401,,14
 1989,Taiwan_Land,23.69781,120.960515,,44
 1989,Taiwan_Offshore,22.143055,120.035738,,15
-1989,Thailand_Land,15.8700,100.9925,,29
+1989,Thailand_Land,15.87,100.9925,,29
 1989,Thailand_Offshore,12.269503,100.804317,,39
 1989,Vietnam_Land,14.0583,108.2772,,0
 1989,Vietnam_Offshore,11.868672,109.874274,,0
@@ -1067,7 +1067,7 @@ Year,Country,Latitude,Longitude,,1982
 1990,Hungary_Offshore,,,,0
 1990,Italy_Land,41.8719,12.5674,,196
 1990,Italy_Offshore,41.727206,10.896804,,55
-1990,Norway_Land,60.4720,8.4689,,0
+1990,Norway_Land,60.472,8.4689,,0
 1990,Norway_Offshore,60.010363,3.58667,,148
 1990,Poland_Land,51.9194,19.1451,,0
 1990,Poland_Offshore,55.155538,17.566921,,0
@@ -1077,9 +1077,9 @@ Year,Country,Latitude,Longitude,,1982
 1990,Spain_Offshore,39.467705,0.812242,,2
 1990,Turkey_Land,38.9637,35.2433,,205
 1990,Turkey_Offshore,42.573404,34.154628,,0
-1990,U.K._Land,55.3781,-3.4360,,31
+1990,U.K._Land,55.3781,-3.436,,31
 1990,U.K._Offshore,57.479149,-0.12889,,546
-1990,Yugoslavia/Croatia_Land,45.1000,15.2000,,365
+1990,Yugoslavia/Croatia_Land,45.1,15.2,,365
 1990,Yugoslavia/Croatia_Offshore,43.165008,15.806668,,16
 1990,Abu Dhabi_Land,24.4539,54.3773,,40
 1990,Abu Dhabi_Offshore,24.756606,54.280173,,64
@@ -1087,7 +1087,7 @@ Year,Country,Latitude,Longitude,,1982
 1990,Dubai_Offshore,25.452626,55.17867,,34
 1990,Egypt_Land,26.8206,30.8025,,77
 1990,Egypt_Offshore,31.951179,30.916615,,108
-1990,Iran_Land,32.4279,53.6880,,222
+1990,Iran_Land,32.4279,53.688,,222
 1990,Iran_Offshore,26.986451,52.797098,,0
 1990,Iraq_Land,33.2232,43.6793,,281
 1990,Iraq_Offshore,29.826924,48.713334,,0
@@ -1121,7 +1121,7 @@ Year,Country,Latitude,Longitude,,1982
 1990,Kenya__Offshore,-3.49976,40.801566,,3
 1990,Libya_Land,26.3351,17.2283,,142
 1990,Libya__Offshore,31.683681,18.512678,,38
-1990,Nigeria_Land,9.0820,8.6753,,146
+1990,Nigeria_Land,9.082,8.6753,,146
 1990,Nigeria_Offshore,4.113485,6.999522,,69
 1990,S.Africa_Land,-30.5595,22.9375,,0
 1990,S.Africa_Offshore,-31.842791,16.674006,,32
@@ -1131,9 +1131,9 @@ Year,Country,Latitude,Longitude,,1982
 1990,Argentina_Offshore,-51.313678,-66.678394,,7
 1990,Bolivia_Land,-16.2902,-63.5887,,67
 1990,Bolivia_Offshore,,,,0
-1990,Brazil_Land,-14.2350,-51.9253,,185
+1990,Brazil_Land,-14.235,-51.9253,,185
 1990,Brazil_Offshore,-22.197004,-40.435152,,89
-1990,Chile_Land,-35.6751,-71.5430,,30
+1990,Chile_Land,-35.6751,-71.543,,30
 1990,Chile_Offshore,-32.775184,-73.644858,,36
 1990,Colombia_Land,4.5709,-74.2973,,127
 1990,Colombia_Offshore,4.919216,-78.594368,,0
@@ -1151,7 +1151,7 @@ Year,Country,Latitude,Longitude,,1982
 1990,Venezuela_Offshore,9.183729,-60.200212,,143
 1990,Australia_Land,-25.274398,133.775136,,98
 1990,Australia_Offshore,-29.599699,113.685338,,70
-1990,Bangladesh_Land,23.6850,90.3563,,45
+1990,Bangladesh_Land,23.685,90.3563,,45
 1990,Bangladesh_Offshore,21.60567,90.597855,,1
 1990,Brunei_Land,4.535277,114.727669,,11
 1990,Brunei_Offshore,5.151965,114.665627,,43
@@ -1163,17 +1163,17 @@ Year,Country,Latitude,Longitude,,1982
 1990,Japan_Offshore,38.601583,137.300839,,7
 1990,Malaysia_Land,4.210484,101.975766,,3
 1990,Malaysia_Offshore,3.50164,110.229356,,154
-1990,Myanmar_Land,21.9140,95.9562,,243
+1990,Myanmar_Land,21.914,95.9562,,243
 1990,Myanmar_Offshore,15.93001,96.427671,,0
-1990,New Zealand_Land,-40.9006,174.8860,,2
+1990,New Zealand_Land,-40.9006,174.886,,2
 1990,New Zealand_Offshore,-39.291592,173.493089,,13
-1990,Papua New Guinea_Land,-6.3150,143.9556,,29
+1990,Papua New Guinea_Land,-6.315,143.9556,,29
 1990,Papua New Guinea_Offshore,-9.231086,126.119217,,7
 1990,Phillippines_Land,12.879721,121.774017,,73
 1990,Phillippines_Offshore,8.166545,121.418401,,4
 1990,Taiwan_Land,23.69781,120.960515,,30
 1990,Taiwan_Offshore,22.143055,120.035738,,10
-1990,Thailand_Land,15.8700,100.9925,,32
+1990,Thailand_Land,15.87,100.9925,,32
 1990,Thailand_Offshore,12.269503,100.804317,,33
 1990,Vietnam_Land,14.0583,108.2772,,0
 1990,Vietnam_Offshore,11.868672,109.874274,,0
@@ -1198,7 +1198,7 @@ Year,Country,Latitude,Longitude,,1982
 1991,Hungary_Offshore,,,,0
 1991,Italy_Land,41.8719,12.5674,,229
 1991,Italy_Offshore,41.727206,10.896804,,69
-1991,Norway_Land,60.4720,8.4689,,2
+1991,Norway_Land,60.472,8.4689,,2
 1991,Norway_Offshore,60.010363,3.58667,,187
 1991,Poland_Land,51.9194,19.1451,,333
 1991,Poland_Offshore,55.155538,17.566921,,0
@@ -1208,9 +1208,9 @@ Year,Country,Latitude,Longitude,,1982
 1991,Spain_Offshore,39.467705,0.812242,,8
 1991,Turkey_Land,38.9637,35.2433,,224
 1991,Turkey_Offshore,42.573404,34.154628,,0
-1991,U.K._Land,55.3781,-3.4360,,10
+1991,U.K._Land,55.3781,-3.436,,10
 1991,U.K._Offshore,57.479149,-0.12889,,456
-1991,Yugoslavia/Croatia_Land,45.1000,15.2000,,171
+1991,Yugoslavia/Croatia_Land,45.1,15.2,,171
 1991,Yugoslavia/Croatia_Offshore,43.165008,15.806668,,4
 1991,Abu Dhabi_Land,24.4539,54.3773,,68
 1991,Abu Dhabi_Offshore,24.756606,54.280173,,85
@@ -1218,7 +1218,7 @@ Year,Country,Latitude,Longitude,,1982
 1991,Dubai_Offshore,25.452626,55.17867,,27
 1991,Egypt_Land,26.8206,30.8025,,107
 1991,Egypt_Offshore,31.951179,30.916615,,97
-1991,Iran_Land,32.4279,53.6880,,245
+1991,Iran_Land,32.4279,53.688,,245
 1991,Iran_Offshore,26.986451,52.797098,,9
 1991,Iraq_Land,33.2232,43.6793,,0
 1991,Iraq_Offshore,29.826924,48.713334,,0
@@ -1252,7 +1252,7 @@ Year,Country,Latitude,Longitude,,1982
 1991,Kenya__Offshore,-3.49976,40.801566,,0
 1991,Libya_Land,26.3351,17.2283,,168
 1991,Libya__Offshore,31.683681,18.512678,,12
-1991,Nigeria_Land,9.0820,8.6753,,96
+1991,Nigeria_Land,9.082,8.6753,,96
 1991,Nigeria_Offshore,4.113485,6.999522,,155
 1991,S.Africa_Land,-30.5595,22.9375,,16
 1991,S.Africa_Offshore,-31.842791,16.674006,,8
@@ -1262,9 +1262,9 @@ Year,Country,Latitude,Longitude,,1982
 1991,Argentina_Offshore,-51.313678,-66.678394,,1
 1991,Bolivia_Land,-16.2902,-63.5887,,114
 1991,Bolivia_Offshore,,,,0
-1991,Brazil_Land,-14.2350,-51.9253,,171
+1991,Brazil_Land,-14.235,-51.9253,,171
 1991,Brazil_Offshore,-22.197004,-40.435152,,85
-1991,Chile_Land,-35.6751,-71.5430,,36
+1991,Chile_Land,-35.6751,-71.543,,36
 1991,Chile_Offshore,-32.775184,-73.644858,,32
 1991,Colombia_Land,4.5709,-74.2973,,104
 1991,Colombia_Offshore,4.919216,-78.594368,,0
@@ -1282,7 +1282,7 @@ Year,Country,Latitude,Longitude,,1982
 1991,Venezuela_Offshore,9.183729,-60.200212,,200
 1991,Australia_Land,-25.274398,133.775136,,82
 1991,Australia_Offshore,-29.599699,113.685338,,57
-1991,Bangladesh_Land,23.6850,90.3563,,2
+1991,Bangladesh_Land,23.685,90.3563,,2
 1991,Bangladesh_Offshore,21.60567,90.597855,,0
 1991,Brunei_Land,4.535277,114.727669,,14
 1991,Brunei_Offshore,5.151965,114.665627,,35
@@ -1294,17 +1294,17 @@ Year,Country,Latitude,Longitude,,1982
 1991,Japan_Offshore,38.601583,137.300839,,15
 1991,Malaysia_Land,4.210484,101.975766,,6
 1991,Malaysia_Offshore,3.50164,110.229356,,151
-1991,Myanmar_Land,21.9140,95.9562,,258
+1991,Myanmar_Land,21.914,95.9562,,258
 1991,Myanmar_Offshore,15.93001,96.427671,,0
-1991,New Zealand_Land,-40.9006,174.8860,,8
+1991,New Zealand_Land,-40.9006,174.886,,8
 1991,New Zealand_Offshore,-39.291592,173.493089,,3
-1991,Papua New Guinea_Land,-6.3150,143.9556,,21
+1991,Papua New Guinea_Land,-6.315,143.9556,,21
 1991,Papua New Guinea_Offshore,-9.231086,126.119217,,0
 1991,Phillippines_Land,12.879721,121.774017,,45
 1991,Phillippines_Offshore,8.166545,121.418401,,12
 1991,Taiwan_Land,23.69781,120.960515,,21
 1991,Taiwan_Offshore,22.143055,120.035738,,13
-1991,Thailand_Land,15.8700,100.9925,,15
+1991,Thailand_Land,15.87,100.9925,,15
 1991,Thailand_Offshore,12.269503,100.804317,,36
 1991,Vietnam_Land,14.0583,108.2772,,0
 1991,Vietnam_Offshore,11.868672,109.874274,,0
@@ -1329,7 +1329,7 @@ Year,Country,Latitude,Longitude,,1982
 1992,Hungary_Offshore,,,,0
 1992,Italy_Land,41.8719,12.5674,,201
 1992,Italy_Offshore,41.727206,10.896804,,73
-1992,Norway_Land,60.4720,8.4689,,0
+1992,Norway_Land,60.472,8.4689,,0
 1992,Norway_Offshore,60.010363,3.58667,,177
 1992,Poland_Land,51.9194,19.1451,,221
 1992,Poland_Offshore,55.155538,17.566921,,0
@@ -1339,9 +1339,9 @@ Year,Country,Latitude,Longitude,,1982
 1992,Spain_Offshore,39.467705,0.812242,,0
 1992,Turkey_Land,38.9637,35.2433,,178
 1992,Turkey_Offshore,42.573404,34.154628,,0
-1992,U.K._Land,55.3781,-3.4360,,8
+1992,U.K._Land,55.3781,-3.436,,8
 1992,U.K._Offshore,57.479149,-0.12889,,393
-1992,Yugoslavia/Croatia_Land,45.1000,15.2000,,5
+1992,Yugoslavia/Croatia_Land,45.1,15.2,,5
 1992,Yugoslavia/Croatia_Offshore,43.165008,15.806668,,11
 1992,Abu Dhabi_Land,24.4539,54.3773,,91
 1992,Abu Dhabi_Offshore,24.756606,54.280173,,87
@@ -1349,7 +1349,7 @@ Year,Country,Latitude,Longitude,,1982
 1992,Dubai_Offshore,25.452626,55.17867,,22
 1992,Egypt_Land,26.8206,30.8025,,85
 1992,Egypt_Offshore,31.951179,30.916615,,104
-1992,Iran_Land,32.4279,53.6880,,440
+1992,Iran_Land,32.4279,53.688,,440
 1992,Iran_Offshore,26.986451,52.797098,,30
 1992,Iraq_Land,33.2232,43.6793,,0
 1992,Iraq_Offshore,29.826924,48.713334,,0
@@ -1383,7 +1383,7 @@ Year,Country,Latitude,Longitude,,1982
 1992,Kenya__Offshore,-3.49976,40.801566,,0
 1992,Libya_Land,26.3351,17.2283,,180
 1992,Libya__Offshore,31.683681,18.512678,,0
-1992,Nigeria_Land,9.0820,8.6753,,81
+1992,Nigeria_Land,9.082,8.6753,,81
 1992,Nigeria_Offshore,4.113485,6.999522,,109
 1992,S.Africa_Land,-30.5595,22.9375,,11
 1992,S.Africa_Offshore,-31.842791,16.674006,,6
@@ -1393,9 +1393,9 @@ Year,Country,Latitude,Longitude,,1982
 1992,Argentina_Offshore,-51.313678,-66.678394,,0
 1992,Bolivia_Land,-16.2902,-63.5887,,197
 1992,Bolivia_Offshore,,,,0
-1992,Brazil_Land,-14.2350,-51.9253,,172
+1992,Brazil_Land,-14.235,-51.9253,,172
 1992,Brazil_Offshore,-22.197004,-40.435152,,142
-1992,Chile_Land,-35.6751,-71.5430,,29
+1992,Chile_Land,-35.6751,-71.543,,29
 1992,Chile_Offshore,-32.775184,-73.644858,,15
 1992,Colombia_Land,4.5709,-74.2973,,140
 1992,Colombia_Offshore,4.919216,-78.594368,,0
@@ -1413,7 +1413,7 @@ Year,Country,Latitude,Longitude,,1982
 1992,Venezuela_Offshore,9.183729,-60.200212,,197
 1992,Australia_Land,-25.274398,133.775136,,75
 1992,Australia_Offshore,-29.599699,113.685338,,46
-1992,Bangladesh_Land,23.6850,90.3563,,0
+1992,Bangladesh_Land,23.685,90.3563,,0
 1992,Bangladesh_Offshore,21.60567,90.597855,,0
 1992,Brunei_Land,4.535277,114.727669,,0
 1992,Brunei_Offshore,5.151965,114.665627,,23
@@ -1425,17 +1425,17 @@ Year,Country,Latitude,Longitude,,1982
 1992,Japan_Offshore,38.601583,137.300839,,6
 1992,Malaysia_Land,4.210484,101.975766,,4
 1992,Malaysia_Offshore,3.50164,110.229356,,113
-1992,Myanmar_Land,21.9140,95.9562,,217
+1992,Myanmar_Land,21.914,95.9562,,217
 1992,Myanmar_Offshore,15.93001,96.427671,,0
-1992,New Zealand_Land,-40.9006,174.8860,,10
+1992,New Zealand_Land,-40.9006,174.886,,10
 1992,New Zealand_Offshore,-39.291592,173.493089,,3
-1992,Papua New Guinea_Land,-6.3150,143.9556,,26
+1992,Papua New Guinea_Land,-6.315,143.9556,,26
 1992,Papua New Guinea_Offshore,-9.231086,126.119217,,0
 1992,Phillippines_Land,12.879721,121.774017,,68
 1992,Phillippines_Offshore,8.166545,121.418401,,13
 1992,Taiwan_Land,23.69781,120.960515,,36
 1992,Taiwan_Offshore,22.143055,120.035738,,16
-1992,Thailand_Land,15.8700,100.9925,,10
+1992,Thailand_Land,15.87,100.9925,,10
 1992,Thailand_Offshore,12.269503,100.804317,,44
 1992,Vietnam_Land,14.0583,108.2772,,0
 1992,Vietnam_Offshore,11.868672,109.874274,,0
@@ -1460,7 +1460,7 @@ Year,Country,Latitude,Longitude,,1982
 1993,Hungary_Offshore,,,,0
 1993,Italy_Land,41.8719,12.5674,,129
 1993,Italy_Offshore,41.727206,10.896804,,35
-1993,Norway_Land,60.4720,8.4689,,0
+1993,Norway_Land,60.472,8.4689,,0
 1993,Norway_Offshore,60.010363,3.58667,,158
 1993,Poland_Land,51.9194,19.1451,,216
 1993,Poland_Offshore,55.155538,17.566921,,0
@@ -1470,9 +1470,9 @@ Year,Country,Latitude,Longitude,,1982
 1993,Spain_Offshore,39.467705,0.812242,,0
 1993,Turkey_Land,38.9637,35.2433,,186
 1993,Turkey_Offshore,42.573404,34.154628,,0
-1993,U.K._Land,55.3781,-3.4360,,6
+1993,U.K._Land,55.3781,-3.436,,6
 1993,U.K._Offshore,57.479149,-0.12889,,284
-1993,Yugoslavia/Croatia_Land,45.1000,15.2000,,0
+1993,Yugoslavia/Croatia_Land,45.1,15.2,,0
 1993,Yugoslavia/Croatia_Offshore,43.165008,15.806668,,0
 1993,Abu Dhabi_Land,24.4539,54.3773,,95
 1993,Abu Dhabi_Offshore,24.756606,54.280173,,90
@@ -1480,7 +1480,7 @@ Year,Country,Latitude,Longitude,,1982
 1993,Dubai_Offshore,25.452626,55.17867,,18
 1993,Egypt_Land,26.8206,30.8025,,59
 1993,Egypt_Offshore,31.951179,30.916615,,100
-1993,Iran_Land,32.4279,53.6880,,509
+1993,Iran_Land,32.4279,53.688,,509
 1993,Iran_Offshore,26.986451,52.797098,,35
 1993,Iraq_Land,33.2232,43.6793,,0
 1993,Iraq_Offshore,29.826924,48.713334,,0
@@ -1514,7 +1514,7 @@ Year,Country,Latitude,Longitude,,1982
 1993,Kenya__Offshore,-3.49976,40.801566,,0
 1993,Libya_Land,26.3351,17.2283,,180
 1993,Libya__Offshore,31.683681,18.512678,,0
-1993,Nigeria_Land,9.0820,8.6753,,23
+1993,Nigeria_Land,9.082,8.6753,,23
 1993,Nigeria_Offshore,4.113485,6.999522,,101
 1993,S.Africa_Land,-30.5595,22.9375,,0
 1993,S.Africa_Offshore,-31.842791,16.674006,,19
@@ -1524,9 +1524,9 @@ Year,Country,Latitude,Longitude,,1982
 1993,Argentina_Offshore,-51.313678,-66.678394,,0
 1993,Bolivia_Land,-16.2902,-63.5887,,132
 1993,Bolivia_Offshore,,,,0
-1993,Brazil_Land,-14.2350,-51.9253,,157
+1993,Brazil_Land,-14.235,-51.9253,,157
 1993,Brazil_Offshore,-22.197004,-40.435152,,141
-1993,Chile_Land,-35.6751,-71.5430,,27
+1993,Chile_Land,-35.6751,-71.543,,27
 1993,Chile_Offshore,-32.775184,-73.644858,,18
 1993,Colombia_Land,4.5709,-74.2973,,153
 1993,Colombia_Offshore,4.919216,-78.594368,,0
@@ -1544,7 +1544,7 @@ Year,Country,Latitude,Longitude,,1982
 1993,Venezuela_Offshore,9.183729,-60.200212,,288
 1993,Australia_Land,-25.274398,133.775136,,71
 1993,Australia_Offshore,-29.599699,113.685338,,60
-1993,Bangladesh_Land,23.6850,90.3563,,0
+1993,Bangladesh_Land,23.685,90.3563,,0
 1993,Bangladesh_Offshore,21.60567,90.597855,,0
 1993,Brunei_Land,4.535277,114.727669,,0
 1993,Brunei_Offshore,5.151965,114.665627,,17
@@ -1556,17 +1556,17 @@ Year,Country,Latitude,Longitude,,1982
 1993,Japan_Offshore,38.601583,137.300839,,6
 1993,Malaysia_Land,4.210484,101.975766,,10
 1993,Malaysia_Offshore,3.50164,110.229356,,97
-1993,Myanmar_Land,21.9140,95.9562,,192
+1993,Myanmar_Land,21.914,95.9562,,192
 1993,Myanmar_Offshore,15.93001,96.427671,,8
-1993,New Zealand_Land,-40.9006,174.8860,,13
+1993,New Zealand_Land,-40.9006,174.886,,13
 1993,New Zealand_Offshore,-39.291592,173.493089,,17
-1993,Papua New Guinea_Land,-6.3150,143.9556,,16
+1993,Papua New Guinea_Land,-6.315,143.9556,,16
 1993,Papua New Guinea_Offshore,-9.231086,126.119217,,1
 1993,Phillippines_Land,12.879721,121.774017,,97
 1993,Phillippines_Offshore,8.166545,121.418401,,7
 1993,Taiwan_Land,23.69781,120.960515,,22
 1993,Taiwan_Offshore,22.143055,120.035738,,12
-1993,Thailand_Land,15.8700,100.9925,,17
+1993,Thailand_Land,15.87,100.9925,,17
 1993,Thailand_Offshore,12.269503,100.804317,,47
 1993,Vietnam_Land,14.0583,108.2772,,0
 1993,Vietnam_Offshore,11.868672,109.874274,,0
@@ -1591,7 +1591,7 @@ Year,Country,Latitude,Longitude,,1982
 1994,Hungary_Offshore,,,,0
 1994,Italy_Land,41.8719,12.5674,,114
 1994,Italy_Offshore,41.727206,10.896804,,12
-1994,Norway_Land,60.4720,8.4689,,0
+1994,Norway_Land,60.472,8.4689,,0
 1994,Norway_Offshore,60.010363,3.58667,,170
 1994,Poland_Land,51.9194,19.1451,,216
 1994,Poland_Offshore,55.155538,17.566921,,0
@@ -1601,9 +1601,9 @@ Year,Country,Latitude,Longitude,,1982
 1994,Spain_Offshore,39.467705,0.812242,,0
 1994,Turkey_Land,38.9637,35.2433,,192
 1994,Turkey_Offshore,42.573404,34.154628,,0
-1994,U.K._Land,55.3781,-3.4360,,11
+1994,U.K._Land,55.3781,-3.436,,11
 1994,U.K._Offshore,57.479149,-0.12889,,267
-1994,Yugoslavia/Croatia_Land,45.1000,15.2000,,3
+1994,Yugoslavia/Croatia_Land,45.1,15.2,,3
 1994,Yugoslavia/Croatia_Offshore,43.165008,15.806668,,0
 1994,Abu Dhabi_Land,24.4539,54.3773,,84
 1994,Abu Dhabi_Offshore,24.756606,54.280173,,96
@@ -1611,7 +1611,7 @@ Year,Country,Latitude,Longitude,,1982
 1994,Dubai_Offshore,25.452626,55.17867,,12
 1994,Egypt_Land,26.8206,30.8025,,78
 1994,Egypt_Offshore,31.951179,30.916615,,86
-1994,Iran_Land,32.4279,53.6880,,235
+1994,Iran_Land,32.4279,53.688,,235
 1994,Iran_Offshore,26.986451,52.797098,,19
 1994,Iraq_Land,33.2232,43.6793,,0
 1994,Iraq_Offshore,29.826924,48.713334,,0
@@ -1645,7 +1645,7 @@ Year,Country,Latitude,Longitude,,1982
 1994,Kenya__Offshore,-3.49976,40.801566,,0
 1994,Libya_Land,26.3351,17.2283,,160
 1994,Libya__Offshore,31.683681,18.512678,,0
-1994,Nigeria_Land,9.0820,8.6753,,9
+1994,Nigeria_Land,9.082,8.6753,,9
 1994,Nigeria_Offshore,4.113485,6.999522,,74
 1994,S.Africa_Land,-30.5595,22.9375,,0
 1994,S.Africa_Offshore,-31.842791,16.674006,,15
@@ -1655,9 +1655,9 @@ Year,Country,Latitude,Longitude,,1982
 1994,Argentina_Offshore,-51.313678,-66.678394,,8
 1994,Bolivia_Land,-16.2902,-63.5887,,121
 1994,Bolivia_Offshore,,,,0
-1994,Brazil_Land,-14.2350,-51.9253,,165
+1994,Brazil_Land,-14.235,-51.9253,,165
 1994,Brazil_Offshore,-22.197004,-40.435152,,112
-1994,Chile_Land,-35.6751,-71.5430,,24
+1994,Chile_Land,-35.6751,-71.543,,24
 1994,Chile_Offshore,-32.775184,-73.644858,,14
 1994,Colombia_Land,4.5709,-74.2973,,179
 1994,Colombia_Offshore,4.919216,-78.594368,,0
@@ -1675,7 +1675,7 @@ Year,Country,Latitude,Longitude,,1982
 1994,Venezuela_Offshore,9.183729,-60.200212,,331
 1994,Australia_Land,-25.274398,133.775136,,80
 1994,Australia_Offshore,-29.599699,113.685338,,66
-1994,Bangladesh_Land,23.6850,90.3563,,0
+1994,Bangladesh_Land,23.685,90.3563,,0
 1994,Bangladesh_Offshore,21.60567,90.597855,,0
 1994,Brunei_Land,4.535277,114.727669,,0
 1994,Brunei_Offshore,5.151965,114.665627,,23
@@ -1687,17 +1687,17 @@ Year,Country,Latitude,Longitude,,1982
 1994,Japan_Offshore,38.601583,137.300839,,5
 1994,Malaysia_Land,4.210484,101.975766,,1
 1994,Malaysia_Offshore,3.50164,110.229356,,120
-1994,Myanmar_Land,21.9140,95.9562,,133
+1994,Myanmar_Land,21.914,95.9562,,133
 1994,Myanmar_Offshore,15.93001,96.427671,,1
-1994,New Zealand_Land,-40.9006,174.8860,,13
+1994,New Zealand_Land,-40.9006,174.886,,13
 1994,New Zealand_Offshore,-39.291592,173.493089,,3
-1994,Papua New Guinea_Land,-6.3150,143.9556,,11
+1994,Papua New Guinea_Land,-6.315,143.9556,,11
 1994,Papua New Guinea_Offshore,-9.231086,126.119217,,0
 1994,Phillippines_Land,12.879721,121.774017,,121
 1994,Phillippines_Offshore,8.166545,121.418401,,8
 1994,Taiwan_Land,23.69781,120.960515,,20
 1994,Taiwan_Offshore,22.143055,120.035738,,13
-1994,Thailand_Land,15.8700,100.9925,,15
+1994,Thailand_Land,15.87,100.9925,,15
 1994,Thailand_Offshore,12.269503,100.804317,,49
 1994,Vietnam_Land,14.0583,108.2772,,0
 1994,Vietnam_Offshore,11.868672,109.874274,,93
@@ -1722,7 +1722,7 @@ Year,Country,Latitude,Longitude,,1982
 1995,Hungary_Offshore,,,,0
 1995,Italy_Land,41.8719,12.5674,,125
 1995,Italy_Offshore,41.727206,10.896804,,6
-1995,Norway_Land,60.4720,8.4689,,0
+1995,Norway_Land,60.472,8.4689,,0
 1995,Norway_Offshore,60.010363,3.58667,,160
 1995,Poland_Land,51.9194,19.1451,,217
 1995,Poland_Offshore,55.155538,17.566921,,0
@@ -1732,9 +1732,9 @@ Year,Country,Latitude,Longitude,,1982
 1995,Spain_Offshore,39.467705,0.812242,,0
 1995,Turkey_Land,38.9637,35.2433,,174
 1995,Turkey_Offshore,42.573404,34.154628,,4
-1995,U.K._Land,55.3781,-3.4360,,11
+1995,U.K._Land,55.3781,-3.436,,11
 1995,U.K._Offshore,57.479149,-0.12889,,311
-1995,Yugoslavia/Croatia_Land,45.1000,15.2000,,0
+1995,Yugoslavia/Croatia_Land,45.1,15.2,,0
 1995,Yugoslavia/Croatia_Offshore,43.165008,15.806668,,0
 1995,Abu Dhabi_Land,24.4539,54.3773,,81
 1995,Abu Dhabi_Offshore,24.756606,54.280173,,83
@@ -1742,7 +1742,7 @@ Year,Country,Latitude,Longitude,,1982
 1995,Dubai_Offshore,25.452626,55.17867,,22
 1995,Egypt_Land,26.8206,30.8025,,91
 1995,Egypt_Offshore,31.951179,30.916615,,114
-1995,Iran_Land,32.4279,53.6880,,240
+1995,Iran_Land,32.4279,53.688,,240
 1995,Iran_Offshore,26.986451,52.797098,,10
 1995,Iraq_Land,33.2232,43.6793,,0
 1995,Iraq_Offshore,29.826924,48.713334,,0
@@ -1776,7 +1776,7 @@ Year,Country,Latitude,Longitude,,1982
 1995,Kenya__Offshore,-3.49976,40.801566,,0
 1995,Libya_Land,26.3351,17.2283,,126
 1995,Libya__Offshore,31.683681,18.512678,,0
-1995,Nigeria_Land,9.0820,8.6753,,8
+1995,Nigeria_Land,9.082,8.6753,,8
 1995,Nigeria_Offshore,4.113485,6.999522,,101
 1995,S.Africa_Land,-30.5595,22.9375,,0
 1995,S.Africa_Offshore,-31.842791,16.674006,,6
@@ -1786,9 +1786,9 @@ Year,Country,Latitude,Longitude,,1982
 1995,Argentina_Offshore,-51.313678,-66.678394,,12
 1995,Bolivia_Land,-16.2902,-63.5887,,92
 1995,Bolivia_Offshore,,,,0
-1995,Brazil_Land,-14.2350,-51.9253,,140
+1995,Brazil_Land,-14.235,-51.9253,,140
 1995,Brazil_Offshore,-22.197004,-40.435152,,102
-1995,Chile_Land,-35.6751,-71.5430,,19
+1995,Chile_Land,-35.6751,-71.543,,19
 1995,Chile_Offshore,-32.775184,-73.644858,,12
 1995,Colombia_Land,4.5709,-74.2973,,192
 1995,Colombia_Offshore,4.919216,-78.594368,,0
@@ -1806,7 +1806,7 @@ Year,Country,Latitude,Longitude,,1982
 1995,Venezuela_Offshore,9.183729,-60.200212,,315
 1995,Australia_Land,-25.274398,133.775136,,77
 1995,Australia_Offshore,-29.599699,113.685338,,70
-1995,Bangladesh_Land,23.6850,90.3563,,0
+1995,Bangladesh_Land,23.685,90.3563,,0
 1995,Bangladesh_Offshore,21.60567,90.597855,,0
 1995,Brunei_Land,4.535277,114.727669,,3
 1995,Brunei_Offshore,5.151965,114.665627,,14
@@ -1818,17 +1818,17 @@ Year,Country,Latitude,Longitude,,1982
 1995,Japan_Offshore,38.601583,137.300839,,7
 1995,Malaysia_Land,4.210484,101.975766,,0
 1995,Malaysia_Offshore,3.50164,110.229356,,107
-1995,Myanmar_Land,21.9140,95.9562,,116
+1995,Myanmar_Land,21.914,95.9562,,116
 1995,Myanmar_Offshore,15.93001,96.427671,,3
-1995,New Zealand_Land,-40.9006,174.8860,,24
+1995,New Zealand_Land,-40.9006,174.886,,24
 1995,New Zealand_Offshore,-39.291592,173.493089,,0
-1995,Papua New Guinea_Land,-6.3150,143.9556,,22
+1995,Papua New Guinea_Land,-6.315,143.9556,,22
 1995,Papua New Guinea_Offshore,-9.231086,126.119217,,2
 1995,Phillippines_Land,12.879721,121.774017,,81
 1995,Phillippines_Offshore,8.166545,121.418401,,5
 1995,Taiwan_Land,23.69781,120.960515,,11
 1995,Taiwan_Offshore,22.143055,120.035738,,8
-1995,Thailand_Land,15.8700,100.9925,,2
+1995,Thailand_Land,15.87,100.9925,,2
 1995,Thailand_Offshore,12.269503,100.804317,,45
 1995,Vietnam_Land,14.0583,108.2772,,1
 1995,Vietnam_Offshore,11.868672,109.874274,,73
@@ -1853,7 +1853,7 @@ Year,Country,Latitude,Longitude,,1982
 1996,Hungary_Offshore,,,,0
 1996,Italy_Land,41.8719,12.5674,,141
 1996,Italy_Offshore,41.727206,10.896804,,19
-1996,Norway_Land,60.4720,8.4689,,0
+1996,Norway_Land,60.472,8.4689,,0
 1996,Norway_Offshore,60.010363,3.58667,,180
 1996,Poland_Land,51.9194,19.1451,,215
 1996,Poland_Offshore,55.155538,17.566921,,0
@@ -1863,9 +1863,9 @@ Year,Country,Latitude,Longitude,,1982
 1996,Spain_Offshore,39.467705,0.812242,,0
 1996,Turkey_Land,38.9637,35.2433,,122
 1996,Turkey_Offshore,42.573404,34.154628,,2
-1996,U.K._Land,55.3781,-3.4360,,13
+1996,U.K._Land,55.3781,-3.436,,13
 1996,U.K._Offshore,57.479149,-0.12889,,359
-1996,Yugoslavia/Croatia_Land,45.1000,15.2000,,23
+1996,Yugoslavia/Croatia_Land,45.1,15.2,,23
 1996,Yugoslavia/Croatia_Offshore,43.165008,15.806668,,0
 1996,Abu Dhabi_Land,24.4539,54.3773,,79
 1996,Abu Dhabi_Offshore,24.756606,54.280173,,88
@@ -1873,7 +1873,7 @@ Year,Country,Latitude,Longitude,,1982
 1996,Dubai_Offshore,25.452626,55.17867,,32
 1996,Egypt_Land,26.8206,30.8025,,125
 1996,Egypt_Offshore,31.951179,30.916615,,107
-1996,Iran_Land,32.4279,53.6880,,240
+1996,Iran_Land,32.4279,53.688,,240
 1996,Iran_Offshore,26.986451,52.797098,,24
 1996,Iraq_Land,33.2232,43.6793,,0
 1996,Iraq_Offshore,29.826924,48.713334,,0
@@ -1907,7 +1907,7 @@ Year,Country,Latitude,Longitude,,1982
 1996,Kenya__Offshore,-3.49976,40.801566,,0
 1996,Libya_Land,26.3351,17.2283,,156
 1996,Libya__Offshore,31.683681,18.512678,,0
-1996,Nigeria_Land,9.0820,8.6753,,6
+1996,Nigeria_Land,9.082,8.6753,,6
 1996,Nigeria_Offshore,4.113485,6.999522,,166
 1996,S.Africa_Land,-30.5595,22.9375,,0
 1996,S.Africa_Offshore,-31.842791,16.674006,,0
@@ -1917,9 +1917,9 @@ Year,Country,Latitude,Longitude,,1982
 1996,Argentina_Offshore,-51.313678,-66.678394,,9
 1996,Bolivia_Land,-16.2902,-63.5887,,86
 1996,Bolivia_Offshore,,,,0
-1996,Brazil_Land,-14.2350,-51.9253,,140
+1996,Brazil_Land,-14.235,-51.9253,,140
 1996,Brazil_Offshore,-22.197004,-40.435152,,127
-1996,Chile_Land,-35.6751,-71.5430,,15
+1996,Chile_Land,-35.6751,-71.543,,15
 1996,Chile_Offshore,-32.775184,-73.644858,,10
 1996,Colombia_Land,4.5709,-74.2973,,162
 1996,Colombia_Offshore,4.919216,-78.594368,,2
@@ -1937,7 +1937,7 @@ Year,Country,Latitude,Longitude,,1982
 1996,Venezuela_Offshore,9.183729,-60.200212,,358
 1996,Australia_Land,-25.274398,133.775136,,103
 1996,Australia_Offshore,-29.599699,113.685338,,64
-1996,Bangladesh_Land,23.6850,90.3563,,0
+1996,Bangladesh_Land,23.685,90.3563,,0
 1996,Bangladesh_Offshore,21.60567,90.597855,,0
 1996,Brunei_Land,4.535277,114.727669,,4
 1996,Brunei_Offshore,5.151965,114.665627,,14
@@ -1949,17 +1949,17 @@ Year,Country,Latitude,Longitude,,1982
 1996,Japan_Offshore,38.601583,137.300839,,1
 1996,Malaysia_Land,4.210484,101.975766,,0
 1996,Malaysia_Offshore,3.50164,110.229356,,68
-1996,Myanmar_Land,21.9140,95.9562,,121
+1996,Myanmar_Land,21.914,95.9562,,121
 1996,Myanmar_Offshore,15.93001,96.427671,,10
-1996,New Zealand_Land,-40.9006,174.8860,,8
+1996,New Zealand_Land,-40.9006,174.886,,8
 1996,New Zealand_Offshore,-39.291592,173.493089,,3
-1996,Papua New Guinea_Land,-6.3150,143.9556,,18
+1996,Papua New Guinea_Land,-6.315,143.9556,,18
 1996,Papua New Guinea_Offshore,-9.231086,126.119217,,0
 1996,Phillippines_Land,12.879721,121.774017,,61
 1996,Phillippines_Offshore,8.166545,121.418401,,7
 1996,Taiwan_Land,23.69781,120.960515,,15
 1996,Taiwan_Offshore,22.143055,120.035738,,9
-1996,Thailand_Land,15.8700,100.9925,,10
+1996,Thailand_Land,15.87,100.9925,,10
 1996,Thailand_Offshore,12.269503,100.804317,,68
 1996,Vietnam_Land,14.0583,108.2772,,8
 1996,Vietnam_Offshore,11.868672,109.874274,,66
@@ -1984,7 +1984,7 @@ Year,Country,Latitude,Longitude,,1982
 1997,Hungary_Offshore,,,,0
 1997,Italy_Land,41.8719,12.5674,,137
 1997,Italy_Offshore,41.727206,10.896804,,11
-1997,Norway_Land,60.4720,8.4689,,0
+1997,Norway_Land,60.472,8.4689,,0
 1997,Norway_Offshore,60.010363,3.58667,,202
 1997,Poland_Land,51.9194,19.1451,,192
 1997,Poland_Offshore,55.155538,17.566921,,0
@@ -1994,9 +1994,9 @@ Year,Country,Latitude,Longitude,,1982
 1997,Spain_Offshore,39.467705,0.812242,,0
 1997,Turkey_Land,38.9637,35.2433,,117
 1997,Turkey_Offshore,42.573404,34.154628,,1
-1997,U.K._Land,55.3781,-3.4360,,18
+1997,U.K._Land,55.3781,-3.436,,18
 1997,U.K._Offshore,57.479149,-0.12889,,387
-1997,Yugoslavia/Croatia_Land,45.1000,15.2000,,6
+1997,Yugoslavia/Croatia_Land,45.1,15.2,,6
 1997,Yugoslavia/Croatia_Offshore,43.165008,15.806668,,0
 1997,Abu Dhabi_Land,24.4539,54.3773,,85
 1997,Abu Dhabi_Offshore,24.756606,54.280173,,95
@@ -2004,7 +2004,7 @@ Year,Country,Latitude,Longitude,,1982
 1997,Dubai_Offshore,25.452626,55.17867,,14
 1997,Egypt_Land,26.8206,30.8025,,150
 1997,Egypt_Offshore,31.951179,30.916615,,106
-1997,Iran_Land,32.4279,53.6880,,245
+1997,Iran_Land,32.4279,53.688,,245
 1997,Iran_Offshore,26.986451,52.797098,,24
 1997,Iraq_Land,33.2232,43.6793,,0
 1997,Iraq_Offshore,29.826924,48.713334,,0
@@ -2038,7 +2038,7 @@ Year,Country,Latitude,Longitude,,1982
 1997,Kenya__Offshore,-3.49976,40.801566,,0
 1997,Libya_Land,26.3351,17.2283,,156
 1997,Libya__Offshore,31.683681,18.512678,,0
-1997,Nigeria_Land,9.0820,8.6753,,19
+1997,Nigeria_Land,9.082,8.6753,,19
 1997,Nigeria_Offshore,4.113485,6.999522,,133
 1997,S.Africa_Land,-30.5595,22.9375,,0
 1997,S.Africa_Offshore,-31.842791,16.674006,,10
@@ -2048,9 +2048,9 @@ Year,Country,Latitude,Longitude,,1982
 1997,Argentina_Offshore,-51.313678,-66.678394,,12
 1997,Bolivia_Land,-16.2902,-63.5887,,64
 1997,Bolivia_Offshore,,,,0
-1997,Brazil_Land,-14.2350,-51.9253,,138
+1997,Brazil_Land,-14.235,-51.9253,,138
 1997,Brazil_Offshore,-22.197004,-40.435152,,114
-1997,Chile_Land,-35.6751,-71.5430,,12
+1997,Chile_Land,-35.6751,-71.543,,12
 1997,Chile_Offshore,-32.775184,-73.644858,,9
 1997,Colombia_Land,4.5709,-74.2973,,189
 1997,Colombia_Offshore,4.919216,-78.594368,,0
@@ -2068,7 +2068,7 @@ Year,Country,Latitude,Longitude,,1982
 1997,Venezuela_Offshore,9.183729,-60.200212,,454
 1997,Australia_Land,-25.274398,133.775136,,87
 1997,Australia_Offshore,-29.599699,113.685338,,83
-1997,Bangladesh_Land,23.6850,90.3563,,0
+1997,Bangladesh_Land,23.685,90.3563,,0
 1997,Bangladesh_Offshore,21.60567,90.597855,,0
 1997,Brunei_Land,4.535277,114.727669,,11
 1997,Brunei_Offshore,5.151965,114.665627,,24
@@ -2080,17 +2080,17 @@ Year,Country,Latitude,Longitude,,1982
 1997,Japan_Offshore,38.601583,137.300839,,1
 1997,Malaysia_Land,4.210484,101.975766,,0
 1997,Malaysia_Offshore,3.50164,110.229356,,68
-1997,Myanmar_Land,21.9140,95.9562,,77
+1997,Myanmar_Land,21.914,95.9562,,77
 1997,Myanmar_Offshore,15.93001,96.427671,,7
-1997,New Zealand_Land,-40.9006,174.8860,,8
+1997,New Zealand_Land,-40.9006,174.886,,8
 1997,New Zealand_Offshore,-39.291592,173.493089,,0
-1997,Papua New Guinea_Land,-6.3150,143.9556,,23
+1997,Papua New Guinea_Land,-6.315,143.9556,,23
 1997,Papua New Guinea_Offshore,-9.231086,126.119217,,0
 1997,Phillippines_Land,12.879721,121.774017,,28
 1997,Phillippines_Offshore,8.166545,121.418401,,1
 1997,Taiwan_Land,23.69781,120.960515,,17
 1997,Taiwan_Offshore,22.143055,120.035738,,6
-1997,Thailand_Land,15.8700,100.9925,,15
+1997,Thailand_Land,15.87,100.9925,,15
 1997,Thailand_Offshore,12.269503,100.804317,,65
 1997,Vietnam_Land,14.0583,108.2772,,1
 1997,Vietnam_Offshore,11.868672,109.874274,,72
@@ -2115,7 +2115,7 @@ Year,Country,Latitude,Longitude,,1982
 1998,Hungary_Offshore,,,,0
 1998,Italy_Land,41.8719,12.5674,,103
 1998,Italy_Offshore,41.727206,10.896804,,7
-1998,Norway_Land,60.4720,8.4689,,0
+1998,Norway_Land,60.472,8.4689,,0
 1998,Norway_Offshore,60.010363,3.58667,,206
 1998,Poland_Land,51.9194,19.1451,,178
 1998,Poland_Offshore,55.155538,17.566921,,0
@@ -2125,9 +2125,9 @@ Year,Country,Latitude,Longitude,,1982
 1998,Spain_Offshore,39.467705,0.812242,,0
 1998,Turkey_Land,38.9637,35.2433,,80
 1998,Turkey_Offshore,42.573404,34.154628,,0
-1998,U.K._Land,55.3781,-3.4360,,11
+1998,U.K._Land,55.3781,-3.436,,11
 1998,U.K._Offshore,57.479149,-0.12889,,325
-1998,Yugoslavia/Croatia_Land,45.1000,15.2000,,1
+1998,Yugoslavia/Croatia_Land,45.1,15.2,,1
 1998,Yugoslavia/Croatia_Offshore,43.165008,15.806668,,0
 1998,Abu Dhabi_Land,24.4539,54.3773,,84
 1998,Abu Dhabi_Offshore,24.756606,54.280173,,93
@@ -2135,7 +2135,7 @@ Year,Country,Latitude,Longitude,,1982
 1998,Dubai_Offshore,25.452626,55.17867,,21
 1998,Egypt_Land,26.8206,30.8025,,164
 1998,Egypt_Offshore,31.951179,30.916615,,100
-1998,Iran_Land,32.4279,53.6880,,278
+1998,Iran_Land,32.4279,53.688,,278
 1998,Iran_Offshore,26.986451,52.797098,,24
 1998,Iraq_Land,33.2232,43.6793,,0
 1998,Iraq_Offshore,29.826924,48.713334,,0
@@ -2169,7 +2169,7 @@ Year,Country,Latitude,Longitude,,1982
 1998,Kenya__Offshore,-3.49976,40.801566,,0
 1998,Libya_Land,26.3351,17.2283,,150
 1998,Libya__Offshore,31.683681,18.512678,,0
-1998,Nigeria_Land,9.0820,8.6753,,26
+1998,Nigeria_Land,9.082,8.6753,,26
 1998,Nigeria_Offshore,4.113485,6.999522,,121
 1998,S.Africa_Land,-30.5595,22.9375,,0
 1998,S.Africa_Offshore,-31.842791,16.674006,,12
@@ -2179,9 +2179,9 @@ Year,Country,Latitude,Longitude,,1982
 1998,Argentina_Offshore,-51.313678,-66.678394,,12
 1998,Bolivia_Land,-16.2902,-63.5887,,141
 1998,Bolivia_Offshore,,,,0
-1998,Brazil_Land,-14.2350,-51.9253,,125
+1998,Brazil_Land,-14.235,-51.9253,,125
 1998,Brazil_Offshore,-22.197004,-40.435152,,118
-1998,Chile_Land,-35.6751,-71.5430,,12
+1998,Chile_Land,-35.6751,-71.543,,12
 1998,Chile_Offshore,-32.775184,-73.644858,,5
 1998,Colombia_Land,4.5709,-74.2973,,144
 1998,Colombia_Offshore,4.919216,-78.594368,,0
@@ -2199,7 +2199,7 @@ Year,Country,Latitude,Longitude,,1982
 1998,Venezuela_Offshore,9.183729,-60.200212,,346
 1998,Australia_Land,-25.274398,133.775136,,88
 1998,Australia_Offshore,-29.599699,113.685338,,88
-1998,Bangladesh_Land,23.6850,90.3563,,0
+1998,Bangladesh_Land,23.685,90.3563,,0
 1998,Bangladesh_Offshore,21.60567,90.597855,,0
 1998,Brunei_Land,4.535277,114.727669,,3
 1998,Brunei_Offshore,5.151965,114.665627,,26
@@ -2211,17 +2211,17 @@ Year,Country,Latitude,Longitude,,1982
 1998,Japan_Offshore,38.601583,137.300839,,2
 1998,Malaysia_Land,4.210484,101.975766,,0
 1998,Malaysia_Offshore,3.50164,110.229356,,101
-1998,Myanmar_Land,21.9140,95.9562,,78
+1998,Myanmar_Land,21.914,95.9562,,78
 1998,Myanmar_Offshore,15.93001,96.427671,,18
-1998,New Zealand_Land,-40.9006,174.8860,,15
+1998,New Zealand_Land,-40.9006,174.886,,15
 1998,New Zealand_Offshore,-39.291592,173.493089,,0
-1998,Papua New Guinea_Land,-6.3150,143.9556,,19
+1998,Papua New Guinea_Land,-6.315,143.9556,,19
 1998,Papua New Guinea_Offshore,-9.231086,126.119217,,0
 1998,Phillippines_Land,12.879721,121.774017,,0
 1998,Phillippines_Offshore,8.166545,121.418401,,6
 1998,Taiwan_Land,23.69781,120.960515,,12
 1998,Taiwan_Offshore,22.143055,120.035738,,5
-1998,Thailand_Land,15.8700,100.9925,,26
+1998,Thailand_Land,15.87,100.9925,,26
 1998,Thailand_Offshore,12.269503,100.804317,,72
 1998,Vietnam_Land,14.0583,108.2772,,0
 1998,Vietnam_Offshore,11.868672,109.874274,,78
@@ -2246,7 +2246,7 @@ Year,Country,Latitude,Longitude,,1982
 1999,Hungary_Offshore,,,,0
 1999,Italy_Land,41.8719,12.5674,,93
 1999,Italy_Offshore,41.727206,10.896804,,12
-1999,Norway_Land,60.4720,8.4689,,0
+1999,Norway_Land,60.472,8.4689,,0
 1999,Norway_Offshore,60.010363,3.58667,,199
 1999,Poland_Land,51.9194,19.1451,,168
 1999,Poland_Offshore,55.155538,17.566921,,0
@@ -2256,9 +2256,9 @@ Year,Country,Latitude,Longitude,,1982
 1999,Spain_Offshore,39.467705,0.812242,,0
 1999,Turkey_Land,38.9637,35.2433,,73
 1999,Turkey_Offshore,42.573404,34.154628,,0
-1999,U.K._Land,55.3781,-3.4360,,11
+1999,U.K._Land,55.3781,-3.436,,11
 1999,U.K._Offshore,57.479149,-0.12889,,210
-1999,Yugoslavia/Croatia_Land,45.1000,15.2000,,0
+1999,Yugoslavia/Croatia_Land,45.1,15.2,,0
 1999,Yugoslavia/Croatia_Offshore,43.165008,15.806668,,0
 1999,Abu Dhabi_Land,24.4539,54.3773,,92
 1999,Abu Dhabi_Offshore,24.756606,54.280173,,67
@@ -2266,7 +2266,7 @@ Year,Country,Latitude,Longitude,,1982
 1999,Dubai_Offshore,25.452626,55.17867,,12
 1999,Egypt_Land,26.8206,30.8025,,109
 1999,Egypt_Offshore,31.951179,30.916615,,90
-1999,Iran_Land,32.4279,53.6880,,300
+1999,Iran_Land,32.4279,53.688,,300
 1999,Iran_Offshore,26.986451,52.797098,,24
 1999,Iraq_Land,33.2232,43.6793,,0
 1999,Iraq_Offshore,29.826924,48.713334,,0
@@ -2300,7 +2300,7 @@ Year,Country,Latitude,Longitude,,1982
 1999,Kenya__Offshore,-3.49976,40.801566,,0
 1999,Libya_Land,26.3351,17.2283,,98
 1999,Libya__Offshore,31.683681,18.512678,,0
-1999,Nigeria_Land,9.0820,8.6753,,26
+1999,Nigeria_Land,9.082,8.6753,,26
 1999,Nigeria_Offshore,4.113485,6.999522,,66
 1999,S.Africa_Land,-30.5595,22.9375,,0
 1999,S.Africa_Offshore,-31.842791,16.674006,,7
@@ -2310,9 +2310,9 @@ Year,Country,Latitude,Longitude,,1982
 1999,Argentina_Offshore,-51.313678,-66.678394,,8
 1999,Bolivia_Land,-16.2902,-63.5887,,154
 1999,Bolivia_Offshore,,,,0
-1999,Brazil_Land,-14.2350,-51.9253,,114
+1999,Brazil_Land,-14.235,-51.9253,,114
 1999,Brazil_Offshore,-22.197004,-40.435152,,109
-1999,Chile_Land,-35.6751,-71.5430,,0
+1999,Chile_Land,-35.6751,-71.543,,0
 1999,Chile_Offshore,-32.775184,-73.644858,,7
 1999,Colombia_Land,4.5709,-74.2973,,138
 1999,Colombia_Offshore,4.919216,-78.594368,,0
@@ -2330,7 +2330,7 @@ Year,Country,Latitude,Longitude,,1982
 1999,Venezuela_Offshore,9.183729,-60.200212,,168
 1999,Australia_Land,-25.274398,133.775136,,50
 1999,Australia_Offshore,-29.599699,113.685338,,69
-1999,Bangladesh_Land,23.6850,90.3563,,1
+1999,Bangladesh_Land,23.685,90.3563,,1
 1999,Bangladesh_Offshore,21.60567,90.597855,,0
 1999,Brunei_Land,4.535277,114.727669,,0
 1999,Brunei_Offshore,5.151965,114.665627,,35
@@ -2342,17 +2342,17 @@ Year,Country,Latitude,Longitude,,1982
 1999,Japan_Offshore,38.601583,137.300839,,4
 1999,Malaysia_Land,4.210484,101.975766,,0
 1999,Malaysia_Offshore,3.50164,110.229356,,77
-1999,Myanmar_Land,21.9140,95.9562,,84
+1999,Myanmar_Land,21.914,95.9562,,84
 1999,Myanmar_Offshore,15.93001,96.427671,,1
-1999,New Zealand_Land,-40.9006,174.8860,,9
+1999,New Zealand_Land,-40.9006,174.886,,9
 1999,New Zealand_Offshore,-39.291592,173.493089,,3
-1999,Papua New Guinea_Land,-6.3150,143.9556,,9
+1999,Papua New Guinea_Land,-6.315,143.9556,,9
 1999,Papua New Guinea_Offshore,-9.231086,126.119217,,3
 1999,Phillippines_Land,12.879721,121.774017,,1
 1999,Phillippines_Offshore,8.166545,121.418401,,1
 1999,Taiwan_Land,23.69781,120.960515,,0
 1999,Taiwan_Offshore,22.143055,120.035738,,2
-1999,Thailand_Land,15.8700,100.9925,,8
+1999,Thailand_Land,15.87,100.9925,,8
 1999,Thailand_Offshore,12.269503,100.804317,,70
 1999,Vietnam_Land,14.0583,108.2772,,8
 1999,Vietnam_Offshore,11.868672,109.874274,,95
@@ -2377,7 +2377,7 @@ Year,Country,Latitude,Longitude,,1982
 2000,Hungary_Offshore,,,,0
 2000,Italy_Land,41.8719,12.5674,,84
 2000,Italy_Offshore,41.727206,10.896804,,11
-2000,Norway_Land,60.4720,8.4689,,0
+2000,Norway_Land,60.472,8.4689,,0
 2000,Norway_Offshore,60.010363,3.58667,,259
 2000,Poland_Land,51.9194,19.1451,,176
 2000,Poland_Offshore,55.155538,17.566921,,0
@@ -2387,9 +2387,9 @@ Year,Country,Latitude,Longitude,,1982
 2000,Spain_Offshore,39.467705,0.812242,,0
 2000,Turkey_Land,38.9637,35.2433,,72
 2000,Turkey_Offshore,42.573404,34.154628,,0
-2000,U.K._Land,55.3781,-3.4360,,8
+2000,U.K._Land,55.3781,-3.436,,8
 2000,U.K._Offshore,57.479149,-0.12889,,212
-2000,Yugoslavia/Croatia_Land,45.1000,15.2000,,2
+2000,Yugoslavia/Croatia_Land,45.1,15.2,,2
 2000,Yugoslavia/Croatia_Offshore,43.165008,15.806668,,2
 2000,Abu Dhabi_Land,24.4539,54.3773,,85
 2000,Abu Dhabi_Offshore,24.756606,54.280173,,48
@@ -2397,7 +2397,7 @@ Year,Country,Latitude,Longitude,,1982
 2000,Dubai_Offshore,25.452626,55.17867,,8
 2000,Egypt_Land,26.8206,30.8025,,149
 2000,Egypt_Offshore,31.951179,30.916615,,72
-2000,Iran_Land,32.4279,53.6880,,282
+2000,Iran_Land,32.4279,53.688,,282
 2000,Iran_Offshore,26.986451,52.797098,,36
 2000,Iraq_Land,33.2232,43.6793,,0
 2000,Iraq_Offshore,29.826924,48.713334,,0
@@ -2431,7 +2431,7 @@ Year,Country,Latitude,Longitude,,1982
 2000,Kenya__Offshore,-3.49976,40.801566,,0
 2000,Libya_Land,26.3351,17.2283,,87
 2000,Libya__Offshore,31.683681,18.512678,,0
-2000,Nigeria_Land,9.0820,8.6753,,17
+2000,Nigeria_Land,9.082,8.6753,,17
 2000,Nigeria_Offshore,4.113485,6.999522,,79
 2000,S.Africa_Land,-30.5595,22.9375,,0
 2000,S.Africa_Offshore,-31.842791,16.674006,,12
@@ -2441,9 +2441,9 @@ Year,Country,Latitude,Longitude,,1982
 2000,Argentina_Offshore,-51.313678,-66.678394,,3
 2000,Bolivia_Land,-16.2902,-63.5887,,131
 2000,Bolivia_Offshore,,,,0
-2000,Brazil_Land,-14.2350,-51.9253,,110
+2000,Brazil_Land,-14.235,-51.9253,,110
 2000,Brazil_Offshore,-22.197004,-40.435152,,171
-2000,Chile_Land,-35.6751,-71.5430,,2
+2000,Chile_Land,-35.6751,-71.543,,2
 2000,Chile_Offshore,-32.775184,-73.644858,,7
 2000,Colombia_Land,4.5709,-74.2973,,168
 2000,Colombia_Offshore,4.919216,-78.594368,,0
@@ -2461,7 +2461,7 @@ Year,Country,Latitude,Longitude,,1982
 2000,Venezuela_Offshore,9.183729,-60.200212,,183
 2000,Australia_Land,-25.274398,133.775136,,64
 2000,Australia_Offshore,-29.599699,113.685338,,57
-2000,Bangladesh_Land,23.6850,90.3563,,0
+2000,Bangladesh_Land,23.685,90.3563,,0
 2000,Bangladesh_Offshore,21.60567,90.597855,,0
 2000,Brunei_Land,4.535277,114.727669,,2
 2000,Brunei_Offshore,5.151965,114.665627,,19
@@ -2473,17 +2473,17 @@ Year,Country,Latitude,Longitude,,1982
 2000,Japan_Offshore,38.601583,137.300839,,8
 2000,Malaysia_Land,4.210484,101.975766,,0
 2000,Malaysia_Offshore,3.50164,110.229356,,89
-2000,Myanmar_Land,21.9140,95.9562,,102
+2000,Myanmar_Land,21.914,95.9562,,102
 2000,Myanmar_Offshore,15.93001,96.427671,,3
-2000,New Zealand_Land,-40.9006,174.8860,,10
+2000,New Zealand_Land,-40.9006,174.886,,10
 2000,New Zealand_Offshore,-39.291592,173.493089,,5
-2000,Papua New Guinea_Land,-6.3150,143.9556,,3
+2000,Papua New Guinea_Land,-6.315,143.9556,,3
 2000,Papua New Guinea_Offshore,-9.231086,126.119217,,2
 2000,Phillippines_Land,12.879721,121.774017,,0
 2000,Phillippines_Offshore,8.166545,121.418401,,5
 2000,Taiwan_Land,23.69781,120.960515,,3
 2000,Taiwan_Offshore,22.143055,120.035738,,0
-2000,Thailand_Land,15.8700,100.9925,,9
+2000,Thailand_Land,15.87,100.9925,,9
 2000,Thailand_Offshore,12.269503,100.804317,,60
 2000,Vietnam_Land,14.0583,108.2772,,0
 2000,Vietnam_Offshore,11.868672,109.874274,,96
@@ -2508,7 +2508,7 @@ Year,Country,Latitude,Longitude,,1982
 2001,Hungary_Offshore,,,,0
 2001,Italy_Land,41.8719,12.5674,,81
 2001,Italy_Offshore,41.727206,10.896804,,12
-2001,Norway_Land,60.4720,8.4689,,0
+2001,Norway_Land,60.472,8.4689,,0
 2001,Norway_Offshore,60.010363,3.58667,,270
 2001,Poland_Land,51.9194,19.1451,,159
 2001,Poland_Offshore,55.155538,17.566921,,8
@@ -2518,9 +2518,9 @@ Year,Country,Latitude,Longitude,,1982
 2001,Spain_Offshore,39.467705,0.812242,,0
 2001,Turkey_Land,38.9637,35.2433,,72
 2001,Turkey_Offshore,42.573404,34.154628,,0
-2001,U.K._Land,55.3781,-3.4360,,2
+2001,U.K._Land,55.3781,-3.436,,2
 2001,U.K._Offshore,57.479149,-0.12889,,288
-2001,Yugoslavia/Croatia_Land,45.1000,15.2000,,4
+2001,Yugoslavia/Croatia_Land,45.1,15.2,,4
 2001,Yugoslavia/Croatia_Offshore,43.165008,15.806668,,0
 2001,Abu Dhabi_Land,24.4539,54.3773,,97
 2001,Abu Dhabi_Offshore,24.756606,54.280173,,67
@@ -2528,7 +2528,7 @@ Year,Country,Latitude,Longitude,,1982
 2001,Dubai_Offshore,25.452626,55.17867,,18
 2001,Egypt_Land,26.8206,30.8025,,169
 2001,Egypt_Offshore,31.951179,30.916615,,96
-2001,Iran_Land,32.4279,53.6880,,289
+2001,Iran_Land,32.4279,53.688,,289
 2001,Iran_Offshore,26.986451,52.797098,,70
 2001,Iraq_Land,33.2232,43.6793,,0
 2001,Iraq_Offshore,29.826924,48.713334,,0
@@ -2562,7 +2562,7 @@ Year,Country,Latitude,Longitude,,1982
 2001,Kenya__Offshore,-3.49976,40.801566,,0
 2001,Libya_Land,26.3351,17.2283,,62
 2001,Libya__Offshore,31.683681,18.512678,,0
-2001,Nigeria_Land,9.0820,8.6753,,29
+2001,Nigeria_Land,9.082,8.6753,,29
 2001,Nigeria_Offshore,4.113485,6.999522,,110
 2001,S.Africa_Land,-30.5595,22.9375,,0
 2001,S.Africa_Offshore,-31.842791,16.674006,,12
@@ -2572,9 +2572,9 @@ Year,Country,Latitude,Longitude,,1982
 2001,Argentina_Offshore,-51.313678,-66.678394,,0
 2001,Bolivia_Land,-16.2902,-63.5887,,80
 2001,Bolivia_Offshore,,,,0
-2001,Brazil_Land,-14.2350,-51.9253,,125
+2001,Brazil_Land,-14.235,-51.9253,,125
 2001,Brazil_Offshore,-22.197004,-40.435152,,214
-2001,Chile_Land,-35.6751,-71.5430,,1
+2001,Chile_Land,-35.6751,-71.543,,1
 2001,Chile_Offshore,-32.775184,-73.644858,,7
 2001,Colombia_Land,4.5709,-74.2973,,184
 2001,Colombia_Offshore,4.919216,-78.594368,,0
@@ -2592,7 +2592,7 @@ Year,Country,Latitude,Longitude,,1982
 2001,Venezuela_Offshore,9.183729,-60.200212,,213
 2001,Australia_Land,-25.274398,133.775136,,76
 2001,Australia_Offshore,-29.599699,113.685338,,48
-2001,Bangladesh_Land,23.6850,90.3563,,0
+2001,Bangladesh_Land,23.685,90.3563,,0
 2001,Bangladesh_Offshore,21.60567,90.597855,,0
 2001,Brunei_Land,4.535277,114.727669,,12
 2001,Brunei_Offshore,5.151965,114.665627,,18
@@ -2604,17 +2604,17 @@ Year,Country,Latitude,Longitude,,1982
 2001,Japan_Offshore,38.601583,137.300839,,4
 2001,Malaysia_Land,4.210484,101.975766,,0
 2001,Malaysia_Offshore,3.50164,110.229356,,137
-2001,Myanmar_Land,21.9140,95.9562,,71
+2001,Myanmar_Land,21.914,95.9562,,71
 2001,Myanmar_Offshore,15.93001,96.427671,,0
-2001,New Zealand_Land,-40.9006,174.8860,,20
+2001,New Zealand_Land,-40.9006,174.886,,20
 2001,New Zealand_Offshore,-39.291592,173.493089,,0
-2001,Papua New Guinea_Land,-6.3150,143.9556,,12
+2001,Papua New Guinea_Land,-6.315,143.9556,,12
 2001,Papua New Guinea_Offshore,-9.231086,126.119217,,0
 2001,Phillippines_Land,12.879721,121.774017,,1
 2001,Phillippines_Offshore,8.166545,121.418401,,1
 2001,Taiwan_Land,23.69781,120.960515,,2
 2001,Taiwan_Offshore,22.143055,120.035738,,0
-2001,Thailand_Land,15.8700,100.9925,,12
+2001,Thailand_Land,15.87,100.9925,,12
 2001,Thailand_Offshore,12.269503,100.804317,,62
 2001,Vietnam_Land,14.0583,108.2772,,0
 2001,Vietnam_Offshore,11.868672,109.874274,,100
@@ -2639,7 +2639,7 @@ Year,Country,Latitude,Longitude,,1982
 2002,Hungary_Offshore,,,,0
 2002,Italy_Land,41.8719,12.5674,,61
 2002,Italy_Offshore,41.727206,10.896804,,16
-2002,Norway_Land,60.4720,8.4689,,0
+2002,Norway_Land,60.472,8.4689,,0
 2002,Norway_Offshore,60.010363,3.58667,,226
 2002,Poland_Land,51.9194,19.1451,,140
 2002,Poland_Offshore,55.155538,17.566921,,11
@@ -2649,9 +2649,9 @@ Year,Country,Latitude,Longitude,,1982
 2002,Spain_Offshore,39.467705,0.812242,,0
 2002,Turkey_Land,38.9637,35.2433,,62
 2002,Turkey_Offshore,42.573404,34.154628,,0
-2002,U.K._Land,55.3781,-3.4360,,6
+2002,U.K._Land,55.3781,-3.436,,6
 2002,U.K._Offshore,57.479149,-0.12889,,308
-2002,Yugoslavia/Croatia_Land,45.1000,15.2000,,12
+2002,Yugoslavia/Croatia_Land,45.1,15.2,,12
 2002,Yugoslavia/Croatia_Offshore,43.165008,15.806668,,0
 2002,Abu Dhabi_Land,24.4539,54.3773,,105
 2002,Abu Dhabi_Offshore,24.756606,54.280173,,66
@@ -2659,7 +2659,7 @@ Year,Country,Latitude,Longitude,,1982
 2002,Dubai_Offshore,25.452626,55.17867,,18
 2002,Egypt_Land,26.8206,30.8025,,205
 2002,Egypt_Offshore,31.951179,30.916615,,68
-2002,Iran_Land,32.4279,53.6880,,304
+2002,Iran_Land,32.4279,53.688,,304
 2002,Iran_Offshore,26.986451,52.797098,,101
 2002,Iraq_Land,33.2232,43.6793,,0
 2002,Iraq_Offshore,29.826924,48.713334,,0
@@ -2693,7 +2693,7 @@ Year,Country,Latitude,Longitude,,1982
 2002,Kenya__Offshore,-3.49976,40.801566,,0
 2002,Libya_Land,26.3351,17.2283,,108
 2002,Libya__Offshore,31.683681,18.512678,,8
-2002,Nigeria_Land,9.0820,8.6753,,35
+2002,Nigeria_Land,9.082,8.6753,,35
 2002,Nigeria_Offshore,4.113485,6.999522,,108
 2002,S.Africa_Land,-30.5595,22.9375,,0
 2002,S.Africa_Offshore,-31.842791,16.674006,,8
@@ -2703,9 +2703,9 @@ Year,Country,Latitude,Longitude,,1982
 2002,Argentina_Offshore,-51.313678,-66.678394,,3
 2002,Bolivia_Land,-16.2902,-63.5887,,49
 2002,Bolivia_Offshore,,,,0
-2002,Brazil_Land,-14.2350,-51.9253,,123
+2002,Brazil_Land,-14.235,-51.9253,,123
 2002,Brazil_Offshore,-22.197004,-40.435152,,197
-2002,Chile_Land,-35.6751,-71.5430,,2
+2002,Chile_Land,-35.6751,-71.543,,2
 2002,Chile_Offshore,-32.775184,-73.644858,,3
 2002,Colombia_Land,4.5709,-74.2973,,133
 2002,Colombia_Offshore,4.919216,-78.594368,,0
@@ -2723,7 +2723,7 @@ Year,Country,Latitude,Longitude,,1982
 2002,Venezuela_Offshore,9.183729,-60.200212,,149
 2002,Australia_Land,-25.274398,133.775136,,61
 2002,Australia_Offshore,-29.599699,113.685338,,44
-2002,Bangladesh_Land,23.6850,90.3563,,0
+2002,Bangladesh_Land,23.685,90.3563,,0
 2002,Bangladesh_Offshore,21.60567,90.597855,,0
 2002,Brunei_Land,4.535277,114.727669,,12
 2002,Brunei_Offshore,5.151965,114.665627,,22
@@ -2735,17 +2735,17 @@ Year,Country,Latitude,Longitude,,1982
 2002,Japan_Offshore,38.601583,137.300839,,10
 2002,Malaysia_Land,4.210484,101.975766,,0
 2002,Malaysia_Offshore,3.50164,110.229356,,163
-2002,Myanmar_Land,21.9140,95.9562,,112
+2002,Myanmar_Land,21.914,95.9562,,112
 2002,Myanmar_Offshore,15.93001,96.427671,,0
-2002,New Zealand_Land,-40.9006,174.8860,,18
+2002,New Zealand_Land,-40.9006,174.886,,18
 2002,New Zealand_Offshore,-39.291592,173.493089,,1
-2002,Papua New Guinea_Land,-6.3150,143.9556,,10
+2002,Papua New Guinea_Land,-6.315,143.9556,,10
 2002,Papua New Guinea_Offshore,-9.231086,126.119217,,1
 2002,Phillippines_Land,12.879721,121.774017,,9
 2002,Phillippines_Offshore,8.166545,121.418401,,0
 2002,Taiwan_Land,23.69781,120.960515,,0
 2002,Taiwan_Offshore,22.143055,120.035738,,0
-2002,Thailand_Land,15.8700,100.9925,,7
+2002,Thailand_Land,15.87,100.9925,,7
 2002,Thailand_Offshore,12.269503,100.804317,,87
 2002,Vietnam_Land,14.0583,108.2772,,4
 2002,Vietnam_Offshore,11.868672,109.874274,,100
@@ -2770,7 +2770,7 @@ Year,Country,Latitude,Longitude,,1982
 2003,Hungary_Offshore,,,,0
 2003,Italy_Land,41.8719,12.5674,,63
 2003,Italy_Offshore,41.727206,10.896804,,12
-2003,Norway_Land,60.4720,8.4689,,0
+2003,Norway_Land,60.472,8.4689,,0
 2003,Norway_Offshore,60.010363,3.58667,,225
 2003,Poland_Land,51.9194,19.1451,,129
 2003,Poland_Offshore,55.155538,17.566921,,0
@@ -2780,9 +2780,9 @@ Year,Country,Latitude,Longitude,,1982
 2003,Spain_Offshore,39.467705,0.812242,,0
 2003,Turkey_Land,38.9637,35.2433,,48
 2003,Turkey_Offshore,42.573404,34.154628,,0
-2003,U.K._Land,55.3781,-3.4360,,4
+2003,U.K._Land,55.3781,-3.436,,4
 2003,U.K._Offshore,57.479149,-0.12889,,232
-2003,Yugoslavia/Croatia_Land,45.1000,15.2000,,36
+2003,Yugoslavia/Croatia_Land,45.1,15.2,,36
 2003,Yugoslavia/Croatia_Offshore,43.165008,15.806668,,0
 2003,Abu Dhabi_Land,24.4539,54.3773,,113
 2003,Abu Dhabi_Offshore,24.756606,54.280173,,59
@@ -2790,7 +2790,7 @@ Year,Country,Latitude,Longitude,,1982
 2003,Dubai_Offshore,25.452626,55.17867,,8
 2003,Egypt_Land,26.8206,30.8025,,224
 2003,Egypt_Offshore,31.951179,30.916615,,91
-2003,Iran_Land,32.4279,53.6880,,333
+2003,Iran_Land,32.4279,53.688,,333
 2003,Iran_Offshore,26.986451,52.797098,,88
 2003,Iraq_Land,33.2232,43.6793,,0
 2003,Iraq_Offshore,29.826924,48.713334,,0
@@ -2824,7 +2824,7 @@ Year,Country,Latitude,Longitude,,1982
 2003,Kenya__Offshore,-3.49976,40.801566,,0
 2003,Libya_Land,26.3351,17.2283,,103
 2003,Libya__Offshore,31.683681,18.512678,,14
-2003,Nigeria_Land,9.0820,8.6753,,22
+2003,Nigeria_Land,9.082,8.6753,,22
 2003,Nigeria_Offshore,4.113485,6.999522,,92
 2003,S.Africa_Land,-30.5595,22.9375,,0
 2003,S.Africa_Offshore,-31.842791,16.674006,,4
@@ -2834,9 +2834,9 @@ Year,Country,Latitude,Longitude,,1982
 2003,Argentina_Offshore,-51.313678,-66.678394,,8
 2003,Bolivia_Land,-16.2902,-63.5887,,43
 2003,Bolivia_Offshore,,,,0
-2003,Brazil_Land,-14.2350,-51.9253,,123
+2003,Brazil_Land,-14.235,-51.9253,,123
 2003,Brazil_Offshore,-22.197004,-40.435152,,193
-2003,Chile_Land,-35.6751,-71.5430,,1
+2003,Chile_Land,-35.6751,-71.543,,1
 2003,Chile_Offshore,-32.775184,-73.644858,,3
 2003,Colombia_Land,4.5709,-74.2973,,126
 2003,Colombia_Offshore,4.919216,-78.594368,,0
@@ -2854,7 +2854,7 @@ Year,Country,Latitude,Longitude,,1982
 2003,Venezuela_Offshore,9.183729,-60.200212,,126
 2003,Australia_Land,-25.274398,133.775136,,75
 2003,Australia_Offshore,-29.599699,113.685338,,57
-2003,Bangladesh_Land,23.6850,90.3563,,0
+2003,Bangladesh_Land,23.685,90.3563,,0
 2003,Bangladesh_Offshore,21.60567,90.597855,,0
 2003,Brunei_Land,4.535277,114.727669,,12
 2003,Brunei_Offshore,5.151965,114.665627,,26
@@ -2866,17 +2866,17 @@ Year,Country,Latitude,Longitude,,1982
 2003,Japan_Offshore,38.601583,137.300839,,1
 2003,Malaysia_Land,4.210484,101.975766,,0
 2003,Malaysia_Offshore,3.50164,110.229356,,171
-2003,Myanmar_Land,21.9140,95.9562,,94
+2003,Myanmar_Land,21.914,95.9562,,94
 2003,Myanmar_Offshore,15.93001,96.427671,,5
-2003,New Zealand_Land,-40.9006,174.8860,,13
+2003,New Zealand_Land,-40.9006,174.886,,13
 2003,New Zealand_Offshore,-39.291592,173.493089,,2
-2003,Papua New Guinea_Land,-6.3150,143.9556,,19
+2003,Papua New Guinea_Land,-6.315,143.9556,,19
 2003,Papua New Guinea_Offshore,-9.231086,126.119217,,0
 2003,Phillippines_Land,12.879721,121.774017,,16
 2003,Phillippines_Offshore,8.166545,121.418401,,0
 2003,Taiwan_Land,23.69781,120.960515,,3
 2003,Taiwan_Offshore,22.143055,120.035738,,0
-2003,Thailand_Land,15.8700,100.9925,,9
+2003,Thailand_Land,15.87,100.9925,,9
 2003,Thailand_Offshore,12.269503,100.804317,,54
 2003,Vietnam_Land,14.0583,108.2772,,0
 2003,Vietnam_Offshore,11.868672,109.874274,,107
@@ -2901,7 +2901,7 @@ Year,Country,Latitude,Longitude,,1982
 2004,Hungary_Offshore,,,,0
 2004,Italy_Land,41.8719,12.5674,,55
 2004,Italy_Offshore,41.727206,10.896804,,12
-2004,Norway_Land,60.4720,8.4689,,0
+2004,Norway_Land,60.472,8.4689,,0
 2004,Norway_Offshore,60.010363,3.58667,,200
 2004,Poland_Land,51.9194,19.1451,,55
 2004,Poland_Offshore,55.155538,17.566921,,0
@@ -2911,9 +2911,9 @@ Year,Country,Latitude,Longitude,,1982
 2004,Spain_Offshore,39.467705,0.812242,,0
 2004,Turkey_Land,38.9637,35.2433,,48
 2004,Turkey_Offshore,42.573404,34.154628,,0
-2004,U.K._Land,55.3781,-3.4360,,2
+2004,U.K._Land,55.3781,-3.436,,2
 2004,U.K._Offshore,57.479149,-0.12889,,185
-2004,Yugoslavia/Croatia_Land,45.1000,15.2000,,36
+2004,Yugoslavia/Croatia_Land,45.1,15.2,,36
 2004,Yugoslavia/Croatia_Offshore,43.165008,15.806668,,2
 2004,Abu Dhabi_Land,24.4539,54.3773,,116
 2004,Abu Dhabi_Offshore,24.756606,54.280173,,48
@@ -2921,7 +2921,7 @@ Year,Country,Latitude,Longitude,,1982
 2004,Dubai_Offshore,25.452626,55.17867,,12
 2004,Egypt_Land,26.8206,30.8025,,223
 2004,Egypt_Offshore,31.951179,30.916615,,112
-2004,Iran_Land,32.4279,53.6880,,382
+2004,Iran_Land,32.4279,53.688,,382
 2004,Iran_Offshore,26.986451,52.797098,,107
 2004,Iraq_Land,33.2232,43.6793,,0
 2004,Iraq_Offshore,29.826924,48.713334,,0
@@ -2955,7 +2955,7 @@ Year,Country,Latitude,Longitude,,1982
 2004,Kenya__Offshore,-3.49976,40.801566,,0
 2004,Libya_Land,26.3351,17.2283,,106
 2004,Libya__Offshore,31.683681,18.512678,,8
-2004,Nigeria_Land,9.0820,8.6753,,11
+2004,Nigeria_Land,9.082,8.6753,,11
 2004,Nigeria_Offshore,4.113485,6.999522,,86
 2004,S.Africa_Land,-30.5595,22.9375,,0
 2004,S.Africa_Offshore,-31.842791,16.674006,,0
@@ -2965,9 +2965,9 @@ Year,Country,Latitude,Longitude,,1982
 2004,Argentina_Offshore,-51.313678,-66.678394,,4
 2004,Bolivia_Land,-16.2902,-63.5887,,54
 2004,Bolivia_Offshore,,,,0
-2004,Brazil_Land,-14.2350,-51.9253,,117
+2004,Brazil_Land,-14.235,-51.9253,,117
 2004,Brazil_Offshore,-22.197004,-40.435152,,189
-2004,Chile_Land,-35.6751,-71.5430,,0
+2004,Chile_Land,-35.6751,-71.543,,0
 2004,Chile_Offshore,-32.775184,-73.644858,,0
 2004,Colombia_Land,4.5709,-74.2973,,110
 2004,Colombia_Offshore,4.919216,-78.594368,,0
@@ -2985,7 +2985,7 @@ Year,Country,Latitude,Longitude,,1982
 2004,Venezuela_Offshore,9.183729,-60.200212,,140
 2004,Australia_Land,-25.274398,133.775136,,99
 2004,Australia_Offshore,-29.599699,113.685338,,71
-2004,Bangladesh_Land,23.6850,90.3563,,0
+2004,Bangladesh_Land,23.685,90.3563,,0
 2004,Bangladesh_Offshore,21.60567,90.597855,,0
 2004,Brunei_Land,4.535277,114.727669,,11
 2004,Brunei_Offshore,5.151965,114.665627,,19
@@ -2997,17 +2997,17 @@ Year,Country,Latitude,Longitude,,1982
 2004,Japan_Offshore,38.601583,137.300839,,10
 2004,Malaysia_Land,4.210484,101.975766,,0
 2004,Malaysia_Offshore,3.50164,110.229356,,169
-2004,Myanmar_Land,21.9140,95.9562,,99
+2004,Myanmar_Land,21.914,95.9562,,99
 2004,Myanmar_Offshore,15.93001,96.427671,,8
-2004,New Zealand_Land,-40.9006,174.8860,,35
+2004,New Zealand_Land,-40.9006,174.886,,35
 2004,New Zealand_Offshore,-39.291592,173.493089,,7
-2004,Papua New Guinea_Land,-6.3150,143.9556,,19
+2004,Papua New Guinea_Land,-6.315,143.9556,,19
 2004,Papua New Guinea_Offshore,-9.231086,126.119217,,0
 2004,Phillippines_Land,12.879721,121.774017,,35
 2004,Phillippines_Offshore,8.166545,121.418401,,0
 2004,Taiwan_Land,23.69781,120.960515,,0
 2004,Taiwan_Offshore,22.143055,120.035738,,0
-2004,Thailand_Land,15.8700,100.9925,,6
+2004,Thailand_Land,15.87,100.9925,,6
 2004,Thailand_Offshore,12.269503,100.804317,,62
 2004,Vietnam_Land,14.0583,108.2772,,1
 2004,Vietnam_Offshore,11.868672,109.874274,,96
@@ -3032,7 +3032,7 @@ Year,Country,Latitude,Longitude,,1982
 2005,Hungary_Offshore,,,,0
 2005,Italy_Land,41.8719,12.5674,,38
 2005,Italy_Offshore,41.727206,10.896804,,12
-2005,Norway_Land,60.4720,8.4689,,0
+2005,Norway_Land,60.472,8.4689,,0
 2005,Norway_Offshore,60.010363,3.58667,,208
 2005,Poland_Land,51.9194,19.1451,,19
 2005,Poland_Offshore,55.155538,17.566921,,1
@@ -3042,9 +3042,9 @@ Year,Country,Latitude,Longitude,,1982
 2005,Spain_Offshore,39.467705,0.812242,,0
 2005,Turkey_Land,38.9637,35.2433,,48
 2005,Turkey_Offshore,42.573404,34.154628,,5
-2005,U.K._Land,55.3781,-3.4360,,13
+2005,U.K._Land,55.3781,-3.436,,13
 2005,U.K._Offshore,57.479149,-0.12889,,240
-2005,Yugoslavia/Croatia_Land,45.1000,15.2000,,27
+2005,Yugoslavia/Croatia_Land,45.1,15.2,,27
 2005,Yugoslavia/Croatia_Offshore,43.165008,15.806668,,6
 2005,Abu Dhabi_Land,24.4539,54.3773,,107
 2005,Abu Dhabi_Offshore,24.756606,54.280173,,50
@@ -3052,7 +3052,7 @@ Year,Country,Latitude,Longitude,,1982
 2005,Dubai_Offshore,25.452626,55.17867,,14
 2005,Egypt_Land,26.8206,30.8025,,267
 2005,Egypt_Offshore,31.951179,30.916615,,79
-2005,Iran_Land,32.4279,53.6880,,389
+2005,Iran_Land,32.4279,53.688,,389
 2005,Iran_Offshore,26.986451,52.797098,,90
 2005,Iraq_Land,33.2232,43.6793,,0
 2005,Iraq_Offshore,29.826924,48.713334,,0
@@ -3086,7 +3086,7 @@ Year,Country,Latitude,Longitude,,1982
 2005,Kenya__Offshore,-3.49976,40.801566,,0
 2005,Libya_Land,26.3351,17.2283,,98
 2005,Libya__Offshore,31.683681,18.512678,,7
-2005,Nigeria_Land,9.0820,8.6753,,20
+2005,Nigeria_Land,9.082,8.6753,,20
 2005,Nigeria_Offshore,4.113485,6.999522,,88
 2005,S.Africa_Land,-30.5595,22.9375,,0
 2005,S.Africa_Offshore,-31.842791,16.674006,,0
@@ -3096,9 +3096,9 @@ Year,Country,Latitude,Longitude,,1982
 2005,Argentina_Offshore,-51.313678,-66.678394,,12
 2005,Bolivia_Land,-16.2902,-63.5887,,35
 2005,Bolivia_Offshore,,,,0
-2005,Brazil_Land,-14.2350,-51.9253,,121
+2005,Brazil_Land,-14.235,-51.9253,,121
 2005,Brazil_Offshore,-22.197004,-40.435152,,204
-2005,Chile_Land,-35.6751,-71.5430,,0
+2005,Chile_Land,-35.6751,-71.543,,0
 2005,Chile_Offshore,-32.775184,-73.644858,,0
 2005,Colombia_Land,4.5709,-74.2973,,182
 2005,Colombia_Offshore,4.919216,-78.594368,,0
@@ -3116,7 +3116,7 @@ Year,Country,Latitude,Longitude,,1982
 2005,Venezuela_Offshore,9.183729,-60.200212,,159
 2005,Australia_Land,-25.274398,133.775136,,99
 2005,Australia_Offshore,-29.599699,113.685338,,90
-2005,Bangladesh_Land,23.6850,90.3563,,0
+2005,Bangladesh_Land,23.685,90.3563,,0
 2005,Bangladesh_Offshore,21.60567,90.597855,,0
 2005,Brunei_Land,4.535277,114.727669,,0
 2005,Brunei_Offshore,5.151965,114.665627,,23
@@ -3128,17 +3128,17 @@ Year,Country,Latitude,Longitude,,1982
 2005,Japan_Offshore,38.601583,137.300839,,8
 2005,Malaysia_Land,4.210484,101.975766,,0
 2005,Malaysia_Offshore,3.50164,110.229356,,159
-2005,Myanmar_Land,21.9140,95.9562,,94
+2005,Myanmar_Land,21.914,95.9562,,94
 2005,Myanmar_Offshore,15.93001,96.427671,,23
-2005,New Zealand_Land,-40.9006,174.8860,,64
+2005,New Zealand_Land,-40.9006,174.886,,64
 2005,New Zealand_Offshore,-39.291592,173.493089,,0
-2005,Papua New Guinea_Land,-6.3150,143.9556,,22
+2005,Papua New Guinea_Land,-6.315,143.9556,,22
 2005,Papua New Guinea_Offshore,-9.231086,126.119217,,0
 2005,Phillippines_Land,12.879721,121.774017,,30
 2005,Phillippines_Offshore,8.166545,121.418401,,0
 2005,Taiwan_Land,23.69781,120.960515,,0
 2005,Taiwan_Offshore,22.143055,120.035738,,0
-2005,Thailand_Land,15.8700,100.9925,,12
+2005,Thailand_Land,15.87,100.9925,,12
 2005,Thailand_Offshore,12.269503,100.804317,,88
 2005,Vietnam_Land,14.0583,108.2772,,2
 2005,Vietnam_Offshore,11.868672,109.874274,,111
@@ -3163,7 +3163,7 @@ Year,Country,Latitude,Longitude,,1982
 2006,Hungary_Offshore,,,,0
 2006,Italy_Land,41.8719,12.5674,,38
 2006,Italy_Offshore,41.727206,10.896804,,16
-2006,Norway_Land,60.4720,8.4689,,0
+2006,Norway_Land,60.472,8.4689,,0
 2006,Norway_Offshore,60.010363,3.58667,,202
 2006,Poland_Land,51.9194,19.1451,,21
 2006,Poland_Offshore,55.155538,17.566921,,0
@@ -3173,9 +3173,9 @@ Year,Country,Latitude,Longitude,,1982
 2006,Spain_Offshore,39.467705,0.812242,,0
 2006,Turkey_Land,38.9637,35.2433,,48
 2006,Turkey_Offshore,42.573404,34.154628,,0
-2006,U.K._Land,55.3781,-3.4360,,13
+2006,U.K._Land,55.3781,-3.436,,13
 2006,U.K._Offshore,57.479149,-0.12889,,305
-2006,Yugoslavia/Croatia_Land,45.1000,15.2000,,17
+2006,Yugoslavia/Croatia_Land,45.1,15.2,,17
 2006,Yugoslavia/Croatia_Offshore,43.165008,15.806668,,4
 2006,Abu Dhabi_Land,24.4539,54.3773,,108
 2006,Abu Dhabi_Offshore,24.756606,54.280173,,61
@@ -3183,7 +3183,7 @@ Year,Country,Latitude,Longitude,,1982
 2006,Dubai_Offshore,25.452626,55.17867,,10
 2006,Egypt_Land,26.8206,30.8025,,344
 2006,Egypt_Offshore,31.951179,30.916615,,88
-2006,Iran_Land,32.4279,53.6880,,0
+2006,Iran_Land,32.4279,53.688,,0
 2006,Iran_Offshore,26.986451,52.797098,,0
 2006,Iraq_Land,33.2232,43.6793,,0
 2006,Iraq_Offshore,29.826924,48.713334,,0
@@ -3217,7 +3217,7 @@ Year,Country,Latitude,Longitude,,1982
 2006,Kenya__Offshore,-3.49976,40.801566,,0
 2006,Libya_Land,26.3351,17.2283,,116
 2006,Libya__Offshore,31.683681,18.512678,,4
-2006,Nigeria_Land,9.0820,8.6753,,20
+2006,Nigeria_Land,9.082,8.6753,,20
 2006,Nigeria_Offshore,4.113485,6.999522,,95
 2006,S.Africa_Land,-30.5595,22.9375,,0
 2006,S.Africa_Offshore,-31.842791,16.674006,,5
@@ -3227,9 +3227,9 @@ Year,Country,Latitude,Longitude,,1982
 2006,Argentina_Offshore,-51.313678,-66.678394,,1
 2006,Bolivia_Land,-16.2902,-63.5887,,41
 2006,Bolivia_Offshore,,,,0
-2006,Brazil_Land,-14.2350,-51.9253,,158
+2006,Brazil_Land,-14.235,-51.9253,,158
 2006,Brazil_Offshore,-22.197004,-40.435152,,216
-2006,Chile_Land,-35.6751,-71.5430,,5
+2006,Chile_Land,-35.6751,-71.543,,5
 2006,Chile_Offshore,-32.775184,-73.644858,,0
 2006,Colombia_Land,4.5709,-74.2973,,264
 2006,Colombia_Offshore,4.919216,-78.594368,,5
@@ -3247,7 +3247,7 @@ Year,Country,Latitude,Longitude,,1982
 2006,Venezuela_Offshore,9.183729,-60.200212,,196
 2006,Australia_Land,-25.274398,133.775136,,123
 2006,Australia_Offshore,-29.599699,113.685338,,113
-2006,Bangladesh_Land,23.6850,90.3563,,0
+2006,Bangladesh_Land,23.685,90.3563,,0
 2006,Bangladesh_Offshore,21.60567,90.597855,,0
 2006,Brunei_Land,4.535277,114.727669,,4
 2006,Brunei_Offshore,5.151965,114.665627,,36
@@ -3259,17 +3259,17 @@ Year,Country,Latitude,Longitude,,1982
 2006,Japan_Offshore,38.601583,137.300839,,0
 2006,Malaysia_Land,4.210484,101.975766,,0
 2006,Malaysia_Offshore,3.50164,110.229356,,161
-2006,Myanmar_Land,21.9140,95.9562,,96
+2006,Myanmar_Land,21.914,95.9562,,96
 2006,Myanmar_Offshore,15.93001,96.427671,,14
-2006,New Zealand_Land,-40.9006,174.8860,,53
+2006,New Zealand_Land,-40.9006,174.886,,53
 2006,New Zealand_Offshore,-39.291592,173.493089,,7
-2006,Papua New Guinea_Land,-6.3150,143.9556,,29
+2006,Papua New Guinea_Land,-6.315,143.9556,,29
 2006,Papua New Guinea_Offshore,-9.231086,126.119217,,1
 2006,Phillippines_Land,12.879721,121.774017,,22
 2006,Phillippines_Offshore,8.166545,121.418401,,0
 2006,Taiwan_Land,23.69781,120.960515,,0
 2006,Taiwan_Offshore,22.143055,120.035738,,0
-2006,Thailand_Land,15.8700,100.9925,,20
+2006,Thailand_Land,15.87,100.9925,,20
 2006,Thailand_Offshore,12.269503,100.804317,,99
 2006,Vietnam_Land,14.0583,108.2772,,0
 2006,Vietnam_Offshore,11.868672,109.874274,,112
@@ -3294,7 +3294,7 @@ Year,Country,Latitude,Longitude,,1982
 2007,Hungary_Offshore,,,,0
 2007,Italy_Land,41.8719,12.5674,,40
 2007,Italy_Offshore,41.727206,10.896804,,9
-2007,Norway_Land,60.4720,8.4689,,0
+2007,Norway_Land,60.472,8.4689,,0
 2007,Norway_Offshore,60.010363,3.58667,,210
 2007,Poland_Land,51.9194,19.1451,,24
 2007,Poland_Offshore,55.155538,17.566921,,0
@@ -3304,9 +3304,9 @@ Year,Country,Latitude,Longitude,,1982
 2007,Spain_Offshore,39.467705,0.812242,,0
 2007,Turkey_Land,38.9637,35.2433,,58
 2007,Turkey_Offshore,42.573404,34.154628,,0
-2007,U.K._Land,55.3781,-3.4360,,12
+2007,U.K._Land,55.3781,-3.436,,12
 2007,U.K._Offshore,57.479149,-0.12889,,295
-2007,Yugoslavia/Croatia_Land,45.1000,15.2000,,9
+2007,Yugoslavia/Croatia_Land,45.1,15.2,,9
 2007,Yugoslavia/Croatia_Offshore,43.165008,15.806668,,0
 2007,Abu Dhabi_Land,24.4539,54.3773,,111
 2007,Abu Dhabi_Offshore,24.756606,54.280173,,49
@@ -3314,7 +3314,7 @@ Year,Country,Latitude,Longitude,,1982
 2007,Dubai_Offshore,25.452626,55.17867,,0
 2007,Egypt_Land,26.8206,30.8025,,422
 2007,Egypt_Offshore,31.951179,30.916615,,126
-2007,Iran_Land,32.4279,53.6880,,0
+2007,Iran_Land,32.4279,53.688,,0
 2007,Iran_Offshore,26.986451,52.797098,,0
 2007,Iraq_Land,33.2232,43.6793,,0
 2007,Iraq_Offshore,29.826924,48.713334,,0
@@ -3348,7 +3348,7 @@ Year,Country,Latitude,Longitude,,1982
 2007,Kenya__Offshore,-3.49976,40.801566,,0
 2007,Libya_Land,26.3351,17.2283,,153
 2007,Libya__Offshore,31.683681,18.512678,,6
-2007,Nigeria_Land,9.0820,8.6753,,28
+2007,Nigeria_Land,9.082,8.6753,,28
 2007,Nigeria_Offshore,4.113485,6.999522,,70
 2007,S.Africa_Land,-30.5595,22.9375,,0
 2007,S.Africa_Offshore,-31.842791,16.674006,,2
@@ -3358,9 +3358,9 @@ Year,Country,Latitude,Longitude,,1982
 2007,Argentina_Offshore,-51.313678,-66.678394,,0
 2007,Bolivia_Land,-16.2902,-63.5887,,34
 2007,Bolivia_Offshore,,,,0
-2007,Brazil_Land,-14.2350,-51.9253,,218
+2007,Brazil_Land,-14.235,-51.9253,,218
 2007,Brazil_Offshore,-22.197004,-40.435152,,265
-2007,Chile_Land,-35.6751,-71.5430,,15
+2007,Chile_Land,-35.6751,-71.543,,15
 2007,Chile_Offshore,-32.775184,-73.644858,,1
 2007,Colombia_Land,4.5709,-74.2973,,427
 2007,Colombia_Offshore,4.919216,-78.594368,,2
@@ -3378,7 +3378,7 @@ Year,Country,Latitude,Longitude,,1982
 2007,Venezuela_Offshore,9.183729,-60.200212,,198
 2007,Australia_Land,-25.274398,133.775136,,133
 2007,Australia_Offshore,-29.599699,113.685338,,131
-2007,Bangladesh_Land,23.6850,90.3563,,0
+2007,Bangladesh_Land,23.685,90.3563,,0
 2007,Bangladesh_Offshore,21.60567,90.597855,,0
 2007,Brunei_Land,4.535277,114.727669,,14
 2007,Brunei_Offshore,5.151965,114.665627,,37
@@ -3390,17 +3390,17 @@ Year,Country,Latitude,Longitude,,1982
 2007,Japan_Offshore,38.601583,137.300839,,4
 2007,Malaysia_Land,4.210484,101.975766,,0
 2007,Malaysia_Offshore,3.50164,110.229356,,184
-2007,Myanmar_Land,21.9140,95.9562,,86
+2007,Myanmar_Land,21.914,95.9562,,86
 2007,Myanmar_Offshore,15.93001,96.427671,,13
-2007,New Zealand_Land,-40.9006,174.8860,,38
+2007,New Zealand_Land,-40.9006,174.886,,38
 2007,New Zealand_Offshore,-39.291592,173.493089,,21
-2007,Papua New Guinea_Land,-6.3150,143.9556,,29
+2007,Papua New Guinea_Land,-6.315,143.9556,,29
 2007,Papua New Guinea_Offshore,-9.231086,126.119217,,0
 2007,Phillippines_Land,12.879721,121.774017,,2
 2007,Phillippines_Offshore,8.166545,121.418401,,2
 2007,Taiwan_Land,23.69781,120.960515,,0
 2007,Taiwan_Offshore,22.143055,120.035738,,0
-2007,Thailand_Land,15.8700,100.9925,,32
+2007,Thailand_Land,15.87,100.9925,,32
 2007,Thailand_Offshore,12.269503,100.804317,,92
 2007,Vietnam_Land,14.0583,108.2772,,1
 2007,Vietnam_Offshore,11.868672,109.874274,,79
@@ -3425,7 +3425,7 @@ Year,Country,Latitude,Longitude,,1982
 2008,Hungary_Offshore,,,,0
 2008,Italy_Land,41.8719,12.5674,,44
 2008,Italy_Offshore,41.727206,10.896804,,10
-2008,Norway_Land,60.4720,8.4689,,0
+2008,Norway_Land,60.472,8.4689,,0
 2008,Norway_Offshore,60.010363,3.58667,,239
 2008,Poland_Land,51.9194,19.1451,,16
 2008,Poland_Offshore,55.155538,17.566921,,1
@@ -3435,9 +3435,9 @@ Year,Country,Latitude,Longitude,,1982
 2008,Spain_Offshore,39.467705,0.812242,,0
 2008,Turkey_Land,38.9637,35.2433,,66
 2008,Turkey_Offshore,42.573404,34.154628,,0
-2008,U.K._Land,55.3781,-3.4360,,25
+2008,U.K._Land,55.3781,-3.436,,25
 2008,U.K._Offshore,57.479149,-0.12889,,240
-2008,Yugoslavia/Croatia_Land,45.1000,15.2000,,1
+2008,Yugoslavia/Croatia_Land,45.1,15.2,,1
 2008,Yugoslavia/Croatia_Offshore,43.165008,15.806668,,0
 2008,Abu Dhabi_Land,24.4539,54.3773,,103
 2008,Abu Dhabi_Offshore,24.756606,54.280173,,32
@@ -3445,7 +3445,7 @@ Year,Country,Latitude,Longitude,,1982
 2008,Dubai_Offshore,25.452626,55.17867,,0
 2008,Egypt_Land,26.8206,30.8025,,539
 2008,Egypt_Offshore,31.951179,30.916615,,122
-2008,Iran_Land,32.4279,53.6880,,0
+2008,Iran_Land,32.4279,53.688,,0
 2008,Iran_Offshore,26.986451,52.797098,,0
 2008,Iraq_Land,33.2232,43.6793,,0
 2008,Iraq_Offshore,29.826924,48.713334,,0
@@ -3479,7 +3479,7 @@ Year,Country,Latitude,Longitude,,1982
 2008,Kenya__Offshore,-3.49976,40.801566,,0
 2008,Libya_Land,26.3351,17.2283,,175
 2008,Libya__Offshore,31.683681,18.512678,,5
-2008,Nigeria_Land,9.0820,8.6753,,31
+2008,Nigeria_Land,9.082,8.6753,,31
 2008,Nigeria_Offshore,4.113485,6.999522,,56
 2008,S.Africa_Land,-30.5595,22.9375,,0
 2008,S.Africa_Offshore,-31.842791,16.674006,,4
@@ -3489,9 +3489,9 @@ Year,Country,Latitude,Longitude,,1982
 2008,Argentina_Offshore,-51.313678,-66.678394,,2
 2008,Bolivia_Land,-16.2902,-63.5887,,33
 2008,Bolivia_Offshore,,,,0
-2008,Brazil_Land,-14.2350,-51.9253,,294
+2008,Brazil_Land,-14.235,-51.9253,,294
 2008,Brazil_Offshore,-22.197004,-40.435152,,332
-2008,Chile_Land,-35.6751,-71.5430,,22
+2008,Chile_Land,-35.6751,-71.543,,22
 2008,Chile_Offshore,-32.775184,-73.644858,,0
 2008,Colombia_Land,4.5709,-74.2973,,493
 2008,Colombia_Offshore,4.919216,-78.594368,,0
@@ -3509,7 +3509,7 @@ Year,Country,Latitude,Longitude,,1982
 2008,Venezuela_Offshore,9.183729,-60.200212,,175
 2008,Australia_Land,-25.274398,133.775136,,169
 2008,Australia_Offshore,-29.599699,113.685338,,158
-2008,Bangladesh_Land,23.6850,90.3563,,0
+2008,Bangladesh_Land,23.685,90.3563,,0
 2008,Bangladesh_Offshore,21.60567,90.597855,,0
 2008,Brunei_Land,4.535277,114.727669,,11
 2008,Brunei_Offshore,5.151965,114.665627,,28
@@ -3521,17 +3521,17 @@ Year,Country,Latitude,Longitude,,1982
 2008,Japan_Offshore,38.601583,137.300839,,6
 2008,Malaysia_Land,4.210484,101.975766,,0
 2008,Malaysia_Offshore,3.50164,110.229356,,158
-2008,Myanmar_Land,21.9140,95.9562,,58
+2008,Myanmar_Land,21.914,95.9562,,58
 2008,Myanmar_Offshore,15.93001,96.427671,,9
-2008,New Zealand_Land,-40.9006,174.8860,,49
+2008,New Zealand_Land,-40.9006,174.886,,49
 2008,New Zealand_Offshore,-39.291592,173.493089,,16
-2008,Papua New Guinea_Land,-6.3150,143.9556,,39
+2008,Papua New Guinea_Land,-6.315,143.9556,,39
 2008,Papua New Guinea_Offshore,-9.231086,126.119217,,0
 2008,Phillippines_Land,12.879721,121.774017,,25
 2008,Phillippines_Offshore,8.166545,121.418401,,3
 2008,Taiwan_Land,23.69781,120.960515,,0
 2008,Taiwan_Offshore,22.143055,120.035738,,0
-2008,Thailand_Land,15.8700,100.9925,,28
+2008,Thailand_Land,15.87,100.9925,,28
 2008,Thailand_Offshore,12.269503,100.804317,,116
 2008,Vietnam_Land,14.0583,108.2772,,0
 2008,Vietnam_Offshore,11.868672,109.874274,,87
@@ -3556,7 +3556,7 @@ Year,Country,Latitude,Longitude,,1982
 2009,Hungary_Offshore,,,,0
 2009,Italy_Land,41.8719,12.5674,,31
 2009,Italy_Offshore,41.727206,10.896804,,6
-2009,Norway_Land,60.4720,8.4689,,0
+2009,Norway_Land,60.472,8.4689,,0
 2009,Norway_Offshore,60.010363,3.58667,,248
 2009,Poland_Land,51.9194,19.1451,,29
 2009,Poland_Offshore,55.155538,17.566921,,0
@@ -3566,9 +3566,9 @@ Year,Country,Latitude,Longitude,,1982
 2009,Spain_Offshore,39.467705,0.812242,,0
 2009,Turkey_Land,38.9637,35.2433,,57
 2009,Turkey_Offshore,42.573404,34.154628,,10
-2009,U.K._Land,55.3781,-3.4360,,9
+2009,U.K._Land,55.3781,-3.436,,9
 2009,U.K._Offshore,57.479149,-0.12889,,208
-2009,Yugoslavia/Croatia_Land,45.1000,15.2000,,0
+2009,Yugoslavia/Croatia_Land,45.1,15.2,,0
 2009,Yugoslavia/Croatia_Offshore,43.165008,15.806668,,3
 2009,Abu Dhabi_Land,24.4539,54.3773,,94
 2009,Abu Dhabi_Offshore,24.756606,54.280173,,41
@@ -3576,7 +3576,7 @@ Year,Country,Latitude,Longitude,,1982
 2009,Dubai_Offshore,25.452626,55.17867,,10
 2009,Egypt_Land,26.8206,30.8025,,447
 2009,Egypt_Offshore,31.951179,30.916615,,109
-2009,Iran_Land,32.4279,53.6880,,0
+2009,Iran_Land,32.4279,53.688,,0
 2009,Iran_Offshore,26.986451,52.797098,,0
 2009,Iraq_Land,33.2232,43.6793,,0
 2009,Iraq_Offshore,29.826924,48.713334,,0
@@ -3610,7 +3610,7 @@ Year,Country,Latitude,Longitude,,1982
 2009,Kenya__Offshore,-3.49976,40.801566,,0
 2009,Libya_Land,26.3351,17.2283,,159
 2009,Libya__Offshore,31.683681,18.512678,,14
-2009,Nigeria_Land,9.0820,8.6753,,25
+2009,Nigeria_Land,9.082,8.6753,,25
 2009,Nigeria_Offshore,4.113485,6.999522,,52
 2009,S.Africa_Land,-30.5595,22.9375,,0
 2009,S.Africa_Offshore,-31.842791,16.674006,,1
@@ -3620,9 +3620,9 @@ Year,Country,Latitude,Longitude,,1982
 2009,Argentina_Offshore,-51.313678,-66.678394,,6
 2009,Bolivia_Land,-16.2902,-63.5887,,43
 2009,Bolivia_Offshore,,,,0
-2009,Brazil_Land,-14.2350,-51.9253,,369
+2009,Brazil_Land,-14.235,-51.9253,,369
 2009,Brazil_Offshore,-22.197004,-40.435152,,379
-2009,Chile_Land,-35.6751,-71.5430,,32
+2009,Chile_Land,-35.6751,-71.543,,32
 2009,Chile_Offshore,-32.775184,-73.644858,,0
 2009,Colombia_Land,4.5709,-74.2973,,341
 2009,Colombia_Offshore,4.919216,-78.594368,,0
@@ -3640,7 +3640,7 @@ Year,Country,Latitude,Longitude,,1982
 2009,Venezuela_Offshore,9.183729,-60.200212,,137
 2009,Australia_Land,-25.274398,133.775136,,100
 2009,Australia_Offshore,-29.599699,113.685338,,111
-2009,Bangladesh_Land,23.6850,90.3563,,0
+2009,Bangladesh_Land,23.685,90.3563,,0
 2009,Bangladesh_Offshore,21.60567,90.597855,,0
 2009,Brunei_Land,4.535277,114.727669,,10
 2009,Brunei_Offshore,5.151965,114.665627,,36
@@ -3652,17 +3652,17 @@ Year,Country,Latitude,Longitude,,1982
 2009,Japan_Offshore,38.601583,137.300839,,0
 2009,Malaysia_Land,4.210484,101.975766,,0
 2009,Malaysia_Offshore,3.50164,110.229356,,161
-2009,Myanmar_Land,21.9140,95.9562,,33
+2009,Myanmar_Land,21.914,95.9562,,33
 2009,Myanmar_Offshore,15.93001,96.427671,,12
-2009,New Zealand_Land,-40.9006,174.8860,,38
+2009,New Zealand_Land,-40.9006,174.886,,38
 2009,New Zealand_Offshore,-39.291592,173.493089,,7
-2009,Papua New Guinea_Land,-6.3150,143.9556,,24
+2009,Papua New Guinea_Land,-6.315,143.9556,,24
 2009,Papua New Guinea_Offshore,-9.231086,126.119217,,0
 2009,Phillippines_Land,12.879721,121.774017,,46
 2009,Phillippines_Offshore,8.166545,121.418401,,2
 2009,Taiwan_Land,23.69781,120.960515,,0
 2009,Taiwan_Offshore,22.143055,120.035738,,0
-2009,Thailand_Land,15.8700,100.9925,,52
+2009,Thailand_Land,15.87,100.9925,,52
 2009,Thailand_Offshore,12.269503,100.804317,,111
 2009,Vietnam_Land,14.0583,108.2772,,0
 2009,Vietnam_Offshore,11.868672,109.874274,,79
@@ -3687,7 +3687,7 @@ Year,Country,Latitude,Longitude,,1982
 2010,Hungary_Offshore,,,,0
 2010,Italy_Land,41.8719,12.5674,,51
 2010,Italy_Offshore,41.727206,10.896804,,16
-2010,Norway_Land,60.4720,8.4689,,0
+2010,Norway_Land,60.472,8.4689,,0
 2010,Norway_Offshore,60.010363,3.58667,,220
 2010,Poland_Land,51.9194,19.1451,,31
 2010,Poland_Offshore,55.155538,17.566921,,1
@@ -3697,9 +3697,9 @@ Year,Country,Latitude,Longitude,,1982
 2010,Spain_Offshore,39.467705,0.812242,,0
 2010,Turkey_Land,38.9637,35.2433,,113
 2010,Turkey_Offshore,42.573404,34.154628,,10
-2010,U.K._Land,55.3781,-3.4360,,15
+2010,U.K._Land,55.3781,-3.436,,15
 2010,U.K._Offshore,57.479149,-0.12889,,215
-2010,Yugoslavia/Croatia_Land,45.1000,15.2000,,0
+2010,Yugoslavia/Croatia_Land,45.1,15.2,,0
 2010,Yugoslavia/Croatia_Offshore,43.165008,15.806668,,6
 2010,Abu Dhabi_Land,24.4539,54.3773,,96
 2010,Abu Dhabi_Offshore,24.756606,54.280173,,44
@@ -3707,7 +3707,7 @@ Year,Country,Latitude,Longitude,,1982
 2010,Dubai_Offshore,25.452626,55.17867,,14
 2010,Egypt_Land,26.8206,30.8025,,530
 2010,Egypt_Offshore,31.951179,30.916615,,135
-2010,Iran_Land,32.4279,53.6880,,0
+2010,Iran_Land,32.4279,53.688,,0
 2010,Iran_Offshore,26.986451,52.797098,,0
 2010,Iraq_Land,33.2232,43.6793,,0
 2010,Iraq_Offshore,29.826924,48.713334,,0
@@ -3741,7 +3741,7 @@ Year,Country,Latitude,Longitude,,1982
 2010,Kenya__Offshore,-3.49976,40.801566,,0
 2010,Libya_Land,26.3351,17.2283,,173
 2010,Libya__Offshore,31.683681,18.512678,,17
-2010,Nigeria_Land,9.0820,8.6753,,70
+2010,Nigeria_Land,9.082,8.6753,,70
 2010,Nigeria_Offshore,4.113485,6.999522,,107
 2010,S.Africa_Land,-30.5595,22.9375,,0
 2010,S.Africa_Offshore,-31.842791,16.674006,,0
@@ -3751,9 +3751,9 @@ Year,Country,Latitude,Longitude,,1982
 2010,Argentina_Offshore,-51.313678,-66.678394,,0
 2010,Bolivia_Land,-16.2902,-63.5887,,73
 2010,Bolivia_Offshore,,,,0
-2010,Brazil_Land,-14.2350,-51.9253,,393
+2010,Brazil_Land,-14.235,-51.9253,,393
 2010,Brazil_Offshore,-22.197004,-40.435152,,434
-2010,Chile_Land,-35.6751,-71.5430,,38
+2010,Chile_Land,-35.6751,-71.543,,38
 2010,Chile_Offshore,-32.775184,-73.644858,,0
 2010,Colombia_Land,4.5709,-74.2973,,501
 2010,Colombia_Offshore,4.919216,-78.594368,,0
@@ -3771,7 +3771,7 @@ Year,Country,Latitude,Longitude,,1982
 2010,Venezuela_Offshore,9.183729,-60.200212,,127
 2010,Australia_Land,-25.274398,133.775136,,56
 2010,Australia_Offshore,-29.599699,113.685338,,114
-2010,Bangladesh_Land,23.6850,90.3563,,0
+2010,Bangladesh_Land,23.685,90.3563,,0
 2010,Bangladesh_Offshore,21.60567,90.597855,,0
 2010,Brunei_Land,4.535277,114.727669,,10
 2010,Brunei_Offshore,5.151965,114.665627,,47
@@ -3783,17 +3783,17 @@ Year,Country,Latitude,Longitude,,1982
 2010,Japan_Offshore,38.601583,137.300839,,2
 2010,Malaysia_Land,4.210484,101.975766,,0
 2010,Malaysia_Offshore,3.50164,110.229356,,144
-2010,Myanmar_Land,21.9140,95.9562,,24
+2010,Myanmar_Land,21.914,95.9562,,24
 2010,Myanmar_Offshore,15.93001,96.427671,,10
-2010,New Zealand_Land,-40.9006,174.8860,,49
+2010,New Zealand_Land,-40.9006,174.886,,49
 2010,New Zealand_Offshore,-39.291592,173.493089,,11
-2010,Papua New Guinea_Land,-6.3150,143.9556,,38
+2010,Papua New Guinea_Land,-6.315,143.9556,,38
 2010,Papua New Guinea_Offshore,-9.231086,126.119217,,1
 2010,Phillippines_Land,12.879721,121.774017,,59
 2010,Phillippines_Offshore,8.166545,121.418401,,12
 2010,Taiwan_Land,23.69781,120.960515,,0
 2010,Taiwan_Offshore,22.143055,120.035738,,0
-2010,Thailand_Land,15.8700,100.9925,,33
+2010,Thailand_Land,15.87,100.9925,,33
 2010,Thailand_Offshore,12.269503,100.804317,,113
 2010,Vietnam_Land,14.0583,108.2772,,0
 2010,Vietnam_Offshore,11.868672,109.874274,,152
@@ -3818,7 +3818,7 @@ Year,Country,Latitude,Longitude,,1982
 2011,Hungary_Offshore,,,,0
 2011,Italy_Land,41.8719,12.5674,,44
 2011,Italy_Offshore,41.727206,10.896804,,23
-2011,Norway_Land,60.4720,8.4689,,0
+2011,Norway_Land,60.472,8.4689,,0
 2011,Norway_Offshore,60.010363,3.58667,,209
 2011,Poland_Land,51.9194,19.1451,,107
 2011,Poland_Offshore,55.155538,17.566921,,1
@@ -3828,9 +3828,9 @@ Year,Country,Latitude,Longitude,,1982
 2011,Spain_Offshore,39.467705,0.812242,,11
 2011,Turkey_Land,38.9637,35.2433,,251
 2011,Turkey_Offshore,42.573404,34.154628,,16
-2011,U.K._Land,55.3781,-3.4360,,19
+2011,U.K._Land,55.3781,-3.436,,19
 2011,U.K._Offshore,57.479149,-0.12889,,175
-2011,Yugoslavia/Croatia_Land,45.1000,15.2000,,0
+2011,Yugoslavia/Croatia_Land,45.1,15.2,,0
 2011,Yugoslavia/Croatia_Offshore,43.165008,15.806668,,0
 2011,Abu Dhabi_Land,24.4539,54.3773,,150
 2011,Abu Dhabi_Offshore,24.756606,54.280173,,91
@@ -3838,7 +3838,7 @@ Year,Country,Latitude,Longitude,,1982
 2011,Dubai_Offshore,25.452626,55.17867,,10
 2011,Egypt_Land,26.8206,30.8025,,669
 2011,Egypt_Offshore,31.951179,30.916615,,130
-2011,Iran_Land,32.4279,53.6880,,0
+2011,Iran_Land,32.4279,53.688,,0
 2011,Iran_Offshore,26.986451,52.797098,,0
 2011,Iraq_Land,33.2232,43.6793,,0
 2011,Iraq_Offshore,29.826924,48.713334,,0
@@ -3872,7 +3872,7 @@ Year,Country,Latitude,Longitude,,1982
 2011,Kenya__Offshore,-3.49976,40.801566,,0
 2011,Libya_Land,26.3351,17.2283,,28
 2011,Libya__Offshore,31.683681,18.512678,,2
-2011,Nigeria_Land,9.0820,8.6753,,54
+2011,Nigeria_Land,9.082,8.6753,,54
 2011,Nigeria_Offshore,4.113485,6.999522,,124
 2011,S.Africa_Land,-30.5595,22.9375,,0
 2011,S.Africa_Offshore,-31.842791,16.674006,,0
@@ -3882,9 +3882,9 @@ Year,Country,Latitude,Longitude,,1982
 2011,Argentina_Offshore,-51.313678,-66.678394,,0
 2011,Bolivia_Land,-16.2902,-63.5887,,73
 2011,Bolivia_Offshore,,,,0
-2011,Brazil_Land,-14.2350,-51.9253,,401
+2011,Brazil_Land,-14.235,-51.9253,,401
 2011,Brazil_Offshore,-22.197004,-40.435152,,556
-2011,Chile_Land,-35.6751,-71.5430,,36
+2011,Chile_Land,-35.6751,-71.543,,36
 2011,Chile_Offshore,-32.775184,-73.644858,,0
 2011,Colombia_Land,4.5709,-74.2973,,788
 2011,Colombia_Offshore,4.919216,-78.594368,,0
@@ -3902,7 +3902,7 @@ Year,Country,Latitude,Longitude,,1982
 2011,Venezuela_Offshore,9.183729,-60.200212,,163
 2011,Australia_Land,-25.274398,133.775136,,73
 2011,Australia_Offshore,-29.599699,113.685338,,76
-2011,Bangladesh_Land,23.6850,90.3563,,11
+2011,Bangladesh_Land,23.685,90.3563,,11
 2011,Bangladesh_Offshore,21.60567,90.597855,,0
 2011,Brunei_Land,4.535277,114.727669,,4
 2011,Brunei_Offshore,5.151965,114.665627,,34
@@ -3914,17 +3914,17 @@ Year,Country,Latitude,Longitude,,1982
 2011,Japan_Offshore,38.601583,137.300839,,1
 2011,Malaysia_Land,4.210484,101.975766,,2
 2011,Malaysia_Offshore,3.50164,110.229356,,90
-2011,Myanmar_Land,21.9140,95.9562,,19
+2011,Myanmar_Land,21.914,95.9562,,19
 2011,Myanmar_Offshore,15.93001,96.427671,,5
-2011,New Zealand_Land,-40.9006,174.8860,,45
+2011,New Zealand_Land,-40.9006,174.886,,45
 2011,New Zealand_Offshore,-39.291592,173.493089,,3
-2011,Papua New Guinea_Land,-6.3150,143.9556,,43
+2011,Papua New Guinea_Land,-6.315,143.9556,,43
 2011,Papua New Guinea_Offshore,-9.231086,126.119217,,0
 2011,Phillippines_Land,12.879721,121.774017,,35
 2011,Phillippines_Offshore,8.166545,121.418401,,1
 2011,Taiwan_Land,23.69781,120.960515,,0
 2011,Taiwan_Offshore,22.143055,120.035738,,0
-2011,Thailand_Land,15.8700,100.9925,,57
+2011,Thailand_Land,15.87,100.9925,,57
 2011,Thailand_Offshore,12.269503,100.804317,,109
 2011,Vietnam_Land,14.0583,108.2772,,0
 2011,Vietnam_Offshore,11.868672,109.874274,,101
@@ -3949,7 +3949,7 @@ Year,Country,Latitude,Longitude,,1982
 2012,Hungary_Offshore,,,,0
 2012,Italy_Land,41.8719,12.5674,,41
 2012,Italy_Offshore,41.727206,10.896804,,17
-2012,Norway_Land,60.4720,8.4689,,0
+2012,Norway_Land,60.472,8.4689,,0
 2012,Norway_Offshore,60.010363,3.58667,,207
 2012,Poland_Land,51.9194,19.1451,,85
 2012,Poland_Offshore,55.155538,17.566921,,0
@@ -3959,9 +3959,9 @@ Year,Country,Latitude,Longitude,,1982
 2012,Spain_Offshore,39.467705,0.812242,,3
 2012,Turkey_Land,38.9637,35.2433,,272
 2012,Turkey_Offshore,42.573404,34.154628,,5
-2012,U.K._Land,55.3781,-3.4360,,14
+2012,U.K._Land,55.3781,-3.436,,14
 2012,U.K._Offshore,57.479149,-0.12889,,201
-2012,Yugoslavia/Croatia_Land,45.1000,15.2000,,11
+2012,Yugoslavia/Croatia_Land,45.1,15.2,,11
 2012,Yugoslavia/Croatia_Offshore,43.165008,15.806668,,0
 2012,Abu Dhabi_Land,24.4539,54.3773,,192
 2012,Abu Dhabi_Offshore,24.756606,54.280173,,86
@@ -3969,7 +3969,7 @@ Year,Country,Latitude,Longitude,,1982
 2012,Dubai_Offshore,25.452626,55.17867,,9
 2012,Egypt_Land,26.8206,30.8025,,660
 2012,Egypt_Offshore,31.951179,30.916615,,149
-2012,Iran_Land,32.4279,53.6880,,0
+2012,Iran_Land,32.4279,53.688,,0
 2012,Iran_Offshore,26.986451,52.797098,,0
 2012,Iraq_Land,33.2232,43.6793,,514
 2012,Iraq_Offshore,29.826924,48.713334,,0
@@ -4003,7 +4003,7 @@ Year,Country,Latitude,Longitude,,1982
 2012,Kenya__Offshore,-3.49976,40.801566,,0
 2012,Libya_Land,26.3351,17.2283,,102
 2012,Libya__Offshore,31.683681,18.512678,,0
-2012,Nigeria_Land,9.0820,8.6753,,67
+2012,Nigeria_Land,9.082,8.6753,,67
 2012,Nigeria_Offshore,4.113485,6.999522,,131
 2012,S.Africa_Land,-30.5595,22.9375,,0
 2012,S.Africa_Offshore,-31.842791,16.674006,,0
@@ -4013,9 +4013,9 @@ Year,Country,Latitude,Longitude,,1982
 2012,Argentina_Offshore,-51.313678,-66.678394,,0
 2012,Bolivia_Land,-16.2902,-63.5887,,93
 2012,Bolivia_Offshore,,,,0
-2012,Brazil_Land,-14.2350,-51.9253,,477
+2012,Brazil_Land,-14.235,-51.9253,,477
 2012,Brazil_Offshore,-22.197004,-40.435152,,502
-2012,Chile_Land,-35.6751,-71.5430,,35
+2012,Chile_Land,-35.6751,-71.543,,35
 2012,Chile_Offshore,-32.775184,-73.644858,,0
 2012,Colombia_Land,4.5709,-74.2973,,606
 2012,Colombia_Offshore,4.919216,-78.594368,,3
@@ -4033,7 +4033,7 @@ Year,Country,Latitude,Longitude,,1982
 2012,Venezuela_Offshore,9.183729,-60.200212,,118
 2012,Australia_Land,-25.274398,133.775136,,118
 2012,Australia_Offshore,-29.599699,113.685338,,91
-2012,Bangladesh_Land,23.6850,90.3563,,12
+2012,Bangladesh_Land,23.685,90.3563,,12
 2012,Bangladesh_Offshore,21.60567,90.597855,,11
 2012,Brunei_Land,4.535277,114.727669,,7
 2012,Brunei_Offshore,5.151965,114.665627,,8
@@ -4045,17 +4045,17 @@ Year,Country,Latitude,Longitude,,1982
 2012,Japan_Offshore,38.601583,137.300839,,7
 2012,Malaysia_Land,4.210484,101.975766,,0
 2012,Malaysia_Offshore,3.50164,110.229356,,157
-2012,Myanmar_Land,21.9140,95.9562,,3
+2012,Myanmar_Land,21.914,95.9562,,3
 2012,Myanmar_Offshore,15.93001,96.427671,,6
-2012,New Zealand_Land,-40.9006,174.8860,,63
+2012,New Zealand_Land,-40.9006,174.886,,63
 2012,New Zealand_Offshore,-39.291592,173.493089,,0
-2012,Papua New Guinea_Land,-6.3150,143.9556,,41
+2012,Papua New Guinea_Land,-6.315,143.9556,,41
 2012,Papua New Guinea_Offshore,-9.231086,126.119217,,0
 2012,Phillippines_Land,12.879721,121.774017,,6
 2012,Phillippines_Offshore,8.166545,121.418401,,0
 2012,Taiwan_Land,23.69781,120.960515,,0
 2012,Taiwan_Offshore,22.143055,120.035738,,0
-2012,Thailand_Land,15.8700,100.9925,,51
+2012,Thailand_Land,15.87,100.9925,,51
 2012,Thailand_Offshore,12.269503,100.804317,,134
 2012,Vietnam_Land,14.0583,108.2772,,0
 2012,Vietnam_Offshore,11.868672,109.874274,,65
@@ -4080,7 +4080,7 @@ Year,Country,Latitude,Longitude,,1982
 2013,Hungary_Offshore,,,,0
 2013,Italy_Land,41.8719,12.5674,,35
 2013,Italy_Offshore,41.727206,10.896804,,12
-2013,Norway_Land,60.4720,8.4689,,0
+2013,Norway_Land,60.472,8.4689,,0
 2013,Norway_Offshore,60.010363,3.58667,,236
 2013,Poland_Land,51.9194,19.1451,,75
 2013,Poland_Offshore,55.155538,17.566921,,0
@@ -4090,9 +4090,9 @@ Year,Country,Latitude,Longitude,,1982
 2013,Spain_Offshore,39.467705,0.812242,,0
 2013,Turkey_Land,38.9637,35.2433,,388
 2013,Turkey_Offshore,42.573404,34.154628,,0
-2013,U.K._Land,55.3781,-3.4360,,7
+2013,U.K._Land,55.3781,-3.436,,7
 2013,U.K._Offshore,57.479149,-0.12889,,198
-2013,Yugoslavia/Croatia_Land,45.1000,15.2000,,11
+2013,Yugoslavia/Croatia_Land,45.1,15.2,,11
 2013,Yugoslavia/Croatia_Offshore,43.165008,15.806668,,3
 2013,Abu Dhabi_Land,24.4539,54.3773,,236
 2013,Abu Dhabi_Offshore,24.756606,54.280173,,98
@@ -4100,7 +4100,7 @@ Year,Country,Latitude,Longitude,,1982
 2013,Dubai_Offshore,25.452626,55.17867,,6
 2013,Egypt_Land,26.8206,30.8025,,530
 2013,Egypt_Offshore,31.951179,30.916615,,103
-2013,Iran_Land,32.4279,53.6880,,0
+2013,Iran_Land,32.4279,53.688,,0
 2013,Iran_Offshore,26.986451,52.797098,,0
 2013,Iraq_Land,33.2232,43.6793,,995
 2013,Iraq_Offshore,29.826924,48.713334,,0
@@ -4134,7 +4134,7 @@ Year,Country,Latitude,Longitude,,1982
 2013,Kenya__Offshore,-3.49976,40.801566,,3
 2013,Libya_Land,26.3351,17.2283,,171
 2013,Libya__Offshore,31.683681,18.512678,,5
-2013,Nigeria_Land,9.0820,8.6753,,99
+2013,Nigeria_Land,9.082,8.6753,,99
 2013,Nigeria_Offshore,4.113485,6.999522,,114
 2013,S.Africa_Land,-30.5595,22.9375,,0
 2013,S.Africa_Offshore,-31.842791,16.674006,,6
@@ -4144,9 +4144,9 @@ Year,Country,Latitude,Longitude,,1982
 2013,Argentina_Offshore,-51.313678,-66.678394,,0
 2013,Bolivia_Land,-16.2902,-63.5887,,104
 2013,Bolivia_Offshore,,,,0
-2013,Brazil_Land,-14.2350,-51.9253,,262
+2013,Brazil_Land,-14.235,-51.9253,,262
 2013,Brazil_Offshore,-22.197004,-40.435152,,491
-2013,Chile_Land,-35.6751,-71.5430,,34
+2013,Chile_Land,-35.6751,-71.543,,34
 2013,Chile_Offshore,-32.775184,-73.644858,,0
 2013,Colombia_Land,4.5709,-74.2973,,510
 2013,Colombia_Offshore,4.919216,-78.594368,,0
@@ -4164,7 +4164,7 @@ Year,Country,Latitude,Longitude,,1982
 2013,Venezuela_Offshore,9.183729,-60.200212,,75
 2013,Australia_Land,-25.274398,133.775136,,136
 2013,Australia_Offshore,-29.599699,113.685338,,81
-2013,Bangladesh_Land,23.6850,90.3563,,12
+2013,Bangladesh_Land,23.685,90.3563,,12
 2013,Bangladesh_Offshore,21.60567,90.597855,,0
 2013,Brunei_Land,4.535277,114.727669,,8
 2013,Brunei_Offshore,5.151965,114.665627,,16
@@ -4176,17 +4176,17 @@ Year,Country,Latitude,Longitude,,1982
 2013,Japan_Offshore,38.601583,137.300839,,8
 2013,Malaysia_Land,4.210484,101.975766,,1
 2013,Malaysia_Offshore,3.50164,110.229356,,138
-2013,Myanmar_Land,21.9140,95.9562,,9
+2013,Myanmar_Land,21.914,95.9562,,9
 2013,Myanmar_Offshore,15.93001,96.427671,,10
-2013,New Zealand_Land,-40.9006,174.8860,,75
+2013,New Zealand_Land,-40.9006,174.886,,75
 2013,New Zealand_Offshore,-39.291592,173.493089,,16
-2013,Papua New Guinea_Land,-6.3150,143.9556,,40
+2013,Papua New Guinea_Land,-6.315,143.9556,,40
 2013,Papua New Guinea_Offshore,-9.231086,126.119217,,4
 2013,Phillippines_Land,12.879721,121.774017,,28
 2013,Phillippines_Offshore,8.166545,121.418401,,9
 2013,Taiwan_Land,23.69781,120.960515,,0
 2013,Taiwan_Offshore,22.143055,120.035738,,0
-2013,Thailand_Land,15.8700,100.9925,,46
+2013,Thailand_Land,15.87,100.9925,,46
 2013,Thailand_Offshore,12.269503,100.804317,,168
 2013,Vietnam_Land,14.0583,108.2772,,1
 2013,Vietnam_Offshore,11.868672,109.874274,,37
@@ -4211,7 +4211,7 @@ Year,Country,Latitude,Longitude,,1982
 2014,Hungary_Offshore,,,,0
 2014,Italy_Land,41.8719,12.5674,,44
 2014,Italy_Offshore,41.727206,10.896804,,15
-2014,Norway_Land,60.4720,8.4689,,1
+2014,Norway_Land,60.472,8.4689,,1
 2014,Norway_Offshore,60.010363,3.58667,,197
 2014,Poland_Land,51.9194,19.1451,,65
 2014,Poland_Offshore,55.155538,17.566921,,0
@@ -4221,9 +4221,9 @@ Year,Country,Latitude,Longitude,,1982
 2014,Spain_Offshore,39.467705,0.812242,,1
 2014,Turkey_Land,38.9637,35.2433,,487
 2014,Turkey_Offshore,42.573404,34.154628,,10
-2014,U.K._Land,55.3781,-3.4360,,8
+2014,U.K._Land,55.3781,-3.436,,8
 2014,U.K._Offshore,57.479149,-0.12889,,184
-2014,Yugoslavia/Croatia_Land,45.1000,15.2000,,12
+2014,Yugoslavia/Croatia_Land,45.1,15.2,,12
 2014,Yugoslavia/Croatia_Offshore,43.165008,15.806668,,9
 2014,Abu Dhabi_Land,24.4539,54.3773,,282
 2014,Abu Dhabi_Offshore,24.756606,54.280173,,111
@@ -4231,7 +4231,7 @@ Year,Country,Latitude,Longitude,,1982
 2014,Dubai_Offshore,25.452626,55.17867,,19
 2014,Egypt_Land,26.8206,30.8025,,540
 2014,Egypt_Offshore,31.951179,30.916615,,94
-2014,Iran_Land,32.4279,53.6880,,0
+2014,Iran_Land,32.4279,53.688,,0
 2014,Iran_Offshore,26.986451,52.797098,,0
 2014,Iraq_Land,33.2232,43.6793,,949
 2014,Iraq_Offshore,29.826924,48.713334,,0
@@ -4265,7 +4265,7 @@ Year,Country,Latitude,Longitude,,1982
 2014,Kenya__Offshore,-3.49976,40.801566,,7
 2014,Libya_Land,26.3351,17.2283,,111
 2014,Libya__Offshore,31.683681,18.512678,,13
-2014,Nigeria_Land,9.0820,8.6753,,94
+2014,Nigeria_Land,9.082,8.6753,,94
 2014,Nigeria_Offshore,4.113485,6.999522,,80
 2014,S.Africa_Land,-30.5595,22.9375,,0
 2014,S.Africa_Offshore,-31.842791,16.674006,,8
@@ -4275,9 +4275,9 @@ Year,Country,Latitude,Longitude,,1982
 2014,Argentina_Offshore,-51.313678,-66.678394,,3
 2014,Bolivia_Land,-16.2902,-63.5887,,94
 2014,Bolivia_Offshore,,,,0
-2014,Brazil_Land,-14.2350,-51.9253,,235
+2014,Brazil_Land,-14.235,-51.9253,,235
 2014,Brazil_Offshore,-22.197004,-40.435152,,317
-2014,Chile_Land,-35.6751,-71.5430,,48
+2014,Chile_Land,-35.6751,-71.543,,48
 2014,Chile_Offshore,-32.775184,-73.644858,,0
 2014,Colombia_Land,4.5709,-74.2973,,517
 2014,Colombia_Offshore,4.919216,-78.594368,,1
@@ -4295,7 +4295,7 @@ Year,Country,Latitude,Longitude,,1982
 2014,Venezuela_Offshore,9.183729,-60.200212,,71
 2014,Australia_Land,-25.274398,133.775136,,159
 2014,Australia_Offshore,-29.599699,113.685338,,86
-2014,Bangladesh_Land,23.6850,90.3563,,7
+2014,Bangladesh_Land,23.685,90.3563,,7
 2014,Bangladesh_Offshore,21.60567,90.597855,,6
 2014,Brunei_Land,4.535277,114.727669,,3
 2014,Brunei_Offshore,5.151965,114.665627,,14
@@ -4307,17 +4307,17 @@ Year,Country,Latitude,Longitude,,1982
 2014,Japan_Offshore,38.601583,137.300839,,2
 2014,Malaysia_Land,4.210484,101.975766,,8
 2014,Malaysia_Offshore,3.50164,110.229356,,99
-2014,Myanmar_Land,21.9140,95.9562,,9
+2014,Myanmar_Land,21.914,95.9562,,9
 2014,Myanmar_Offshore,15.93001,96.427671,,12
-2014,New Zealand_Land,-40.9006,174.8860,,34
+2014,New Zealand_Land,-40.9006,174.886,,34
 2014,New Zealand_Offshore,-39.291592,173.493089,,30
-2014,Papua New Guinea_Land,-6.3150,143.9556,,62
+2014,Papua New Guinea_Land,-6.315,143.9556,,62
 2014,Papua New Guinea_Offshore,-9.231086,126.119217,,0
 2014,Phillippines_Land,12.879721,121.774017,,26
 2014,Phillippines_Offshore,8.166545,121.418401,,2
 2014,Taiwan_Land,23.69781,120.960515,,0
 2014,Taiwan_Offshore,22.143055,120.035738,,0
-2014,Thailand_Land,15.8700,100.9925,,37
+2014,Thailand_Land,15.87,100.9925,,37
 2014,Thailand_Offshore,12.269503,100.804317,,166
 2014,Vietnam_Land,14.0583,108.2772,,0
 2014,Vietnam_Offshore,11.868672,109.874274,,61
@@ -4342,7 +4342,7 @@ Year,Country,Latitude,Longitude,,1982
 2015,Hungary_Offshore,,,,0
 2015,Italy_Land,41.8719,12.5674,,37
 2015,Italy_Offshore,41.727206,10.896804,,8
-2015,Norway_Land,60.4720,8.4689,,0
+2015,Norway_Land,60.472,8.4689,,0
 2015,Norway_Offshore,60.010363,3.58667,,204
 2015,Poland_Land,51.9194,19.1451,,94
 2015,Poland_Offshore,55.155538,17.566921,,0
@@ -4352,9 +4352,9 @@ Year,Country,Latitude,Longitude,,1982
 2015,Spain_Offshore,39.467705,0.812242,,1
 2015,Turkey_Land,38.9637,35.2433,,358
 2015,Turkey_Offshore,42.573404,34.154628,,5
-2015,U.K._Land,55.3781,-3.4360,,1
+2015,U.K._Land,55.3781,-3.436,,1
 2015,U.K._Offshore,57.479149,-0.12889,,170
-2015,Yugoslavia/Croatia_Land,45.1000,15.2000,,12
+2015,Yugoslavia/Croatia_Land,45.1,15.2,,12
 2015,Yugoslavia/Croatia_Offshore,43.165008,15.806668,,0
 2015,Abu Dhabi_Land,24.4539,54.3773,,301
 2015,Abu Dhabi_Offshore,24.756606,54.280173,,183
@@ -4362,7 +4362,7 @@ Year,Country,Latitude,Longitude,,1982
 2015,Dubai_Offshore,25.452626,55.17867,,24
 2015,Egypt_Land,26.8206,30.8025,,427
 2015,Egypt_Offshore,31.951179,30.916615,,75
-2015,Iran_Land,32.4279,53.6880,,0
+2015,Iran_Land,32.4279,53.688,,0
 2015,Iran_Offshore,26.986451,52.797098,,0
 2015,Iraq_Land,33.2232,43.6793,,624
 2015,Iraq_Offshore,29.826924,48.713334,,0
@@ -4396,7 +4396,7 @@ Year,Country,Latitude,Longitude,,1982
 2015,Kenya__Offshore,-3.49976,40.801566,,0
 2015,Libya_Land,26.3351,17.2283,,15
 2015,Libya__Offshore,31.683681,18.512678,,19
-2015,Nigeria_Land,9.0820,8.6753,,53
+2015,Nigeria_Land,9.082,8.6753,,53
 2015,Nigeria_Offshore,4.113485,6.999522,,78
 2015,S.Africa_Land,-30.5595,22.9375,,0
 2015,S.Africa_Offshore,-31.842791,16.674006,,8
@@ -4406,9 +4406,9 @@ Year,Country,Latitude,Longitude,,1982
 2015,Argentina_Offshore,-51.313678,-66.678394,,10
 2015,Bolivia_Land,-16.2902,-63.5887,,57
 2015,Bolivia_Offshore,,,,0
-2015,Brazil_Land,-14.2350,-51.9253,,225
+2015,Brazil_Land,-14.235,-51.9253,,225
 2015,Brazil_Offshore,-22.197004,-40.435152,,259
-2015,Chile_Land,-35.6751,-71.5430,,32
+2015,Chile_Land,-35.6751,-71.543,,32
 2015,Chile_Offshore,-32.775184,-73.644858,,0
 2015,Colombia_Land,4.5709,-74.2973,,294
 2015,Colombia_Offshore,4.919216,-78.594368,,9
@@ -4426,7 +4426,7 @@ Year,Country,Latitude,Longitude,,1982
 2015,Venezuela_Offshore,9.183729,-60.200212,,64
 2015,Australia_Land,-25.274398,133.775136,,109
 2015,Australia_Offshore,-29.599699,113.685338,,82
-2015,Bangladesh_Land,23.6850,90.3563,,0
+2015,Bangladesh_Land,23.685,90.3563,,0
 2015,Bangladesh_Offshore,21.60567,90.597855,,0
 2015,Brunei_Land,4.535277,114.727669,,0
 2015,Brunei_Offshore,5.151965,114.665627,,12
@@ -4438,17 +4438,17 @@ Year,Country,Latitude,Longitude,,1982
 2015,Japan_Offshore,38.601583,137.300839,,0
 2015,Malaysia_Land,4.210484,101.975766,,0
 2015,Malaysia_Offshore,3.50164,110.229356,,95
-2015,Myanmar_Land,21.9140,95.9562,,3
+2015,Myanmar_Land,21.914,95.9562,,3
 2015,Myanmar_Offshore,15.93001,96.427671,,9
-2015,New Zealand_Land,-40.9006,174.8860,,8
+2015,New Zealand_Land,-40.9006,174.886,,8
 2015,New Zealand_Offshore,-39.291592,173.493089,,9
-2015,Papua New Guinea_Land,-6.3150,143.9556,,39
+2015,Papua New Guinea_Land,-6.315,143.9556,,39
 2015,Papua New Guinea_Offshore,-9.231086,126.119217,,0
 2015,Phillippines_Land,12.879721,121.774017,,36
 2015,Phillippines_Offshore,8.166545,121.418401,,1
 2015,Taiwan_Land,23.69781,120.960515,,0
 2015,Taiwan_Offshore,22.143055,120.035738,,0
-2015,Thailand_Land,15.8700,100.9925,,42
+2015,Thailand_Land,15.87,100.9925,,42
 2015,Thailand_Offshore,12.269503,100.804317,,165
 2015,Vietnam_Land,14.0583,108.2772,,0
 2015,Vietnam_Offshore,11.868672,109.874274,,39
@@ -4473,7 +4473,7 @@ Year,Country,Latitude,Longitude,,1982
 2016,Hungary_Offshore,,,,0
 2016,Italy_Land,41.8719,12.5674,,42
 2016,Italy_Offshore,41.727206,10.896804,,7
-2016,Norway_Land,60.4720,8.4689,,0
+2016,Norway_Land,60.472,8.4689,,0
 2016,Norway_Offshore,60.010363,3.58667,,198
 2016,Poland_Land,51.9194,19.1451,,77
 2016,Poland_Offshore,55.155538,17.566921,,0
@@ -4483,9 +4483,9 @@ Year,Country,Latitude,Longitude,,1982
 2016,Spain_Offshore,39.467705,0.812242,,0
 2016,Turkey_Land,38.9637,35.2433,,351
 2016,Turkey_Offshore,42.573404,34.154628,,0
-2016,U.K._Land,55.3781,-3.4360,,3
+2016,U.K._Land,55.3781,-3.436,,3
 2016,U.K._Offshore,57.479149,-0.12889,,105
-2016,Yugoslavia/Croatia_Land,45.1000,15.2000,,12
+2016,Yugoslavia/Croatia_Land,45.1,15.2,,12
 2016,Yugoslavia/Croatia_Offshore,43.165008,15.806668,,0
 2016,Abu Dhabi_Land,24.4539,54.3773,,355
 2016,Abu Dhabi_Offshore,24.756606,54.280173,,224
@@ -4493,7 +4493,7 @@ Year,Country,Latitude,Longitude,,1982
 2016,Dubai_Offshore,25.452626,55.17867,,27
 2016,Egypt_Land,26.8206,30.8025,,249
 2016,Egypt_Offshore,31.951179,30.916615,,92
-2016,Iran_Land,32.4279,53.6880,,0
+2016,Iran_Land,32.4279,53.688,,0
 2016,Iran_Offshore,26.986451,52.797098,,0
 2016,Iraq_Land,33.2232,43.6793,,514
 2016,Iraq_Offshore,29.826924,48.713334,,0
@@ -4527,7 +4527,7 @@ Year,Country,Latitude,Longitude,,1982
 2016,Kenya__Offshore,-3.49976,40.801566,,0
 2016,Libya_Land,26.3351,17.2283,,0
 2016,Libya__Offshore,31.683681,18.512678,,12
-2016,Nigeria_Land,9.0820,8.6753,,35
+2016,Nigeria_Land,9.082,8.6753,,35
 2016,Nigeria_Offshore,4.113485,6.999522,,34
 2016,S.Africa_Land,-30.5595,22.9375,,0
 2016,S.Africa_Offshore,-31.842791,16.674006,,5
@@ -4537,9 +4537,9 @@ Year,Country,Latitude,Longitude,,1982
 2016,Argentina_Offshore,-51.313678,-66.678394,,6
 2016,Bolivia_Land,-16.2902,-63.5887,,60
 2016,Bolivia_Offshore,,,,0
-2016,Brazil_Land,-14.2350,-51.9253,,93
+2016,Brazil_Land,-14.235,-51.9253,,93
 2016,Brazil_Offshore,-22.197004,-40.435152,,140
-2016,Chile_Land,-35.6751,-71.5430,,36
+2016,Chile_Land,-35.6751,-71.543,,36
 2016,Chile_Offshore,-32.775184,-73.644858,,0
 2016,Colombia_Land,4.5709,-74.2973,,99
 2016,Colombia_Offshore,4.919216,-78.594368,,0
@@ -4557,7 +4557,7 @@ Year,Country,Latitude,Longitude,,1982
 2016,Venezuela_Offshore,9.183729,-60.200212,,40
 2016,Australia_Land,-25.274398,133.775136,,36
 2016,Australia_Offshore,-29.599699,113.685338,,38
-2016,Bangladesh_Land,23.6850,90.3563,,0
+2016,Bangladesh_Land,23.685,90.3563,,0
 2016,Bangladesh_Offshore,21.60567,90.597855,,0
 2016,Brunei_Land,4.535277,114.727669,,1
 2016,Brunei_Offshore,5.151965,114.665627,,16
@@ -4569,17 +4569,17 @@ Year,Country,Latitude,Longitude,,1982
 2016,Japan_Offshore,38.601583,137.300839,,6
 2016,Malaysia_Land,4.210484,101.975766,,0
 2016,Malaysia_Offshore,3.50164,110.229356,,51
-2016,Myanmar_Land,21.9140,95.9562,,1
+2016,Myanmar_Land,21.914,95.9562,,1
 2016,Myanmar_Offshore,15.93001,96.427671,,14
-2016,New Zealand_Land,-40.9006,174.8860,,1
+2016,New Zealand_Land,-40.9006,174.886,,1
 2016,New Zealand_Offshore,-39.291592,173.493089,,0
-2016,Papua New Guinea_Land,-6.3150,143.9556,,21
+2016,Papua New Guinea_Land,-6.315,143.9556,,21
 2016,Papua New Guinea_Offshore,-9.231086,126.119217,,0
 2016,Phillippines_Land,12.879721,121.774017,,25
 2016,Phillippines_Offshore,8.166545,121.418401,,0
 2016,Taiwan_Land,23.69781,120.960515,,0
 2016,Taiwan_Offshore,22.143055,120.035738,,0
-2016,Thailand_Land,15.8700,100.9925,,26
+2016,Thailand_Land,15.87,100.9925,,26
 2016,Thailand_Offshore,12.269503,100.804317,,130
 2016,Vietnam_Land,14.0583,108.2772,,0
 2016,Vietnam_Offshore,11.868672,109.874274,,35
@@ -4604,7 +4604,7 @@ Year,Country,Latitude,Longitude,,1982
 2017,Hungary_Offshore,,,,0
 2017,Italy_Land,41.8719,12.5674,,41
 2017,Italy_Offshore,41.727206,10.896804,,1
-2017,Norway_Land,60.4720,8.4689,,0
+2017,Norway_Land,60.472,8.4689,,0
 2017,Norway_Offshore,60.010363,3.58667,,177
 2017,Poland_Land,51.9194,19.1451,,103
 2017,Poland_Offshore,55.155538,17.566921,,0
@@ -4614,9 +4614,9 @@ Year,Country,Latitude,Longitude,,1982
 2017,Spain_Offshore,39.467705,0.812242,,0
 2017,Turkey_Land,38.9637,35.2433,,271
 2017,Turkey_Offshore,42.573404,34.154628,,0
-2017,U.K._Land,55.3781,-3.4360,,5
+2017,U.K._Land,55.3781,-3.436,,5
 2017,U.K._Offshore,57.479149,-0.12889,,100
-2017,Yugoslavia/Croatia_Land,45.1000,15.2000,,12
+2017,Yugoslavia/Croatia_Land,45.1,15.2,,12
 2017,Yugoslavia/Croatia_Offshore,43.165008,15.806668,,0
 2017,Abu Dhabi_Land,24.4539,54.3773,,423
 2017,Abu Dhabi_Offshore,24.756606,54.280173,,173
@@ -4624,7 +4624,7 @@ Year,Country,Latitude,Longitude,,1982
 2017,Dubai_Offshore,25.452626,55.17867,,24
 2017,Egypt_Land,26.8206,30.8025,,239
 2017,Egypt_Offshore,31.951179,30.916615,,53
-2017,Iran_Land,32.4279,53.6880,,0
+2017,Iran_Land,32.4279,53.688,,0
 2017,Iran_Offshore,26.986451,52.797098,,0
 2017,Iraq_Land,33.2232,43.6793,,590
 2017,Iraq_Offshore,29.826924,48.713334,,0
@@ -4658,7 +4658,7 @@ Year,Country,Latitude,Longitude,,1982
 2017,Kenya__Offshore,-3.49976,40.801566,,0
 2017,Libya_Land,26.3351,17.2283,,0
 2017,Libya__Offshore,31.683681,18.512678,,12
-2017,Nigeria_Land,9.0820,8.6753,,60
+2017,Nigeria_Land,9.082,8.6753,,60
 2017,Nigeria_Offshore,4.113485,6.999522,,42
 2017,S.Africa_Land,-30.5595,22.9375,,0
 2017,S.Africa_Offshore,-31.842791,16.674006,,0
@@ -4668,9 +4668,9 @@ Year,Country,Latitude,Longitude,,1982
 2017,Argentina_Offshore,-51.313678,-66.678394,,0
 2017,Bolivia_Land,-16.2902,-63.5887,,40
 2017,Bolivia_Offshore,,,,0
-2017,Brazil_Land,-14.2350,-51.9253,,51
+2017,Brazil_Land,-14.235,-51.9253,,51
 2017,Brazil_Offshore,-22.197004,-40.435152,,132
-2017,Chile_Land,-35.6751,-71.5430,,26
+2017,Chile_Land,-35.6751,-71.543,,26
 2017,Chile_Offshore,-32.775184,-73.644858,,0
 2017,Colombia_Land,4.5709,-74.2973,,250
 2017,Colombia_Offshore,4.919216,-78.594368,,9
@@ -4688,7 +4688,7 @@ Year,Country,Latitude,Longitude,,1982
 2017,Venezuela_Offshore,9.183729,-60.200212,,49
 2017,Australia_Land,-25.274398,133.775136,,157
 2017,Australia_Offshore,-29.599699,113.685338,,13
-2017,Bangladesh_Land,23.6850,90.3563,,0
+2017,Bangladesh_Land,23.685,90.3563,,0
 2017,Bangladesh_Offshore,21.60567,90.597855,,2
 2017,Brunei_Land,4.535277,114.727669,,5
 2017,Brunei_Offshore,5.151965,114.665627,,14
@@ -4700,17 +4700,17 @@ Year,Country,Latitude,Longitude,,1982
 2017,Japan_Offshore,38.601583,137.300839,,7
 2017,Malaysia_Land,4.210484,101.975766,,0
 2017,Malaysia_Offshore,3.50164,110.229356,,58
-2017,Myanmar_Land,21.9140,95.9562,,0
+2017,Myanmar_Land,21.914,95.9562,,0
 2017,Myanmar_Offshore,15.93001,96.427671,,11
-2017,New Zealand_Land,-40.9006,174.8860,,0
+2017,New Zealand_Land,-40.9006,174.886,,0
 2017,New Zealand_Offshore,-39.291592,173.493089,,0
-2017,Papua New Guinea_Land,-6.3150,143.9556,,11
+2017,Papua New Guinea_Land,-6.315,143.9556,,11
 2017,Papua New Guinea_Offshore,-9.231086,126.119217,,2
 2017,Phillippines_Land,12.879721,121.774017,,12
 2017,Phillippines_Offshore,8.166545,121.418401,,2
 2017,Taiwan_Land,23.69781,120.960515,,0
 2017,Taiwan_Offshore,22.143055,120.035738,,0
-2017,Thailand_Land,15.8700,100.9925,,33
+2017,Thailand_Land,15.87,100.9925,,33
 2017,Thailand_Offshore,12.269503,100.804317,,94
 2017,Vietnam_Land,14.0583,108.2772,,0
 2017,Vietnam_Offshore,11.868672,109.874274,,37
@@ -4735,7 +4735,7 @@ Year,Country,Latitude,Longitude,,1982
 2018,Hungary_Offshore,,,,0
 2018,Italy_Land,41.8719,12.5674,,17
 2018,Italy_Offshore,41.727206,10.896804,,12
-2018,Norway_Land,60.4720,8.4689,,0
+2018,Norway_Land,60.472,8.4689,,0
 2018,Norway_Offshore,60.010363,3.58667,,180
 2018,Poland_Land,51.9194,19.1451,,72
 2018,Poland_Offshore,55.155538,17.566921,,0
@@ -4745,9 +4745,9 @@ Year,Country,Latitude,Longitude,,1982
 2018,Spain_Offshore,39.467705,0.812242,,0
 2018,Turkey_Land,38.9637,35.2433,,227
 2018,Turkey_Offshore,42.573404,34.154628,,1
-2018,U.K._Land,55.3781,-3.4360,,6
+2018,U.K._Land,55.3781,-3.436,,6
 2018,U.K._Offshore,57.479149,-0.12889,,80
-2018,Yugoslavia/Croatia_Land,45.1000,15.2000,,12
+2018,Yugoslavia/Croatia_Land,45.1,15.2,,12
 2018,Yugoslavia/Croatia_Offshore,43.165008,15.806668,,0
 2018,Abu Dhabi_Land,24.4539,54.3773,,458
 2018,Abu Dhabi_Offshore,24.756606,54.280173,,181
@@ -4755,7 +4755,7 @@ Year,Country,Latitude,Longitude,,1982
 2018,Dubai_Offshore,25.452626,55.17867,,23
 2018,Egypt_Land,26.8206,30.8025,,262
 2018,Egypt_Offshore,31.951179,30.916615,,50
-2018,Iran_Land,32.4279,53.6880,,0
+2018,Iran_Land,32.4279,53.688,,0
 2018,Iran_Offshore,26.986451,52.797098,,0
 2018,Iraq_Land,33.2232,43.6793,,712
 2018,Iraq_Offshore,29.826924,48.713334,,0
@@ -4789,7 +4789,7 @@ Year,Country,Latitude,Longitude,,1982
 2018,Kenya__Offshore,-3.49976,40.801566,,0
 2018,Libya_Land,26.3351,17.2283,,39
 2018,Libya__Offshore,31.683681,18.512678,,16
-2018,Nigeria_Land,9.0820,8.6753,,100
+2018,Nigeria_Land,9.082,8.6753,,100
 2018,Nigeria_Offshore,4.113485,6.999522,,59
 2018,S.Africa_Land,-30.5595,22.9375,,0
 2018,S.Africa_Offshore,-31.842791,16.674006,,0
@@ -4799,9 +4799,9 @@ Year,Country,Latitude,Longitude,,1982
 2018,Argentina_Offshore,-51.313678,-66.678394,,0
 2018,Bolivia_Land,-16.2902,-63.5887,,40
 2018,Bolivia_Offshore,,,,0
-2018,Brazil_Land,-14.2350,-51.9253,,50
+2018,Brazil_Land,-14.235,-51.9253,,50
 2018,Brazil_Offshore,-22.197004,-40.435152,,99
-2018,Chile_Land,-35.6751,-71.5430,,19
+2018,Chile_Land,-35.6751,-71.543,,19
 2018,Chile_Offshore,-32.775184,-73.644858,,0
 2018,Colombia_Land,4.5709,-74.2973,,316
 2018,Colombia_Offshore,4.919216,-78.594368,,0
@@ -4819,7 +4819,7 @@ Year,Country,Latitude,Longitude,,1982
 2018,Venezuela_Offshore,9.183729,-60.200212,,31
 2018,Australia_Land,-25.274398,133.775136,,209
 2018,Australia_Offshore,-29.599699,113.685338,,25
-2018,Bangladesh_Land,23.6850,90.3563,,0
+2018,Bangladesh_Land,23.685,90.3563,,0
 2018,Bangladesh_Offshore,21.60567,90.597855,,0
 2018,Brunei_Land,4.535277,114.727669,,1
 2018,Brunei_Offshore,5.151965,114.665627,,8
@@ -4831,17 +4831,17 @@ Year,Country,Latitude,Longitude,,1982
 2018,Japan_Offshore,38.601583,137.300839,,6
 2018,Malaysia_Land,4.210484,101.975766,,0
 2018,Malaysia_Offshore,3.50164,110.229356,,92
-2018,Myanmar_Land,21.9140,95.9562,,3
+2018,Myanmar_Land,21.914,95.9562,,3
 2018,Myanmar_Offshore,15.93001,96.427671,,8
-2018,New Zealand_Land,-40.9006,174.8860,,7
+2018,New Zealand_Land,-40.9006,174.886,,7
 2018,New Zealand_Offshore,-39.291592,173.493089,,0
-2018,Papua New Guinea_Land,-6.3150,143.9556,,8
+2018,Papua New Guinea_Land,-6.315,143.9556,,8
 2018,Papua New Guinea_Offshore,-9.231086,126.119217,,0
 2018,Phillippines_Land,12.879721,121.774017,,4
 2018,Phillippines_Offshore,8.166545,121.418401,,0
 2018,Taiwan_Land,23.69781,120.960515,,0
 2018,Taiwan_Offshore,22.143055,120.035738,,0
-2018,Thailand_Land,15.8700,100.9925,,23
+2018,Thailand_Land,15.87,100.9925,,23
 2018,Thailand_Offshore,12.269503,100.804317,,57
 2018,Vietnam_Land,14.0583,108.2772,,0
 2018,Vietnam_Offshore,11.868672,109.874274,,30
@@ -4866,7 +4866,7 @@ Year,Country,Latitude,Longitude,,1982
 2019,Hungary_Offshore,,,,0
 2019,Italy_Land,41.8719,12.5674,,48
 2019,Italy_Offshore,41.727206,10.896804,,15
-2019,Norway_Land,60.4720,8.4689,,0
+2019,Norway_Land,60.472,8.4689,,0
 2019,Norway_Offshore,60.010363,3.58667,,367
 2019,Poland_Land,51.9194,19.1451,,138
 2019,Poland_Offshore,55.155538,17.566921,,0
@@ -4876,9 +4876,9 @@ Year,Country,Latitude,Longitude,,1982
 2019,Spain_Offshore,39.467705,0.812242,,0
 2019,Turkey_Land,38.9637,35.2433,,424
 2019,Turkey_Offshore,42.573404,34.154628,,22
-2019,U.K._Land,55.3781,-3.4360,,10
+2019,U.K._Land,55.3781,-3.436,,10
 2019,U.K._Offshore,57.479149,-0.12889,,237
-2019,Yugoslavia/Croatia_Land,45.1000,15.2000,,23
+2019,Yugoslavia/Croatia_Land,45.1,15.2,,23
 2019,Yugoslavia/Croatia_Offshore,43.165008,15.806668,,0
 2019,Abu Dhabi_Land,24.4539,54.3773,,892
 2019,Abu Dhabi_Offshore,24.756606,54.280173,,397
@@ -4886,7 +4886,7 @@ Year,Country,Latitude,Longitude,,1982
 2019,Dubai_Offshore,25.452626,55.17867,,45
 2019,Egypt_Land,26.8206,30.8025,,503
 2019,Egypt_Offshore,31.951179,30.916615,,94
-2019,Iran_Land,32.4279,53.6880,,0
+2019,Iran_Land,32.4279,53.688,,0
 2019,Iran_Offshore,26.986451,52.797098,,0
 2019,Iraq_Land,33.2232,43.6793,,1503
 2019,Iraq_Offshore,29.826924,48.713334,,0
@@ -4920,7 +4920,7 @@ Year,Country,Latitude,Longitude,,1982
 2019,Kenya__Offshore,-3.49976,40.801566,,0
 2019,Libya_Land,26.3351,17.2283,,172
 2019,Libya__Offshore,31.683681,18.512678,,33
-2019,Nigeria_Land,9.0820,8.6753,,205
+2019,Nigeria_Land,9.082,8.6753,,205
 2019,Nigeria_Offshore,4.113485,6.999522,,115
 2019,S.Africa_Land,-30.5595,22.9375,,0
 2019,S.Africa_Offshore,-31.842791,16.674006,,3
@@ -4930,9 +4930,9 @@ Year,Country,Latitude,Longitude,,1982
 2019,Argentina_Offshore,-51.313678,-66.678394,,0
 2019,Bolivia_Land,-16.2902,-63.5887,,83
 2019,Bolivia_Offshore,,,,0
-2019,Brazil_Land,-14.2350,-51.9253,,91
+2019,Brazil_Land,-14.235,-51.9253,,91
 2019,Brazil_Offshore,-22.197004,-40.435152,,167
-2019,Chile_Land,-35.6751,-71.5430,,36
+2019,Chile_Land,-35.6751,-71.543,,36
 2019,Chile_Offshore,-32.775184,-73.644858,,0
 2019,Colombia_Land,4.5709,-74.2973,,649
 2019,Colombia_Offshore,4.919216,-78.594368,,0
@@ -4950,7 +4950,7 @@ Year,Country,Latitude,Longitude,,1982
 2019,Venezuela_Offshore,9.183729,-60.200212,,37
 2019,Australia_Land,-25.274398,133.775136,,454
 2019,Australia_Offshore,-29.599699,113.685338,,43
-2019,Bangladesh_Land,23.6850,90.3563,,0
+2019,Bangladesh_Land,23.685,90.3563,,0
 2019,Bangladesh_Offshore,21.60567,90.597855,,0
 2019,Brunei_Land,4.535277,114.727669,,3
 2019,Brunei_Offshore,5.151965,114.665627,,20
@@ -4962,17 +4962,17 @@ Year,Country,Latitude,Longitude,,1982
 2019,Japan_Offshore,38.601583,137.300839,,11
 2019,Malaysia_Land,4.210484,101.975766,,0
 2019,Malaysia_Offshore,3.50164,110.229356,,181
-2019,Myanmar_Land,21.9140,95.9562,,10
+2019,Myanmar_Land,21.914,95.9562,,10
 2019,Myanmar_Offshore,15.93001,96.427671,,25
-2019,New Zealand_Land,-40.9006,174.8860,,24
+2019,New Zealand_Land,-40.9006,174.886,,24
 2019,New Zealand_Offshore,-39.291592,173.493089,,0
-2019,Papua New Guinea_Land,-6.3150,143.9556,,16
+2019,Papua New Guinea_Land,-6.315,143.9556,,16
 2019,Papua New Guinea_Offshore,-9.231086,126.119217,,0
 2019,Phillippines_Land,12.879721,121.774017,,19
 2019,Phillippines_Offshore,8.166545,121.418401,,0
 2019,Taiwan_Land,23.69781,120.960515,,0
 2019,Taiwan_Offshore,22.143055,120.035738,,0
-2019,Thailand_Land,15.8700,100.9925,,45
+2019,Thailand_Land,15.87,100.9925,,45
 2019,Thailand_Offshore,12.269503,100.804317,,88
 2019,Vietnam_Land,14.0583,108.2772,,0
 2019,Vietnam_Offshore,11.868672,109.874274,,56
